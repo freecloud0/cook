@@ -1,0 +1,58 @@
+
+  .b9-start-link {
+    text-decoration:none!important; 
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .b9-start-link a {
+    text-decoration:none!important; 
+    display: block;
+    width: 300px;
+    height: 70px;
+    background-color: #eb0028;
+    font-family: 'ProximaNova-Semibold', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+    padding: 26px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .b9-start-link a:after {
+    text-decoration:none!important; 
+    content: '\f067';
+    font-family: 'icomoon';
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 27px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  .b9-start-link a:hover:after {
+    text-decoration:none!important; 
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+ 
+
+  /* 
+  
+    <div class=" black-text cook-bg">
+        <div class="b9-start-link">
+            <a href="#b9-form-inicia">
+                ¡Inicia ahora!
+                <i class="fas fa-plus"></i>
+            </a>
+        </div>
+    </div>
+  */
