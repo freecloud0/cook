@@ -1,50 +1,118 @@
 <template>
     <div>
-         <div class="diov" id="menuG"> 
-            <b-navbar  toggleable="md" type="dark"  class="fixed-top white " >
+        <!-- menu fixed -->
+        <b-navbar  toggleable="md" type="dark"  class="fixed-top white "  id="menuP">
 
-                <b-navbar-toggle class="cook-bg"  target="nav_collapse" ></b-navbar-toggle>
+            <b-navbar-toggle class="cook-bg"  target="nav_collapse" ></b-navbar-toggle>
 
-                <!-- <b-navbar-brand class="black-text" href="#">NavBar</b-navbar-brand> -->
-                        <div  class="logo-fixed visiblew  txtNew " >
-                            <img class="m-4 logo-flui" src="img/logo-cook.jpeg">     
-                        </div> 
+            <!-- <b-navbar-brand class="black-text" href="#">NavBar</b-navbar-brand> -->
+                    <div  class="logo-fixed visiblew  txtNew " >
+                        <img class="m-4 logo-flui" src="img/logo-cook.jpeg">     
+                    </div> 
 
-                <b-collapse is-nav id="nav_collapse" >
+            <b-collapse is-nav id="nav_collapse" >
 
-                    <!-- Right aligned nav items -->
-                    <b-navbar-nav class="ml-auto">
+                <!-- Right aligned nav items -->
+                <b-navbar-nav class="ml-auto">
 
-                    <b-navbar-nav class="p-2">
-                        <b-nav-item href="#" @click.prevent="pageC=1">
-                            <span class="black-text b-01 " :class="{ selecMe:this.pageC==1}">
-                                Perfil de la carrera
+                <b-navbar-nav text="Lang" right class="p-2" >
+                    <b-nav-item href="#">
+                        <router-link to="/" class="white-text">
+                            <span class="black-text b-01 pl-2 pr-2">
+                                INICIO
                             </span> 
-                        </b-nav-item>
-                        <b-nav-item href="#" @click.prevent="pageC=2">
-                            <span class="black-text b-01" :class="{ selecMe:this.pageC==2}">
-                                Malla curricular
-                            </span>
-                        </b-nav-item>
-                        <b-nav-item href="#" @click.prevent="pageC=3">
-                            <span class="black-text b-01" :class="{ selecMe:this.pageC==3}">
-                                Requisitos
-                            </span>
-                        </b-nav-item>
-                        <div id="ast">asdasdasd</div>
-                    </b-navbar-nav>
-                
-                    </b-navbar-nav>
+                        </router-link>
+                    </b-nav-item>
+                    <b-nav-item href="#">
+                        <router-link to="/noticia" class="rIni white-text">
+                            <span class="black-text b-01 pl-2 pr-2">
+                                NOTICIA
+                            </span> 
+                        </router-link> 
+                    </b-nav-item>
+                    
+                        <b-nav-item-dropdown  text="CARRERAS" class=" redondear b-01 redondea-05">
+                            <b-dropdown-item-button class="btn-sm">
+                                <router-link to="/gastronomia" class="rIni white-text sm-0 sp-0">
+                                    <span class="black-text b-01 ">
+                                        GASTRONOMIA
+                                    </span> 
+                                </router-link> 
+                            </b-dropdown-item-button>
+                            <b-dropdown-item-button class="btn-sm">
+                                <router-link to="/panaderia" class="rIni white-text sm-0 sp-0">
+                                    <span class="black-text b-01 ">
+                                        PANADERIA
+                                    </span> 
+                                </router-link> 
+                            </b-dropdown-item-button>
+                            <b-dropdown-item-button class="btn-sm">
+                                <router-link to="/bar" class="rIni white-text sm-0 sp-0">
+                                    <span class="black-text b-01 ">
+                                        BAR
+                                    </span> 
+                                </router-link> 
+                            </b-dropdown-item-button>
+                        </b-nav-item-dropdown>
+                        <b-nav-item href="#">
+                        <router-link to="/nosotros" class="rIni white-text">
+                            <span class="black-text b-01 pl-2 pr-2">
+                                NOSOTROS
+                            </span> 
+                        </router-link>     
+                    </b-nav-item>
 
-                </b-collapse>
-            </b-navbar>
-        </div>  
+                    <b-nav-item href="#">
+                        <router-link to="/contacto" class="rIni white-text">
+                            <span class="black-text b-01 pl-2 pr-2">
+                                CONTACTARSE
+                            </span> 
+                        </router-link>     
+                    </b-nav-item>
+                    <b-nav-item href="#" data-toggle="modal" data-target="#Modal-01" class="visible-cop">
+                        <span class="cook-text pl-2 pr-2 b-01"><i class="fas fa-bars"></i></span>
+                    </b-nav-item>
+                </b-navbar-nav>
+            
+                </b-navbar-nav>
 
+            </b-collapse>
+        </b-navbar>
 
-        <div class="view visible-cop" >
+        
+
+        <div class="view " >
             <div class="rows-baner" style="background-image: url(../img/carrera/panaderia-01.jpg);"></div>
-           
-                <div class="mask strong-mid">
+
+            <div class="mask strong-mid visible-res">
+                    <div class="precio">
+                        <div class="pana-c white-text ">
+                            <div class="text-center">
+                                <h2 class="b-01 mt-2"><span class="m-text-25">S/</span> .450</h2> 
+                                <p>en mensualidad</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div  style="right: 10px; width: auto; position: absolute; top: 10px; z-index: 2;" class="white m-text-30" >
+                        <a href="" data-toggle="modal" data-target="#ModalCarrera">
+                            <span class="cook-text pl-2 pr-2 b-01"><i class="fas fa-bars"></i></span>
+                        </a>     
+                    </div>
+                <div class="mesg-01-carrera">
+                    <h5 class="b-01 white-text">
+                            <div class="white-text">
+                            <h5 class="b-01">
+                                Panaderia 
+                            </h5> 
+                            <h5>
+                                & Pasteleria
+                            </h5>
+                        </div>
+                    </h5> 
+                </div>
+            </div>
+            
+                <div class="mask strong-mid visible-cop">
                     <b-navbar toggleable="md" type="dark" class="transpa ">
                         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
                         <!-- <b-navbar-brand href="#">NavBar</b-navbar-brand> -->
@@ -54,115 +122,129 @@
                         <b-collapse is-nav id="nav_collapse">
                             <!-- Right aligned nav items -->
                             <b-navbar-nav class="ml-auto animated fadeInRight">
-                                <b-navbar-nav text="Lang" right class="p-4 ">
-                                
-                                <b-nav-item href="#" class="cook-bg p-2 b-01" >
-                                        <router-link to="/" class="white-text" >
-                                            INICIO
-                                        </router-link>
-                                </b-nav-item>
-                                
-                                <b-nav-item href="#" class="white  border-cook p-2">
-                                    <router-link to="/noticia" class="cook-text b-01" >
-                                         NOTICIA
-                                    </router-link>
-                                </b-nav-item>
+                                        <b-navbar-nav text="Lang" right class="p-4 ">
+                                        
+                                        <b-nav-item href="#" class="cook-bg p-2 b-01" >
+                                                <router-link to="/" class="white-text" >
+                                                    INICIO
+                                                </router-link>
+                                        </b-nav-item>
+                                        
+                                        <b-nav-item href="#" class="white  border-cook p-2">
+                                            <router-link to="/noticia" class="cook-text b-01" >
+                                                NOTICIA
+                                            </router-link>
+                                        </b-nav-item>
+                                        <div class="cook-bg" id="rest" >
+                                            <b-nav-item-dropdown  text="CARRERAS" class=" white-text  b-01 pt-2">
+                                                    <b-dropdown-item-button class="btn-sm">
+                                                        <router-link to="/gastronomia" class="white-text sm-0 sp-0">
+                                                            <p class="b-text b-01 sm-0 sp-0">
+                                                                GASTRONOMIA
+                                                            </p> 
+                                                        </router-link> 
+                                                    </b-dropdown-item-button>
+                                                    <b-dropdown-item-button class="btn-sm">
+                                                        <router-link to="/panaderia" class="white-text sm-0 sp-0">
+                                                            <p class="b-text b-01 sm-0 sp-0">
+                                                                PANADERIA
+                                                            </p> 
+                                                        </router-link> 
+                                                    </b-dropdown-item-button>
+                                                    <b-dropdown-item-button class="btn-sm">
+                                                        <router-link to="/bar" class="white-text sm-0 sp-0">
+                                                            <p class="b-text b-01 sm-0 sp-0">
+                                                                BAR
+                                                            </p> 
+                                                        </router-link> 
+                                                    </b-dropdown-item-button>
+                                            </b-nav-item-dropdown>
+                                        </div>
+                                        <b-nav-item href="#" class="cook-bg p-2 b-01" >
+                                                <router-link to="/nosotros" class="white-text" >
+                                                    NOSOTROS
+                                                </router-link>
+                                        </b-nav-item>
+                                        <b-nav-item href="#" class="cook-bg p-2 b-01" >
+                                                <router-link to="/contacto" class="white-text" >
+                                                    CONTACTARSE
+                                                </router-link>
+                                        </b-nav-item>
 
-                                <b-nav-item-dropdown  text="CARRERAS" class="cook-bg  b-01 pt-2">
-                                        <b-dropdown-item-button class="btn-sm">
-                                            <router-link to="/gastronomia" class="white-text sm-0 sp-0">
-                                                <span class="black-text b-01 ">
-                                                    GASTRONOMIA
-                                                </span> 
-                                            </router-link> 
-                                        </b-dropdown-item-button>
-                                        <b-dropdown-item-button class="btn-sm">
-                                            <router-link to="/panaderia" class="white-text sm-0 sp-0">
-                                                <span class="black-text b-01 ">
-                                                    PANADERIA
-                                                </span> 
-                                            </router-link> 
-                                        </b-dropdown-item-button>
-                                        <b-dropdown-item-button class="btn-sm">
-                                            <router-link to="/bar" class="white-text sm-0 sp-0">
-                                                <span class="black-text b-01 ">
-                                                    BAR
-                                                </span> 
-                                            </router-link> 
-                                        </b-dropdown-item-button>
-                                </b-nav-item-dropdown>
-                                <b-nav-item href="#" class="cook-bg p-2 b-01" >
-                                        <router-link to="/nosotros" class="white-text" >
-                                            NOSOTROS
-                                        </router-link>
-                                </b-nav-item>
-                                <b-nav-item href="#" class="cook-bg p-2 b-01" >
-                                        <router-link to="/contacto" class="white-text" >
-                                            CONTACTARSE
-                                        </router-link>
-                                </b-nav-item>
-
-                                <b-nav-item href="#" class=" p-2" data-toggle="modal" data-target="#Modal-01" ><i class="fas fa-bars cook-text"></i></b-nav-item>
-                                </b-navbar-nav>
-                            </b-navbar-nav>
+                                        <b-nav-item href="#" class=" p-2" data-toggle="modal" data-target="#Modal-01" ><i class="fas fa-bars cook-text"></i></b-nav-item>
+                                        </b-navbar-nav>
+                                    </b-navbar-nav>
                         </b-collapse>
                     </b-navbar>
                     <div class="mesg-02">
                         <div class=" pr-4 white-text">
                             <h2 class="b-01">
-                                Panaderia 
+                                Panaderia  
                             </h2> 
                             <h2>
-                               & Pasteleria
+                                & Pasteleria
                             </h2>
                         </div>
                         <br>
-                            <div class="row">
-                                    <div class="col-md-6 pana-c white-text ">
-                                        <div class="d-flex justify-content-center">
-                                            <div class="soles">
-                                                S/
-                                            </div>
-                                            <div class="number mt-4">
-                                                .400
-                                            </div>
-                                            <div class="descrip">
-                                                /mensual
-                                            </div>
-
-                                        </div>
+                        <div class="row">
+                                <div class="col-md-6 pana-c white-text ">
+                                    <div class="text-center">
+                                        <h1 class="b-01 mt-2"><span class="m-text-25">S/</span> .450</h1> 
+                                        <p>en mensualidad</p>
                                     </div>
-                                    <div class="col-md-6  border-mesg-pana">
-                                        <div class="p-2 white-text">
-                                            PROMOCIÓN: 50% de descuento en Matrícula Anual y Uniforme Gratis
-                                        </div>
+                                </div>
+                                <div class="col-md-6  border-mesg-pana">
+                                    <div class="p-2 white-text">
+                                        PROMOCIÓN: 50% de descuento en Matrícula Anual y Uniforme Gratis
                                     </div>
-                            </div>
-
+                                </div>
+                        </div>
                     </div>
                 </div>
         </div>
+
+
+
         <div class="my-3 container">
   
             <div class="my-3 ">
-                <ul class="nav justify-content-end grey-t  py-4">
-                    <li class="nav-item" >
-                        <a class="nav-link "  @click.prevent="pageC=1" href="#!">
+                <div class="visible-cop">
+                    <ul class="nav justify-content-end grey-t py-4 ">
+                        <li class="nav-item" >
+                            <a class="nav-link "  @click.prevent="pageC=1" href="#!">
+                                <span class="black-text b-01" :class="{ selecMe:this.pageC==1}">Perfil de la carrera</span>
+                            </a> 
+                        </li>
+                        <li class="nav-item"  >
+                            <a class="nav-link"   @click.prevent="pageC=2" href="#!">
+                            <span class="black-text b-01" :class="{ selecMe:this.pageC==2}">Malla curricular</span> 
+                            </a>
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link"   @click.prevent="pageC=3" href="#!">
+                            <span class="black-text b-01" :class="{ selecMe:this.pageC==3}">Requisitos</span>  
+                            </a>
+                        </li>
+                    
+                    </ul>
+                </div>
+                 <ul class="visible-res list-unstyled grey-t">
+                     <li>
+                         <a class="nav-link "  @click.prevent="pageC=1" href="#!">
                             <span class="black-text b-01" :class="{ selecMe:this.pageC==1}">Perfil de la carrera</span>
                         </a> 
-                    </li>
-                    <li class="nav-item"  >
+                     </li>
+                     <li>
                         <a class="nav-link"   @click.prevent="pageC=2" href="#!">
                            <span class="black-text b-01" :class="{ selecMe:this.pageC==2}">Malla curricular</span> 
                         </a>
                     </li>
-                    <li class="nav-item" >
+                    <li>
                         <a class="nav-link"   @click.prevent="pageC=3" href="#!">
                            <span class="black-text b-01" :class="{ selecMe:this.pageC==3}">Requisitos</span>  
                         </a>
                     </li>
-                   
-                </ul>
+                 </ul>
             </div>
 
                 <div class="row" v-if="pageC==1">
@@ -655,15 +737,44 @@ export default {
         }
     },
     mounted(){
+        $(document).ready(function(){
+               // efecto
+                $('.rIni').click(function(){
+                    $('body, html').animate({
+                        scrollTop: '0px'
+                    }, 3);
+                });
+                
+            });
+
+            $(document).ready(function(){
+ 
+                $('.ir-arriba').click(function(){
+                    $('body, html').animate({
+                        scrollTop: '0px'
+                    }, 300);
+                });
+
+                $(window).scroll(function(){
+                    if( $(this).scrollTop() > 0 ){
+                        $('.ir-arriba').slideDown(300);
+                    } else {
+                        $('.ir-arriba').slideUp(300);
+                    }
+                });
+
+            });
+              
+              
         $(document).ready(function(){  
-            $("#menuG").hide();
+            $("#menuP").hide();
             $(function(){
                 $(window).scroll(function(){
 
-                    if($(this).scrollTop() > 400){
-                        $('#menuG').fadeIn();
+                    if($(this).scrollTop() > 100){
+                        $('#menuP').fadeIn();
                     }else{
-                        $('#menuG').fadeOut();
+                        $('#menuP').fadeOut();
                     }
                 });
             });

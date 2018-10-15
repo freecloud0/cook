@@ -31187,7 +31187,7 @@ var OBSERVER_CONFIG = {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(76);
-module.exports = __webpack_require__(256);
+module.exports = __webpack_require__(257);
 
 
 /***/ }),
@@ -31247,12 +31247,12 @@ var Home = __webpack_require__(230);
 var Inscripcion = __webpack_require__(233);
 // let Carrera = require('./components/Carrera.vue');
 var Taller = __webpack_require__(236);
-var Noticia = __webpack_require__(238);
-var Gastronomia = __webpack_require__(241);
-var Panaderia = __webpack_require__(244);
-var Bar = __webpack_require__(247);
-var Nosotros = __webpack_require__(250);
-var Contacto = __webpack_require__(253);
+var Noticia = __webpack_require__(239);
+var Gastronomia = __webpack_require__(242);
+var Panaderia = __webpack_require__(245);
+var Bar = __webpack_require__(248);
+var Nosotros = __webpack_require__(251);
+var Contacto = __webpack_require__(254);
 
 var routes = [{ path: '/', component: Home }, { path: '/inscripcion', component: Inscripcion },
 // { path: '/carrera', component: Carrera},
@@ -67234,7 +67234,7 @@ exports = module.exports = __webpack_require__(13)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -67570,6 +67570,232 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 var $ = __webpack_require__(22);
 window.$ = $;
@@ -67581,8 +67807,48 @@ window.$ = $;
         };
     },
 
-    methods: {}
+    methods: {},
+    mounted: function mounted() {
+        $(document).ready(function () {
+            $("#menuN").hide();
+            $(function () {
+                $(window).scroll(function () {
 
+                    if ($(this).scrollTop() > 100) {
+                        $('#menuN').fadeIn();
+                    } else {
+                        $('#menuN').fadeOut();
+                    }
+                });
+            });
+        });
+
+        $(document).ready(function () {
+            // efecto
+            $('.rIni').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 3);
+            });
+        });
+
+        $(document).ready(function () {
+
+            $('.ir-arriba').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 300);
+            });
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $('.ir-arriba').slideDown(300);
+                } else {
+                    $('.ir-arriba').slideUp(300);
+                }
+            });
+        });
+    }
 });
 
 /***/ }),
@@ -67593,177 +67859,941 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
+    _vm._m(1),
+    _vm._v(" "),
+    _vm._m(2),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        staticClass: "modal fade animated fadeInRight",
+        attrs: {
+          id: "ModalHome",
+          tabindex: "-1",
+          role: "dialog",
+          "aria-labelledby": "exampleModalLabel1",
+          "aria-hidden": "true"
+        }
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass: "modal-dialog modal-full-height modal-right ",
+            attrs: { role: "document" }
+          },
+          [
+            _c("div", { staticClass: "modal-content cook-bg" }, [
+              _c("div", { staticClass: "modal-body" }, [
+                _c("div", { staticClass: "row" }, [
+                  _vm._m(3),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-12 white-text" }, [
+                    _c(
+                      "ul",
+                      { staticClass: "nav justify-content-center " },
+                      [
+                        _c(
+                          "router-link",
+                          {
+                            staticClass: "white-text",
+                            attrs: {
+                              to: "/",
+                              "data-dismiss": "modal",
+                              "aria-label": "Close"
+                            }
+                          },
+                          [
+                            _c("li", { staticClass: "nav-item white p-2" }, [
+                              _c(
+                                "span",
+                                { staticClass: "cook-text pl-2 pr-2" },
+                                [
+                                  _vm._v(
+                                    "\n                                        Inicio\n                                    "
+                                  )
+                                ]
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "router-link",
+                          {
+                            staticClass: "white-text",
+                            attrs: {
+                              to: "/",
+                              "data-dismiss": "modal",
+                              "aria-label": "Close"
+                            }
+                          },
+                          [
+                            _c("li", { staticClass: "nav-item white p-2" }, [
+                              _c(
+                                "span",
+                                { staticClass: "cook-text pl-2 pr-2" },
+                                [
+                                  _vm._v(
+                                    "\n                                        Intranet\n                                    "
+                                  )
+                                ]
+                              )
+                            ])
+                          ]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "my-4" }, [
+                      _c("ul", [
+                        _c(
+                          "li",
+                          [
+                            _c(
+                              "router-link",
+                              {
+                                staticClass: "white-text",
+                                attrs: {
+                                  to: "/noticia",
+                                  "data-dismiss": "modal",
+                                  "aria-label": "Close"
+                                }
+                              },
+                              [
+                                _c(
+                                  "span",
+                                  { staticClass: "white-text b-01 pl-2 pr-2" },
+                                  [
+                                    _vm._v(
+                                      "\n                                            NOTICIA\n                                        "
+                                    )
+                                  ]
+                                )
+                              ]
+                            )
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "li",
+                          [
+                            _c(
+                              "b-dropdown",
+                              {
+                                staticClass: "cook-bg b-01",
+                                attrs: {
+                                  id: "ddown-aria",
+                                  text: "Carreras",
+                                  variant: "primary"
+                                }
+                              },
+                              [
+                                _c(
+                                  "div",
+                                  {
+                                    attrs: {
+                                      role: "group",
+                                      "aria-labelledby": "header1"
+                                    }
+                                  },
+                                  [
+                                    _c(
+                                      "b-dropdown-item-button",
+                                      { staticClass: "btn-sm" },
+                                      [
+                                        _c(
+                                          "router-link",
+                                          {
+                                            staticClass: "white-text sm-0 sp-0",
+                                            attrs: {
+                                              to: "/gastronomia",
+                                              "data-dismiss": "modal",
+                                              "aria-label": "Close"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "span",
+                                              {
+                                                staticClass: "black-text b-01 "
+                                              },
+                                              [
+                                                _vm._v(
+                                                  "\n                                                    GASTRONOMIA\n                                                "
+                                                )
+                                              ]
+                                            )
+                                          ]
+                                        )
+                                      ],
+                                      1
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "b-dropdown-item-button",
+                                      { staticClass: "btn-sm" },
+                                      [
+                                        _c(
+                                          "router-link",
+                                          {
+                                            staticClass: "white-text sm-0 sp-0",
+                                            attrs: {
+                                              to: "/panaderia",
+                                              "data-dismiss": "modal",
+                                              "aria-label": "Close"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "span",
+                                              {
+                                                staticClass: "black-text b-01 "
+                                              },
+                                              [
+                                                _vm._v(
+                                                  "\n                                                    PANADERIA\n                                                "
+                                                )
+                                              ]
+                                            )
+                                          ]
+                                        )
+                                      ],
+                                      1
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "b-dropdown-item-button",
+                                      { staticClass: "btn-sm" },
+                                      [
+                                        _c(
+                                          "router-link",
+                                          {
+                                            staticClass: "white-text sm-0 sp-0",
+                                            attrs: {
+                                              to: "/bar",
+                                              "data-dismiss": "modal",
+                                              "aria-label": "Close"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "span",
+                                              {
+                                                staticClass: "black-text b-01 "
+                                              },
+                                              [
+                                                _vm._v(
+                                                  "\n                                                    BAR\n                                                "
+                                                )
+                                              ]
+                                            )
+                                          ]
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ],
+                                  1
+                                )
+                              ]
+                            )
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "li",
+                          [
+                            _c(
+                              "router-link",
+                              {
+                                staticClass: "white-text",
+                                attrs: {
+                                  to: "/nosotros",
+                                  "data-dismiss": "modal",
+                                  "aria-label": "Close"
+                                }
+                              },
+                              [
+                                _c(
+                                  "span",
+                                  { staticClass: "white-text b-01 pl-2 pr-2" },
+                                  [
+                                    _vm._v(
+                                      "\n                                            NOSOTROS\n                                        "
+                                    )
+                                  ]
+                                )
+                              ]
+                            )
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "li",
+                          [
+                            _c(
+                              "router-link",
+                              {
+                                staticClass: "white-text",
+                                attrs: {
+                                  to: "/contacto",
+                                  "data-dismiss": "modal",
+                                  "aria-label": "Close"
+                                }
+                              },
+                              [
+                                _c(
+                                  "span",
+                                  { staticClass: "white-text b-01 pl-2 pr-2" },
+                                  [
+                                    _vm._v(
+                                      "\n                                            CONTACTARSE\n                                        "
+                                    )
+                                  ]
+                                )
+                              ]
+                            )
+                          ],
+                          1
+                        )
+                      ])
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ]
+        )
+      ]
+    ),
+    _vm._v(" "),
+    _c(
+      "div",
+      { attrs: { id: "red1" } },
+      [
+        _c(
+          "b-navbar",
+          {
+            staticClass: "fixed-top white ",
+            attrs: { toggleable: "md", type: "dark", id: "menuN" }
+          },
+          [
+            _c("b-navbar-toggle", {
+              staticClass: "cook-bg",
+              attrs: { target: "nav_collapse" }
+            }),
+            _vm._v(" "),
+            _c("div", { staticClass: "logo-fixed visiblew  txtNew " }, [
+              _c("img", {
+                staticClass: "m-4 logo-flui",
+                attrs: { src: "img/logo-cook.jpeg" }
+              })
+            ]),
+            _vm._v(" "),
+            _c(
+              "b-collapse",
+              { attrs: { "is-nav": "", id: "nav_collapse" } },
+              [
+                _c(
+                  "b-navbar-nav",
+                  { staticClass: "ml-auto" },
+                  [
+                    _c(
+                      "b-navbar-nav",
+                      {
+                        staticClass: "p-2",
+                        attrs: { text: "Lang", right: "" }
+                      },
+                      [
+                        _c(
+                          "b-nav-item",
+                          { attrs: { href: "#" } },
+                          [
+                            _c(
+                              "router-link",
+                              { staticClass: "white-text", attrs: { to: "/" } },
+                              [
+                                _c(
+                                  "span",
+                                  { staticClass: "black-text b-01 pl-2 pr-2" },
+                                  [
+                                    _vm._v(
+                                      "\n                                INICIO\n                            "
+                                    )
+                                  ]
+                                )
+                              ]
+                            )
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-nav-item",
+                          { attrs: { href: "#" } },
+                          [
+                            _c(
+                              "router-link",
+                              {
+                                staticClass: "rIni white-text",
+                                attrs: { to: "/noticia" }
+                              },
+                              [
+                                _c(
+                                  "span",
+                                  { staticClass: "black-text b-01 pl-2 pr-2" },
+                                  [
+                                    _vm._v(
+                                      "\n                                NOTICIA\n                            "
+                                    )
+                                  ]
+                                )
+                              ]
+                            )
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-nav-item-dropdown",
+                          {
+                            staticClass: " redondear b-01 redondea-05",
+                            attrs: { text: "CARRERAS" }
+                          },
+                          [
+                            _c(
+                              "b-dropdown-item-button",
+                              { staticClass: "btn-sm" },
+                              [
+                                _c(
+                                  "router-link",
+                                  {
+                                    staticClass: "rIni white-text sm-0 sp-0",
+                                    attrs: { to: "/gastronomia" }
+                                  },
+                                  [
+                                    _c(
+                                      "span",
+                                      { staticClass: "black-text b-01 " },
+                                      [
+                                        _vm._v(
+                                          "\n                                        GASTRONOMIA\n                                    "
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "b-dropdown-item-button",
+                              { staticClass: "btn-sm" },
+                              [
+                                _c(
+                                  "router-link",
+                                  {
+                                    staticClass: "rIni white-text sm-0 sp-0",
+                                    attrs: { to: "/panaderia" }
+                                  },
+                                  [
+                                    _c(
+                                      "span",
+                                      { staticClass: "black-text b-01 " },
+                                      [
+                                        _vm._v(
+                                          "\n                                        PANADERIA\n                                    "
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "b-dropdown-item-button",
+                              { staticClass: "btn-sm" },
+                              [
+                                _c(
+                                  "router-link",
+                                  {
+                                    staticClass: "rIni white-text sm-0 sp-0",
+                                    attrs: { to: "/bar" }
+                                  },
+                                  [
+                                    _c(
+                                      "span",
+                                      { staticClass: "black-text b-01 " },
+                                      [
+                                        _vm._v(
+                                          "\n                                        BAR\n                                    "
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ],
+                              1
+                            )
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-nav-item",
+                          { attrs: { href: "#" } },
+                          [
+                            _c(
+                              "router-link",
+                              {
+                                staticClass: "rIni white-text",
+                                attrs: { to: "/taller" }
+                              },
+                              [
+                                _c(
+                                  "span",
+                                  { staticClass: "black-text b-01 pl-2 pr-2" },
+                                  [
+                                    _vm._v(
+                                      "\n                                TALLERES\n                            "
+                                    )
+                                  ]
+                                )
+                              ]
+                            )
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-nav-item",
+                          { attrs: { href: "#" } },
+                          [
+                            _c(
+                              "router-link",
+                              {
+                                staticClass: "rIni white-text",
+                                attrs: { to: "/contacto" }
+                              },
+                              [
+                                _c(
+                                  "span",
+                                  { staticClass: "black-text b-01 pl-2 pr-2" },
+                                  [
+                                    _vm._v(
+                                      "\n                                CONTACTARSE\n                            "
+                                    )
+                                  ]
+                                )
+                              ]
+                            )
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-nav-item",
+                          {
+                            staticClass: "visible-cop",
+                            attrs: {
+                              href: "#",
+                              "data-toggle": "modal",
+                              "data-target": "#Modal-01"
+                            }
+                          },
+                          [
+                            _c(
+                              "span",
+                              { staticClass: "cook-text pl-2 pr-2 b-01" },
+                              [_c("i", { staticClass: "fas fa-bars" })]
+                            )
+                          ]
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ],
+          1
+        )
+      ],
+      1
+    )
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "div",
-        {
-          staticClass: "modal fade animated fadeInRight",
-          attrs: {
-            id: "Modal-01",
-            tabindex: "-1",
-            role: "dialog",
-            "aria-labelledby": "exampleModalLabel",
-            "aria-hidden": "true"
-          }
-        },
-        [
-          _c(
-            "div",
-            {
-              staticClass: "modal-dialog modal-full-height modal-right ",
-              attrs: { role: "document" }
-            },
-            [
-              _c("div", { staticClass: "modal-content cook-bg" }, [
-                _c("div", { staticClass: "modal-body" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-12" }, [
-                      _c(
-                        "button",
-                        {
-                          staticClass: "close",
-                          attrs: {
-                            type: "button",
-                            "data-dismiss": "modal",
-                            "aria-label": "Close"
-                          }
-                        },
-                        [
-                          _c("span", { attrs: { "aria-hidden": "true" } }, [
-                            _vm._v("×")
-                          ])
-                        ]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-12 white-text" }, [
-                      _c("ul", { staticClass: "nav justify-content-center " }, [
-                        _c("li", { staticClass: "nav-item white mr-2" }, [
-                          _c(
-                            "a",
-                            {
-                              staticClass: "nav-link cook-text",
-                              attrs: { href: "#!" }
-                            },
-                            [_vm._v("Talleres")]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { staticClass: "nav-item white ml-2" }, [
-                          _c(
-                            "a",
-                            {
-                              staticClass: "nav-link cook-text",
-                              attrs: { href: "#!" }
-                            },
-                            [_vm._v("Intranet")]
-                          )
+    return _c("div", { staticClass: "ir-arriba" }, [
+      _c("i", { staticClass: "fa fa-angle-up" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "modal fade animated fadeInRight",
+        attrs: {
+          id: "Modal-01",
+          tabindex: "-1",
+          role: "dialog",
+          "aria-labelledby": "exampleModalLabel",
+          "aria-hidden": "true"
+        }
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass: "modal-dialog modal-full-height modal-right ",
+            attrs: { role: "document" }
+          },
+          [
+            _c("div", { staticClass: "modal-content cook-bg" }, [
+              _c("div", { staticClass: "modal-body" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-12" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "close",
+                        attrs: {
+                          type: "button",
+                          "data-dismiss": "modal",
+                          "aria-label": "Close"
+                        }
+                      },
+                      [
+                        _c("span", { attrs: { "aria-hidden": "true" } }, [
+                          _vm._v("×")
                         ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-12 white-text" }, [
+                    _c("ul", { staticClass: "nav justify-content-center " }, [
+                      _c("li", { staticClass: "nav-item white mr-2" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "nav-link cook-text",
+                            attrs: { href: "#!" }
+                          },
+                          [_vm._v("Talleres")]
+                        )
                       ]),
                       _vm._v(" "),
-                      _c("div", { staticClass: "my-4" }, [
-                        _c("div", { staticClass: "row" }, [
-                          _c(
-                            "div",
-                            {
-                              staticClass:
-                                "col-md-6 col-xl-3 sub-menu mb-xl-0 mb-4"
-                            },
-                            [
-                              _c(
-                                "h6",
-                                {
-                                  staticClass:
-                                    "sub-title text-uppercase font-weight-bold white-text"
-                                },
-                                [_vm._v("Featured")]
-                              ),
+                      _c("li", { staticClass: "nav-item white ml-2" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "nav-link cook-text",
+                            attrs: { href: "#!" }
+                          },
+                          [_vm._v("Intranet")]
+                        )
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "my-4" }, [
+                      _c("div", { staticClass: "row" }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "col-md-6 col-xl-3 sub-menu mb-xl-0 mb-4"
+                          },
+                          [
+                            _c(
+                              "h6",
+                              {
+                                staticClass:
+                                  "sub-title text-uppercase font-weight-bold white-text"
+                              },
+                              [_vm._v("Featured")]
+                            ),
+                            _vm._v(" "),
+                            _c("ul", { staticClass: "list-unstyled" }, [
+                              _c("li", [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "menu-item pl-0 white-text",
+                                    attrs: { href: "#!" }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-caret-right pl-1 pr-3"
+                                    }),
+                                    _vm._v(
+                                      "Lorem ipsum dolor sit amet\n                                        "
+                                    )
+                                  ]
+                                )
+                              ]),
                               _vm._v(" "),
-                              _c("ul", { staticClass: "list-unstyled" }, [
-                                _c("li", [
-                                  _c(
-                                    "a",
-                                    {
-                                      staticClass: "menu-item pl-0 white-text",
-                                      attrs: { href: "#!" }
-                                    },
-                                    [
-                                      _c("i", {
-                                        staticClass:
-                                          "fa fa-caret-right pl-1 pr-3"
-                                      }),
-                                      _vm._v(
-                                        "Lorem ipsum dolor sit amet\n                                    "
-                                      )
-                                    ]
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _c(
-                                    "a",
-                                    {
-                                      staticClass: "menu-item pl-0 white-text",
-                                      attrs: { href: "#!" }
-                                    },
-                                    [
-                                      _c("i", {
-                                        staticClass:
-                                          "fa fa-caret-right pl-1 pr-3"
-                                      }),
-                                      _vm._v(
-                                        "Consectetur adipiscing elit\n                                    "
-                                      )
-                                    ]
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _c(
-                                    "a",
-                                    {
-                                      staticClass: "menu-item pl-0 white-text",
-                                      attrs: { href: "#!" }
-                                    },
-                                    [
-                                      _c("i", {
-                                        staticClass:
-                                          "fa fa-caret-right pl-1 pr-3"
-                                      }),
-                                      _vm._v(
-                                        "Sed do eiusmod tempor incididunt\n                                    "
-                                      )
-                                    ]
-                                  )
-                                ])
+                              _c("li", [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "menu-item pl-0 white-text",
+                                    attrs: { href: "#!" }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-caret-right pl-1 pr-3"
+                                    }),
+                                    _vm._v(
+                                      "Consectetur adipiscing elit\n                                        "
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "menu-item pl-0 white-text",
+                                    attrs: { href: "#!" }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-caret-right pl-1 pr-3"
+                                    }),
+                                    _vm._v(
+                                      "Sed do eiusmod tempor incididunt\n                                        "
+                                    )
+                                  ]
+                                )
                               ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "h6",
-                            {
-                              staticClass:
-                                "sub-title text-uppercase font-weight-bold white-text"
-                            },
-                            [_vm._v("Teléfono: 715-5019 / 715-5020")]
-                          )
-                        ])
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "h6",
+                          {
+                            staticClass:
+                              "sub-title text-uppercase font-weight-bold white-text"
+                          },
+                          [_vm._v("Teléfono: 715-5019 / 715-5020")]
+                        )
                       ])
                     ])
                   ])
                 ])
               ])
-            ]
-          )
-        ]
+            ])
+          ]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "modal fade animated fadeInRight",
+        attrs: {
+          id: "ModalCarrera",
+          tabindex: "-1",
+          role: "dialog",
+          "aria-labelledby": "exampleModalLabel1",
+          "aria-hidden": "true"
+        }
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass: "modal-dialog modal-full-height modal-right ",
+            attrs: { role: "document" }
+          },
+          [
+            _c("div", { staticClass: "modal-content cook-bg" }, [
+              _c("div", { staticClass: "modal-body" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-12" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "close",
+                        attrs: {
+                          type: "button",
+                          "data-dismiss": "modal",
+                          "aria-label": "Close"
+                        }
+                      },
+                      [
+                        _c("span", { attrs: { "aria-hidden": "true" } }, [
+                          _vm._v("×")
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-12 white-text" }, [
+                    _c("ul", { staticClass: "nav justify-content-center " }, [
+                      _c("li", { staticClass: "nav-item white mr-2" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "nav-link cook-text",
+                            attrs: { href: "#!" }
+                          },
+                          [_vm._v("Inicio")]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "nav-item white ml-2" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "nav-link cook-text",
+                            attrs: { href: "#!" }
+                          },
+                          [_vm._v("Intranet")]
+                        )
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "my-4" }, [
+                      _c("div", { staticClass: "row" }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "col-md-6 col-xl-3 sub-menu mb-xl-0 mb-4"
+                          },
+                          [
+                            _c(
+                              "h6",
+                              {
+                                staticClass:
+                                  "sub-title text-uppercase font-weight-bold white-text"
+                              },
+                              [_vm._v("Featured")]
+                            ),
+                            _vm._v(" "),
+                            _c("ul", { staticClass: "list-unstyled" }, [
+                              _c("li", [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "menu-item pl-0 white-text",
+                                    attrs: { href: "#!" }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-caret-right pl-1 pr-3"
+                                    }),
+                                    _vm._v(
+                                      "Lorem ipsum dolor sit amet\n                                        "
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "menu-item pl-0 white-text",
+                                    attrs: { href: "#!" }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-caret-right pl-1 pr-3"
+                                    }),
+                                    _vm._v(
+                                      "Consectetur adipiscing elit\n                                        "
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "menu-item pl-0 white-text",
+                                    attrs: { href: "#!" }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-caret-right pl-1 pr-3"
+                                    }),
+                                    _vm._v(
+                                      "Sed do eiusmod tempor incididunt\n                                        "
+                                    )
+                                  ]
+                                )
+                              ])
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "h6",
+                          {
+                            staticClass:
+                              "text-center sub-title text-uppercase font-weight-bold white-text"
+                          },
+                          [_vm._v("Teléfono: 715-5019 / 715-5020")]
+                        )
+                      ])
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12" }, [
+      _c(
+        "button",
+        {
+          staticClass: "close",
+          attrs: {
+            type: "button",
+            "data-dismiss": "modal",
+            "aria-label": "Close"
+          }
+        },
+        [_c("span", { attrs: { "aria-hidden": "true" } }, [_vm._v("×")])]
       )
     ])
   }
@@ -68529,6 +69559,87 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 var $ = __webpack_require__(22);
@@ -68541,17 +69652,36 @@ window.$ = $;
 
     methods: {},
     mounted: function mounted() {
-        $(document).ready(function () {
-            $("#menu").hide();
-            $(function () {
-                $(window).scroll(function () {
 
-                    if ($(this).scrollTop() > 100) {
-                        $('#menu').fadeIn();
-                    } else {
-                        $('#menu').fadeOut();
-                    }
-                });
+        // hover imagen
+        $(".hover").mouseleave(function () {
+            $(this).removeClass("hover");
+        });
+
+        // iniciar p,0
+        $(document).ready(function () {
+            // efecto
+            $('.rIni').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 3);
+            });
+        });
+        // btn para ir arriba
+        $(document).ready(function () {
+
+            $('.ir-arriba').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 300);
+            });
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $('.ir-arriba').slideDown(300);
+                } else {
+                    $('.ir-arriba').slideUp(300);
+                }
             });
         });
     }
@@ -68566,261 +69696,6 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c(
-      "div",
-      { staticClass: "diov", attrs: { id: "menu" } },
-      [
-        _c(
-          "b-navbar",
-          {
-            staticClass: "fixed-top white ",
-            attrs: { toggleable: "md", type: "dark" }
-          },
-          [
-            _c("b-navbar-toggle", {
-              staticClass: "cook-bg",
-              attrs: { target: "nav_collapse" }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "logo-fixed visiblew  txtNew " }, [
-              _c("img", {
-                staticClass: "m-4 logo-flui",
-                attrs: { src: "img/logo-cook.jpeg" }
-              })
-            ]),
-            _vm._v(" "),
-            _c(
-              "b-collapse",
-              { attrs: { "is-nav": "", id: "nav_collapse" } },
-              [
-                _c(
-                  "b-navbar-nav",
-                  { staticClass: "ml-auto" },
-                  [
-                    _c(
-                      "b-navbar-nav",
-                      {
-                        staticClass: "p-2",
-                        attrs: { text: "Lang", right: "" }
-                      },
-                      [
-                        _c(
-                          "b-nav-item",
-                          { attrs: { href: "#" } },
-                          [
-                            _c(
-                              "router-link",
-                              { staticClass: "white-text", attrs: { to: "/" } },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "black-text b-01 pl-2 pr-2" },
-                                  [
-                                    _vm._v(
-                                      "\n                            INICIO\n                        "
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          { attrs: { href: "#" } },
-                          [
-                            _c(
-                              "router-link",
-                              {
-                                staticClass: "white-text",
-                                attrs: { to: "/noticia" }
-                              },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "black-text b-01 pl-2 pr-2" },
-                                  [
-                                    _vm._v(
-                                      "\n                            NOTICIA\n                        "
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item-dropdown",
-                          {
-                            staticClass: "cook-bg redondear b-01 redondea-05",
-                            attrs: { text: "CARRERAS" }
-                          },
-                          [
-                            _c(
-                              "b-dropdown-item-button",
-                              { staticClass: "btn-sm" },
-                              [
-                                _c(
-                                  "router-link",
-                                  {
-                                    staticClass: "white-text sm-0 sp-0",
-                                    attrs: { to: "/gastronomia" }
-                                  },
-                                  [
-                                    _c(
-                                      "span",
-                                      { staticClass: "black-text b-01 " },
-                                      [
-                                        _vm._v(
-                                          "\n                                    GASTRONOMIA\n                                "
-                                        )
-                                      ]
-                                    )
-                                  ]
-                                )
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "b-dropdown-item-button",
-                              { staticClass: "btn-sm" },
-                              [
-                                _c(
-                                  "router-link",
-                                  {
-                                    staticClass: "white-text sm-0 sp-0",
-                                    attrs: { to: "/panaderia" }
-                                  },
-                                  [
-                                    _c(
-                                      "span",
-                                      { staticClass: "black-text b-01 " },
-                                      [
-                                        _vm._v(
-                                          "\n                                    PANADERIA\n                                "
-                                        )
-                                      ]
-                                    )
-                                  ]
-                                )
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "b-dropdown-item-button",
-                              { staticClass: "btn-sm" },
-                              [
-                                _c(
-                                  "router-link",
-                                  {
-                                    staticClass: "white-text sm-0 sp-0",
-                                    attrs: { to: "/bar" }
-                                  },
-                                  [
-                                    _c(
-                                      "span",
-                                      { staticClass: "black-text b-01 " },
-                                      [
-                                        _vm._v(
-                                          "\n                                    BAR\n                                "
-                                        )
-                                      ]
-                                    )
-                                  ]
-                                )
-                              ],
-                              1
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          { attrs: { href: "#" } },
-                          [
-                            _c(
-                              "router-link",
-                              { staticClass: "white-text", attrs: { to: "/" } },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "black-text b-01 pl-2 pr-2" },
-                                  [
-                                    _vm._v(
-                                      "\n                            NOSOTROS\n                        "
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          { attrs: { href: "#" } },
-                          [
-                            _c(
-                              "router-link",
-                              { staticClass: "white-text", attrs: { to: "/" } },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "black-text b-01 pl-2 pr-2" },
-                                  [
-                                    _vm._v(
-                                      "\n                            CONTACTARSE\n                        "
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          {
-                            staticClass: "visible-cop",
-                            attrs: {
-                              href: "#",
-                              "data-toggle": "modal",
-                              "data-target": "#Modal-01"
-                            }
-                          },
-                          [
-                            _c(
-                              "span",
-                              { staticClass: "cook-text pl-2 pr-2 b-01" },
-                              [_c("i", { staticClass: "fas fa-bars" })]
-                            )
-                          ]
-                        )
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                )
-              ],
-              1
-            )
-          ],
-          1
-        )
-      ],
-      1
-    ),
-    _vm._v(" "),
     _c("div", { staticClass: "view" }, [
       _c(
         "video",
@@ -68839,6 +69714,8 @@ var render = function() {
         ]
       ),
       _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
       _c(
         "div",
         { staticClass: "mask visible-cop" },
@@ -68846,7 +69723,7 @@ var render = function() {
           _c(
             "b-navbar",
             {
-              staticClass: "transpa ",
+              staticClass: "transpa",
               attrs: { toggleable: "md", type: "dark" }
             },
             [
@@ -68903,7 +69780,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                        INICIO\n                                    "
+                                    "\n                                                    INICIO\n                                                "
                                   )
                                 ]
                               )
@@ -68926,7 +69803,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                     NOTICIA\n                                "
+                                    "\n                                                NOTICIA\n                                            "
                                   )
                                 ]
                               )
@@ -68935,85 +69812,101 @@ var render = function() {
                           ),
                           _vm._v(" "),
                           _c(
-                            "b-nav-item-dropdown",
-                            {
-                              staticClass: "cook-bg  b-01 pt-2",
-                              attrs: { text: "CARRERAS" }
-                            },
+                            "div",
+                            { staticClass: "cook-bg", attrs: { id: "rest" } },
                             [
                               _c(
-                                "b-dropdown-item-button",
-                                { staticClass: "btn-sm" },
+                                "b-nav-item-dropdown",
+                                {
+                                  staticClass: " white-text  b-01 pt-2",
+                                  attrs: { text: "CARRERAS" }
+                                },
                                 [
                                   _c(
-                                    "router-link",
-                                    {
-                                      staticClass: "white-text sm-0 sp-0",
-                                      attrs: { to: "/gastronomia" }
-                                    },
+                                    "b-dropdown-item-button",
+                                    { staticClass: "btn-sm" },
                                     [
                                       _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/gastronomia" }
+                                        },
                                         [
-                                          _vm._v(
-                                            "\n                                                GASTRONOMIA\n                                            "
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                                GASTRONOMIA\n                                                            "
+                                              )
+                                            ]
                                           )
                                         ]
                                       )
-                                    ]
-                                  )
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "b-dropdown-item-button",
-                                { staticClass: "btn-sm" },
-                                [
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
                                   _c(
-                                    "router-link",
-                                    {
-                                      staticClass: "white-text sm-0 sp-0",
-                                      attrs: { to: "/panaderia" }
-                                    },
+                                    "b-dropdown-item-button",
+                                    { staticClass: "btn-sm" },
                                     [
                                       _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/panaderia" }
+                                        },
                                         [
-                                          _vm._v(
-                                            "\n                                                PANADERIA\n                                            "
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                                PANADERIA\n                                                            "
+                                              )
+                                            ]
                                           )
                                         ]
                                       )
-                                    ]
-                                  )
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "b-dropdown-item-button",
-                                { staticClass: "btn-sm" },
-                                [
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
                                   _c(
-                                    "router-link",
-                                    {
-                                      staticClass: "white-text sm-0 sp-0",
-                                      attrs: { to: "/bar" }
-                                    },
+                                    "b-dropdown-item-button",
+                                    { staticClass: "btn-sm" },
                                     [
                                       _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/bar" }
+                                        },
                                         [
-                                          _vm._v(
-                                            "\n                                                BAR\n                                            "
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                                BAR\n                                                            "
+                                              )
+                                            ]
                                           )
                                         ]
                                       )
-                                    ]
+                                    ],
+                                    1
                                   )
                                 ],
                                 1
@@ -69037,7 +69930,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                        NOSOTROS\n                                    "
+                                    "\n                                                    NOSOTROS\n                                                "
                                   )
                                 ]
                               )
@@ -69060,7 +69953,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                        CONTACTARSE\n                                    "
+                                    "\n                                                    CONTACTARSE\n                                                "
                                   )
                                 ]
                               )
@@ -69093,13 +69986,11 @@ var render = function() {
             1
           ),
           _vm._v(" "),
-          _vm._m(0)
+          _vm._m(1)
         ],
         1
       )
     ]),
-    _vm._v(" "),
-    _vm._m(1),
     _vm._v(" "),
     _vm._m(2),
     _vm._v(" "),
@@ -69107,10 +69998,75 @@ var render = function() {
     _vm._v(" "),
     _vm._m(4),
     _vm._v(" "),
-    _vm._m(5)
+    _vm._m(5),
+    _vm._v(" "),
+    _vm._m(6)
   ])
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "visible-res" }, [
+      _c(
+        "div",
+        {
+          staticStyle: {
+            right: "10px",
+            position: "absolute",
+            top: "10px",
+            "z-index": "200"
+          }
+        },
+        [
+          _c("img", {
+            staticStyle: { width: "40px" },
+            attrs: { src: "img/logo-cook.jpeg" }
+          })
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "m-text-30",
+          staticStyle: {
+            left: "10px",
+            width: "auto",
+            position: "absolute",
+            top: "5px",
+            "z-index": "2"
+          }
+        },
+        [
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "",
+                "data-toggle": "modal",
+                "data-target": "#ModalHome"
+              }
+            },
+            [
+              _c("span", { staticClass: "cook-text  b-01" }, [
+                _c("i", { staticClass: "fas fa-bars" })
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "mesg-01-res" }, [
+        _c("h5", { staticClass: "b-01 white-text" }, [
+          _vm._v(
+            "\n                                ¡inscripciones abiertas!\n                        "
+          )
+        ])
+      ])
+    ])
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -69119,13 +70075,13 @@ var staticRenderFns = [
       _c("div", { staticClass: "div pl-2 white-text text-left" }, [
         _c("h1", { staticClass: "b-01" }, [
           _vm._v(
-            "\n                    ¡inscripciones abiertas!\n                "
+            "\n                                ¡inscripciones abiertas!\n                            "
           )
         ]),
         _vm._v(" "),
         _c("h6", [
           _vm._v(
-            "\n                    CONTAMOS CON 4 ESPECIALIDADES DISPONIBLES EN TURNO MATUTINO, VESPERTINO, NOCTURNO Y SABATINO\n                "
+            "\n                                CONTAMOS CON 4 ESPECIALIDADES DISPONIBLES EN TURNO MATUTINO, VESPERTINO, NOCTURNO Y SABATINO\n                            "
           )
         ])
       ]),
@@ -69138,85 +70094,161 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container-65" }, [
-      _c("div", { staticClass: "  my-5" }, [
+      _c("div", { staticClass: " my-5" }, [
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-md-4" }, [
-            _c("div", { staticClass: "view overlay zoom" }, [
-              _c("div", {
+            _c("figure", { staticClass: "snip1477" }, [
+              _c("img", {
                 staticClass: "rows-02",
                 staticStyle: { "background-image": "url(../img/banner-02.png)" }
-              })
-            ]),
-            _vm._v(" "),
-            _c(
-              "p",
-              { staticClass: "text-center mt-2 b-01 m-text-20 orange-text" },
-              [
-                _vm._v(
-                  "\n                                Gastronomía \n                            "
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "title" }, [
+                _c("div", { staticClass: "p-2 gastro-c-02 redondea-01" }, [
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "text-center mt-2 b-01 m-text-20 green-text border-sh-1"
+                    },
+                    [
+                      _vm._v(
+                        "\n                                            Gastronomía \n                                        "
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "text-center mn-t-10 border-sh" }, [
+                    _vm._v("& Arte Culinario")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "linea-01 green" })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("figcaption", [
+                _c("p", [
+                  _vm._v("Which is worse, that everyone has his price.")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-outline ",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("VISITAR")]
                 )
-              ]
-            ),
-            _vm._v(" "),
-            _c("p", { staticClass: "text-center mn-t-10" }, [
-              _vm._v("& Arte Culinario")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "linea-01 orange" })
+              ]),
+              _vm._v(" "),
+              _c("a", { attrs: { href: "#" } })
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-md-4" }, [
-            _c("div", { staticClass: "view overlay zoom" }, [
-              _c("div", {
+            _c("figure", { staticClass: "snip1477" }, [
+              _c("img", {
                 staticClass: "rows-02",
                 staticStyle: {
                   "background-image": "url(../img/carrera/bar-01.jpg)"
                 }
-              })
-            ]),
-            _vm._v(" "),
-            _c(
-              "p",
-              { staticClass: "text-center mt-2 b-01 m-text-20 green-text" },
-              [
-                _vm._v(
-                  "\n                                Bar Profesional \n                            "
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "title" }, [
+                _c("div", { staticClass: "p-2 bar-c redondea-01" }, [
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "text-center mt-2 b-01 m-text-20 blue-text border-sh-1"
+                    },
+                    [
+                      _vm._v(
+                        "\n                                        Bar Profesional \n                                        "
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "text-center mn-t-10 border-sh" }, [
+                    _vm._v("& working flair")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "linea-01 blue" })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("figcaption", [
+                _c("p", [
+                  _vm._v("Which is worse, that everyone has his price.")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-outline ",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("VISITAR")]
                 )
-              ]
-            ),
-            _vm._v(" "),
-            _c("p", { staticClass: "text-center mn-t-10" }, [
-              _vm._v("& working flair")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "linea-01 green" })
+              ]),
+              _vm._v(" "),
+              _c("a", { attrs: { href: "#" } })
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-md-4" }, [
-            _c("div", { staticClass: "view overlay zoom" }, [
-              _c("div", {
+            _c("figure", { staticClass: "snip1477" }, [
+              _c("img", {
                 staticClass: "rows-02",
                 staticStyle: {
                   "background-image": "url(../img/carrera/panaderia-01.jpg)"
                 }
-              })
-            ]),
-            _vm._v(" "),
-            _c(
-              "p",
-              { staticClass: "text-center mt-2 b-01 m-text-20 blue-text" },
-              [
-                _vm._v(
-                  "\n                                Panaderia \n                            "
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "title" }, [
+                _c(
+                  "div",
+                  { staticClass: "pl-4 pr-4 pt-2 pb-2 pana-c-02 redondea-01" },
+                  [
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "text-center mt-2 b-01 m-text-20 orange-text border-sh-1"
+                      },
+                      [
+                        _vm._v(
+                          "\n                                        Panaderia \n                                        "
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "text-center mn-t-10 border-sh" }, [
+                      _vm._v("& Pasteleria")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "linea-01 orange " })
+                  ]
                 )
-              ]
-            ),
-            _vm._v(" "),
-            _c("p", { staticClass: "text-center mn-t-10" }, [
-              _vm._v("& Pasteleria")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "linea-01 blue " })
+              ]),
+              _vm._v(" "),
+              _c("figcaption", [
+                _c("p", [
+                  _vm._v("Which is worse, that everyone has his price.")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-outline ",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("VISITAR")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("a", { attrs: { href: "#" } })
+            ])
           ])
         ])
       ])
@@ -69226,7 +70258,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "my-5 cook-bg" }, [
+    return _c("div", { staticClass: "cook-bg container-10p" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-3" }, [
           _c("div", { staticClass: "p-4" }, [
@@ -69240,7 +70272,9 @@ var staticRenderFns = [
               )
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "text-center" }, [
+            _c("div", { staticClass: "text-center mt-4" }, [
+              _c("br"),
+              _vm._v(" "),
               _c(
                 "button",
                 { staticClass: "btn btn-outline", attrs: { type: "button" } },
@@ -69249,46 +70283,6 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("br"),
-            _vm._v(" "),
-            _c("div", { staticClass: "ultimo-01 visible-cop" }, [
-              _c(
-                "a",
-                {
-                  attrs: {
-                    href: "#carouselExampleControls",
-                    role: "button",
-                    "data-slide": "prev"
-                  }
-                },
-                [
-                  _c("span", {
-                    staticClass: "carousel-control-prev-icon",
-                    attrs: { "aria-hidden": "true" }
-                  }),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "sr-only" }, [_vm._v("Previous")])
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "a",
-                {
-                  attrs: {
-                    href: "#carouselExampleControls",
-                    role: "button",
-                    "data-slide": "next"
-                  }
-                },
-                [
-                  _c("span", {
-                    staticClass: "carousel-control-next-icon",
-                    attrs: { "aria-hidden": "true" }
-                  }),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "sr-only" }, [_vm._v("Next")])
-                ]
-              )
-            ]),
             _vm._v(" "),
             _c("div", { staticClass: " visible-res" }, [
               _c(
@@ -69328,11 +70322,70 @@ var staticRenderFns = [
                   _c("span", { staticClass: "sr-only" }, [_vm._v("Next")])
                 ]
               )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "controller visible-cop" }, [
+              _c("div", { staticClass: "d-flex justify-content-center" }, [
+                _c("div", { staticClass: "mt-4" }, [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "#carouselExampleControls",
+                        role: "button",
+                        "data-slide": "prev"
+                      }
+                    },
+                    [
+                      _c("span", {
+                        staticClass: "carousel-control-prev-icon",
+                        attrs: { "aria-hidden": "true" }
+                      })
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "#carouselExampleControls ",
+                        role: "button",
+                        "data-slide": "next"
+                      }
+                    },
+                    [
+                      _c("span", {
+                        staticClass: "carousel-control-next-icon red-text",
+                        attrs: { "aria-hidden": "true" }
+                      })
+                    ]
+                  )
+                ])
+              ])
             ])
           ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-9 " }, [
+          _c(
+            "div",
+            {
+              staticStyle: {
+                right: "30px",
+                position: "absolute",
+                top: "15px",
+                "z-index": "50"
+              }
+            },
+            [
+              _c("img", {
+                staticClass: "redondea-01",
+                staticStyle: { width: "70px" },
+                attrs: { src: "img/logo-cook.jpeg" }
+              })
+            ]
+          ),
+          _vm._v(" "),
           _c(
             "div",
             {
@@ -69342,14 +70395,18 @@ var staticRenderFns = [
             [
               _c("div", { staticClass: "carousel-inner" }, [
                 _c("div", { staticClass: "carousel-item active" }, [
-                  _c("img", {
-                    staticClass: "d-block w-100",
-                    attrs: {
-                      src:
-                        "https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg",
-                      alt: "First slide"
-                    }
-                  })
+                  _c("div", { staticClass: "view" }, [
+                    _c("img", {
+                      staticClass: "d-block w-100",
+                      attrs: {
+                        src:
+                          "https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg",
+                        alt: "First slide"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "mask" })
+                  ])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "carousel-item" }, [
@@ -69384,100 +70441,166 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "my-5" }, [
+    return _c("div", { staticClass: " container-10p fond-02" }, [
       _c("div", { staticClass: "container" }, [
+        _c("br"),
+        _vm._v(" "),
+        _c("div", { staticClass: "my-5 " }, [
+          _c("h2", { staticClass: "b-01" }, [_vm._v("Noticias y eventos")])
+        ]),
+        _vm._v(" "),
         _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-md-4" }, [
-            _c("h4", [
-              _vm._v(
-                "\n                        Conversión de medidas\n                    "
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "text-blog" }, [
-              _vm._v("JUNIO 1, 2018 EN\tARTICULOS |"),
-              _c("span", { staticClass: "ml-2 cook-text" }, [
-                _vm._v("LEER MÁS")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", {
-              staticClass: "rows-03",
-              staticStyle: {
-                "background-image": "url(../img/carrera/blog-01.jpg)"
-              }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "content mt-2" }, [
-              _c("p", [
-                _c("span", [
-                  _vm._v(
-                    "\n                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta \n                                nobis excepturi sapiente dolores dolorem cupiditate sint, perferendis \n                                enim! Vero accusantium perspiciatis cumque reiciendis veritatis deserunt \n                                soluta, expedita a aliquam mollitia?\n                            "
-                  )
+          _c("div", { staticClass: "col-md-4 mb-4" }, [
+            _c("div", { staticClass: "p-4 white redondea-01" }, [
+              _c("h4", { staticClass: " mt-2 b-01  green-text border-sh-1" }, [
+                _vm._v(
+                  "\n                                        Conversión de medidas\n                                "
+                )
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("div", { staticClass: "view " }, [
+                _c("div", {
+                  staticClass: "rows-03 redondea-01 border-black",
+                  staticStyle: {
+                    "background-image": "url(../img/carrera/blog-01.jpg)"
+                  }
+                }),
+                _vm._v(" "),
+                _c("div", { staticClass: "mask waves-effect" }, [
+                  _c("div", { staticClass: "blog-avi p-2 black" }, [
+                    _c("p", { staticClass: "text-blog white-text" }, [
+                      _vm._v(
+                        "22 JUNIO, 2018 |\n                                                "
+                      ),
+                      _c("span", { staticClass: "ml-2 cook-text" }, [
+                        _vm._v("LEER MÁS")
+                      ])
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "content mt-2" }, [
+                _c("div", { staticClass: "mas-t" }, [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("div", { staticClass: "mas-conte" }, [
+                      _c("i", { staticClass: "fas fa-plus" })
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _c("span", [
+                    _vm._v(
+                      "   \n\t\t\t                                Como bartender, seguramente puedes crear cócteles muy \n                                            buenos, pero ¿qué sucede cuando eres responsable de tener \n                                            bien cuidada la barra en todo momento? Una de las mejores \n                                            maneras de asegurarte de(...)\n                                        "
+                    )
+                  ])
                 ])
               ])
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-4" }, [
-            _c("h4", [
-              _vm._v(
-                "\n                        10 deliciosas recetas de cocina tradicional\n                    "
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "text-blog" }, [
-              _vm._v("JUNIO 1, 2018 EN\tARTICULOS |"),
-              _c("span", { staticClass: "ml-2 cook-text" }, [
-                _vm._v("LEER MÁS")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", {
-              staticClass: "rows-03",
-              staticStyle: {
-                "background-image": "url(../img/carrera/blog-02.jpg)"
-              }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "content mt-2" }, [
-              _c("p", [
-                _c("span", [
-                  _vm._v(
-                    "\n                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta \n                                nobis excepturi sapiente dolores dolorem cupiditate sint, perferendis \n                                enim! Vero accusantium perspiciatis cumque reiciendis veritatis deserunt \n                                soluta, expedita a aliquam mollitia?\n                            "
-                  )
+          _c("div", { staticClass: "col-md-4 mb-4" }, [
+            _c("div", { staticClass: "p-4 white redondea-01" }, [
+              _c("h4", { staticClass: " mt-2 b-01  green-text border-sh-1" }, [
+                _vm._v(
+                  "\n                                    10 deliciosas recetas de cocina tradicional\n                                "
+                )
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("div", { staticClass: "view " }, [
+                _c("div", {
+                  staticClass: "rows-03 redondea-01 border-black",
+                  staticStyle: {
+                    "background-image": "url(../img/carrera/blog-02.jpg)"
+                  }
+                }),
+                _vm._v(" "),
+                _c("div", { staticClass: "mask waves-effect" }, [
+                  _c("div", { staticClass: "blog-avi p-2 black" }, [
+                    _c("p", { staticClass: "text-blog white-text" }, [
+                      _vm._v(
+                        "22 JUNIO, 2018 |\n                                                "
+                      ),
+                      _c("span", { staticClass: "ml-2 cook-text" }, [
+                        _vm._v("LEER MÁS")
+                      ])
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "content mt-2" }, [
+                _c("div", { staticClass: "mas-t" }, [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("div", { staticClass: "mas-conte" }, [
+                      _c("i", { staticClass: "fas fa-plus" })
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _c("span", [
+                    _vm._v(
+                      "   \n\t\t\t                                Como bartender, seguramente puedes crear cócteles muy \n                                            buenos, pero ¿qué sucede cuando eres responsable de tener \n                                            bien cuidada la barra en todo momento? Una de las mejores \n                                            maneras de asegurarte de(...)\n                                        "
+                    )
+                  ])
                 ])
               ])
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-4" }, [
-            _c("h4", [
-              _vm._v(
-                "\n                        120 Tips de cocina\n                    "
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "text-blog" }, [
-              _vm._v("JUNIO 1, 2018 EN\tARTICULOS |"),
-              _c("span", { staticClass: "ml-2 cook-text" }, [
-                _vm._v("LEER MÁS")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", {
-              staticClass: "rows-03",
-              staticStyle: {
-                "background-image": "url(../img/carrera/blog-03.jpg)"
-              }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "content mt-2" }, [
-              _c("p", [
-                _c("span", [
-                  _vm._v(
-                    "\n                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta \n                                nobis excepturi sapiente dolores dolorem cupiditate sint, perferendis \n                                enim! Vero accusantium perspiciatis cumque reiciendis veritatis deserunt \n                                soluta, expedita a aliquam mollitia?\n                            "
-                  )
+          _c("div", { staticClass: "col-md-4 mb-4" }, [
+            _c("div", { staticClass: "p-4 white redondea-01" }, [
+              _c("h4", { staticClass: " mt-2 b-01  green-text border-sh-1" }, [
+                _vm._v(
+                  "\n                                    En nuestro mes de aniversario presentamos Trucha\n                                "
+                )
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("div", { staticClass: "view " }, [
+                _c("div", {
+                  staticClass: "rows-03 redondea-01 border-black",
+                  staticStyle: {
+                    "background-image": "url(../img/carrera/blog-03.jpg)"
+                  }
+                }),
+                _vm._v(" "),
+                _c("div", { staticClass: "mask waves-effect" }, [
+                  _c("div", { staticClass: "blog-avi p-2 black" }, [
+                    _c("p", { staticClass: "text-blog white-text" }, [
+                      _vm._v(
+                        "22 JUNIO, 2018 |\n                                                "
+                      ),
+                      _c("span", { staticClass: "ml-2 cook-text" }, [
+                        _vm._v("LEER MÁS")
+                      ])
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "content mt-2" }, [
+                _c("div", { staticClass: "mas-t" }, [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("div", { staticClass: "mas-conte" }, [
+                      _c("i", { staticClass: "fas fa-plus" })
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _c("span", [
+                    _vm._v(
+                      "   \n\t\t\t                                Como bartender, seguramente puedes crear cócteles muy \n                                            buenos, pero ¿qué sucede cuando eres responsable de tener \n                                            bien cuidada la barra en todo momento? Una de las mejores \n                                            maneras de asegurarte de(...)\n                                        "
+                    )
+                  ])
                 ])
               ])
             ])
@@ -69490,7 +70613,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "my-5 visible-cop" }, [
+    return _c("div", { staticClass: "my-5 visible-cop container-10p" }, [
       _c("div", { staticClass: "view " }, [
         _c("img", {
           staticClass: "img-fluid",
@@ -69610,7 +70733,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "my-5 visible-res" }, [
+    return _c("div", { staticClass: "my-5 visible-res container-10p" }, [
       _c("div", { staticClass: "row  text-center" }, [
         _c("div", { staticClass: "col-md-12 mb-4 mt-4" }, [
           _c("h2", { staticClass: "b-01" }, [_vm._v("Nuestros Beneficios")]),
@@ -70219,9 +71342,9 @@ if (false) {
 var disposed = false
 var normalizeComponent = __webpack_require__(8)
 /* script */
-var __vue_script__ = null
+var __vue_script__ = __webpack_require__(237)
 /* template */
-var __vue_template__ = __webpack_require__(237)
+var __vue_template__ = __webpack_require__(238)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -70261,15 +71384,1525 @@ module.exports = Component.exports
 
 /***/ }),
 /* 237 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {
+            pageC: 1,
+            slide: 0,
+            sliding: null
+        };
+    },
+
+    methods: {
+        onSlideStart: function onSlideStart(slide) {
+            this.sliding = true;
+        },
+        onSlideEnd: function onSlideEnd(slide) {
+            this.sliding = false;
+        }
+    },
+    mounted: function mounted() {
+        $(document).ready(function () {
+            // efecto
+            $('.rIni').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 3);
+            });
+        });
+    }
+});
+
+/***/ }),
+/* 238 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_vm._v("\n    talleres\n")])
+  return _c("div", [
+    _c("div", { staticClass: "view " }, [
+      _c("div", {
+        staticClass: "rows-baner",
+        staticStyle: { "background-image": "url(../img/taller/fondoco.jpg" }
+      }),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "mask strong-mid visible-cop" },
+        [
+          _c(
+            "b-navbar",
+            {
+              staticClass: "transpa ",
+              attrs: { toggleable: "md", type: "dark" }
+            },
+            [
+              _c("b-navbar-toggle", { attrs: { target: "nav_collapse" } }),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: " visiblew animated fadeInDown txtNew ",
+                  staticStyle: {
+                    left: "20px",
+                    width: "139px",
+                    position: "absolute",
+                    top: "0px",
+                    "z-index": "1200"
+                  }
+                },
+                [
+                  _c("img", {
+                    staticClass: "m-4 ",
+                    staticStyle: { width: "70px" },
+                    attrs: { src: "img/logo-cook.jpeg" }
+                  })
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-collapse",
+                { attrs: { "is-nav": "", id: "nav_collapse" } },
+                [
+                  _c(
+                    "b-navbar-nav",
+                    { staticClass: "ml-auto animated fadeInRight" },
+                    [
+                      _c(
+                        "b-navbar-nav",
+                        {
+                          staticClass: "p-4 ",
+                          attrs: { text: "Lang", right: "" }
+                        },
+                        [
+                          _c(
+                            "b-nav-item",
+                            {
+                              staticClass: "cook-bg p-2 b-01",
+                              attrs: { href: "#" }
+                            },
+                            [
+                              _c(
+                                "router-link",
+                                {
+                                  staticClass: "white-text",
+                                  attrs: { to: "/" }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                            INICIO\n                                        "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-nav-item",
+                            {
+                              staticClass: "white  border-cook p-2",
+                              attrs: { href: "#" }
+                            },
+                            [
+                              _c(
+                                "router-link",
+                                {
+                                  staticClass: "cook-text b-01",
+                                  attrs: { to: "/noticia" }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                        NOTICIA\n                                    "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "cook-bg", attrs: { id: "rest" } },
+                            [
+                              _c(
+                                "b-nav-item-dropdown",
+                                {
+                                  staticClass: " white-text  b-01 pt-2",
+                                  attrs: { text: "CARRERAS" }
+                                },
+                                [
+                                  _c(
+                                    "b-dropdown-item-button",
+                                    { staticClass: "btn-sm" },
+                                    [
+                                      _c(
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/gastronomia" }
+                                        },
+                                        [
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                        GASTRONOMIA\n                                                    "
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item-button",
+                                    { staticClass: "btn-sm" },
+                                    [
+                                      _c(
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/panaderia" }
+                                        },
+                                        [
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                        PANADERIA\n                                                    "
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item-button",
+                                    { staticClass: "btn-sm" },
+                                    [
+                                      _c(
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/bar" }
+                                        },
+                                        [
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                        BAR\n                                                    "
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-nav-item",
+                            {
+                              staticClass: "cook-bg p-2 b-01",
+                              attrs: { href: "#" }
+                            },
+                            [
+                              _c(
+                                "router-link",
+                                {
+                                  staticClass: "white-text",
+                                  attrs: { to: "/nosotros" }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                            NOSOTROS\n                                        "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-nav-item",
+                            {
+                              staticClass: "cook-bg p-2 b-01",
+                              attrs: { href: "#" }
+                            },
+                            [
+                              _c(
+                                "router-link",
+                                {
+                                  staticClass: "white-text",
+                                  attrs: { to: "/contacto" }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                            CONTACTARSE\n                                        "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-nav-item",
+                            {
+                              staticClass: " p-2",
+                              attrs: {
+                                href: "#",
+                                "data-toggle": "modal",
+                                "data-target": "#Modal-01"
+                              }
+                            },
+                            [_c("i", { staticClass: "fas fa-bars cook-text" })]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _vm._m(1)
+        ],
+        1
+      )
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "my-3 container-10p" }, [
+      _c("div", { staticClass: "my-3 " }, [
+        _c("div", { staticClass: "visible-cop" }, [
+          _c("ul", { staticClass: "nav justify-content-end grey-t py-4 " }, [
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link ",
+                  attrs: { href: "#!" },
+                  on: {
+                    click: function($event) {
+                      $event.preventDefault()
+                      _vm.pageC = 1
+                    }
+                  }
+                },
+                [
+                  _c(
+                    "span",
+                    {
+                      staticClass: "black-text b-01",
+                      class: { selecMe: this.pageC == 1 }
+                    },
+                    [_vm._v("Perfil de la carrera")]
+                  )
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: { href: "#!" },
+                  on: {
+                    click: function($event) {
+                      $event.preventDefault()
+                      _vm.pageC = 2
+                    }
+                  }
+                },
+                [
+                  _c(
+                    "span",
+                    {
+                      staticClass: "black-text b-01",
+                      class: { selecMe: this.pageC == 2 }
+                    },
+                    [_vm._v("Malla curricular")]
+                  )
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: { href: "#!" },
+                  on: {
+                    click: function($event) {
+                      $event.preventDefault()
+                      _vm.pageC = 3
+                    }
+                  }
+                },
+                [
+                  _c(
+                    "span",
+                    {
+                      staticClass: "black-text b-01",
+                      class: { selecMe: this.pageC == 3 }
+                    },
+                    [_vm._v("Requisitos")]
+                  )
+                ]
+              )
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("ul", { staticClass: "visible-res list-unstyled grey-t" }, [
+          _c("li", [
+            _c(
+              "a",
+              {
+                staticClass: "nav-link ",
+                attrs: { href: "#!" },
+                on: {
+                  click: function($event) {
+                    $event.preventDefault()
+                    _vm.pageC = 1
+                  }
+                }
+              },
+              [
+                _c(
+                  "span",
+                  {
+                    staticClass: "black-text b-01",
+                    class: { selecMe: this.pageC == 1 }
+                  },
+                  [_vm._v("Perfil de la carrera")]
+                )
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              {
+                staticClass: "nav-link",
+                attrs: { href: "#!" },
+                on: {
+                  click: function($event) {
+                    $event.preventDefault()
+                    _vm.pageC = 2
+                  }
+                }
+              },
+              [
+                _c(
+                  "span",
+                  {
+                    staticClass: "black-text b-01",
+                    class: { selecMe: this.pageC == 2 }
+                  },
+                  [_vm._v("Malla curricular")]
+                )
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              {
+                staticClass: "nav-link",
+                attrs: { href: "#!" },
+                on: {
+                  click: function($event) {
+                    $event.preventDefault()
+                    _vm.pageC = 3
+                  }
+                }
+              },
+              [
+                _c(
+                  "span",
+                  {
+                    staticClass: "black-text b-01",
+                    class: { selecMe: this.pageC == 3 }
+                  },
+                  [_vm._v("Requisitos")]
+                )
+              ]
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _vm.pageC == 1
+        ? _c("div", { staticClass: "row p-4" }, [
+            _vm._m(2),
+            _vm._v(" "),
+            _vm._m(3),
+            _vm._v(" "),
+            _vm._m(4)
+          ])
+        : _vm._e(),
+      _vm._v(" "),
+      _vm.pageC == 2
+        ? _c("div", { staticClass: "row" }, [_vm._m(5)])
+        : _vm._e(),
+      _vm._v(" "),
+      _vm.pageC == 3
+        ? _c("div", { staticClass: "row " }, [_vm._m(6)])
+        : _vm._e()
+    ])
+  ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mask strong-mid visible-res" }, [
+      _c("div", { staticClass: "precio" }, [
+        _c("div", { staticClass: "gastro-c white-text redondea-01" }, [
+          _c("div", { staticClass: "text-center" }, [
+            _c("div", {}, [
+              _c("span", { staticClass: "b-01 m-text-20 signs" }, [
+                _vm._v("S/")
+              ]),
+              _vm._v(" "),
+              _c("span", { staticClass: "m-text-40 b-01" }, [_vm._v(".450")]),
+              _vm._v(" "),
+              _c("span", { staticClass: "mens" }, [_vm._v("/m")])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "white-tras m-text-30 redondea-01",
+          staticStyle: {
+            right: "10px",
+            width: "auto",
+            position: "absolute",
+            top: "10px",
+            "z-index": "2"
+          }
+        },
+        [
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "",
+                "data-toggle": "modal",
+                "data-target": "#ModalHome"
+              }
+            },
+            [
+              _c("span", { staticClass: "cook-text pl-2 pr-2 b-01" }, [
+                _c("i", { staticClass: "fas fa-bars" })
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "mesg-01-carrera" }, [
+        _c("h5", { staticClass: "b-01 white-text" }, [
+          _c("div", { staticClass: "white-text" }, [
+            _c("h5", { staticClass: "b-01" }, [
+              _vm._v(
+                "\n                            TALLERES \n                        "
+              )
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mesg-02" }, [
+      _c("div", { staticClass: " pr-4 white-text" }, [
+        _c("h2", { staticClass: "b-01" }, [
+          _vm._v("\n                        TALLERES \n                    ")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("br")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-4 mb-4" }, [
+      _c("div", { staticClass: "div" }, [
+        _c("div", { staticClass: "view" }, [
+          _c("div", {
+            staticClass: "rows-taller border",
+            staticStyle: {
+              "background-image": "url(../img/taller/cocina-china.jpg)"
+            }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "mask" }, [
+            _c(
+              "div",
+              {
+                staticClass: "redondea-01",
+                staticStyle: {
+                  right: "10px",
+                  position: "absolute",
+                  top: "10px",
+                  "z-index": "200"
+                }
+              },
+              [
+                _c("img", {
+                  staticStyle: { width: "40px" },
+                  attrs: { src: "img/logo-cook.jpeg" }
+                })
+              ]
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "taller-aviso" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-7" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "b-01 m-text-20 flex-center text-center",
+                      staticStyle: { height: "100px" }
+                    },
+                    [
+                      _vm._v(
+                        "\n                                                COCINA CHINA & PASTELERIA\n                                            "
+                      )
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-5" }, [
+                  _c("div", { staticClass: " flex-center" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-danger",
+                        attrs: { type: "button" }
+                      },
+                      [_vm._v("Danger")]
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "deta red-02 p-2" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-6" }, [
+              _c("h4", { staticClass: "cook-text white-text" }, [
+                _vm._v("inicio de Clases")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-6  sm-0 sp-0 black-01" }, [
+              _c("div", { staticClass: "flex-center " }, [
+                _c("span", { staticClass: "m-text-40 b-01 white-text" }, [
+                  _vm._v("10")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  { staticClass: "m-text-21 b-01 ml-2 mt-4 orange-text" },
+                  [_vm._v("Noviembre")]
+                )
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-4 mb-4" }, [
+      _c("div", { staticClass: "div" }, [
+        _c("div", { staticClass: "view" }, [
+          _c("div", {
+            staticClass: "rows-taller border",
+            staticStyle: {
+              "background-image": "url(../img/taller/pasteleria.jpg)"
+            }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "mask" }, [
+            _c(
+              "div",
+              {
+                staticClass: "redondea-01",
+                staticStyle: {
+                  right: "10px",
+                  position: "absolute",
+                  top: "10px",
+                  "z-index": "200"
+                }
+              },
+              [
+                _c("img", {
+                  staticStyle: { width: "40px" },
+                  attrs: { src: "img/logo-cook.jpeg" }
+                })
+              ]
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "taller-aviso" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-7" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "b-01 m-text-20 flex-center text-center",
+                      staticStyle: { height: "100px" }
+                    },
+                    [
+                      _vm._v(
+                        "\n                                                COCINA CHINA & PASTELERIA\n                                            "
+                      )
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-5" }, [
+                  _c("div", { staticClass: " flex-center" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-danger",
+                        attrs: { type: "button" }
+                      },
+                      [_vm._v("Danger")]
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "deta red-02 p-2" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-6" }, [
+              _c("h4", { staticClass: "cook-text white-text" }, [
+                _vm._v("inicio de Clases")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-6  sm-0 sp-0 black-01" }, [
+              _c("div", { staticClass: "flex-center " }, [
+                _c("span", { staticClass: "m-text-40 b-01 white-text" }, [
+                  _vm._v("10")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  { staticClass: "m-text-21 b-01 ml-2 mt-4 orange-text" },
+                  [_vm._v("Noviembre")]
+                )
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-4 mb-4" }, [
+      _c("div", { staticClass: "div" }, [
+        _c("div", { staticClass: "view" }, [
+          _c("div", {
+            staticClass: "rows-taller border",
+            staticStyle: {
+              "background-image": "url(../img/taller/marisco.jpg)"
+            }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "mask" }, [
+            _c(
+              "div",
+              {
+                staticClass: "redondea-01",
+                staticStyle: {
+                  right: "10px",
+                  position: "absolute",
+                  top: "10px",
+                  "z-index": "200"
+                }
+              },
+              [
+                _c("img", {
+                  staticStyle: { width: "40px" },
+                  attrs: { src: "img/logo-cook.jpeg" }
+                })
+              ]
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "taller-aviso" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-7" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "b-01 m-text-20 flex-center text-center",
+                      staticStyle: { height: "100px" }
+                    },
+                    [
+                      _vm._v(
+                        "\n                                                COCINA CHINA & PASTELERIA\n                                            "
+                      )
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-5" }, [
+                  _c("div", { staticClass: " flex-center" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-danger",
+                        attrs: { type: "button" }
+                      },
+                      [_vm._v("Danger")]
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "deta red-02 p-2" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-6" }, [
+              _c("h4", { staticClass: "cook-text white-text" }, [
+                _vm._v("inicio de Clases")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-6  sm-0 sp-0 black-01" }, [
+              _c("div", { staticClass: "flex-center " }, [
+                _c("span", { staticClass: "m-text-40 b-01 white-text" }, [
+                  _vm._v("10")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  { staticClass: "m-text-21 b-01 ml-2 mt-4 orange-text" },
+                  [_vm._v("Noviembre")]
+                )
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("table", { staticClass: "table table-bordered  mt-4" }, [
+        _c("thead", [
+          _c("tr", { staticClass: "cook-bg" }, [
+            _c(
+              "th",
+              { staticClass: "text-center m-textplus-nav-0 white-text" },
+              [_vm._v("CICLO VI")]
+            ),
+            _vm._v(" "),
+            _c(
+              "th",
+              { staticClass: "text-center m-textplus-nav-0 white-text" },
+              [_vm._v("HORAS-TEORÍA")]
+            ),
+            _vm._v(" "),
+            _c(
+              "th",
+              { staticClass: "text-center m-textplus-nav-0 white-text" },
+              [_vm._v("HORAS-PRÁCTICA")]
+            ),
+            _vm._v(" "),
+            _c(
+              "th",
+              { staticClass: "text-center m-textplus-nav-0 white-text" },
+              [_vm._v("HORA SEMANAL")]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("tbody", [
+          _c("tr", [
+            _c("th", { attrs: { scope: "row" } }, [
+              _vm._v("Técnologia gastronómica I")
+            ]),
+            _vm._v(" "),
+            _c("td", { staticClass: "text-center" }, [_vm._v("2")]),
+            _vm._v(" "),
+            _c("td", { staticClass: "text-center" }, [_vm._v("2")]),
+            _vm._v(" "),
+            _c("td", { staticClass: "text-center" }, [_vm._v("4")])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("th", { attrs: { scope: "row" } }, [_vm._v("Cocina peruana I")]),
+            _vm._v(" "),
+            _c("td", { staticClass: "text-center" }, [_vm._v("1")]),
+            _vm._v(" "),
+            _c("td", { staticClass: "text-center" }, [_vm._v("2")]),
+            _vm._v(" "),
+            _c("td", { staticClass: "text-center" }, [_vm._v("3")])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("th", { attrs: { scope: "row" } }, [
+              _vm._v("Pasteleria gastronómica I")
+            ]),
+            _vm._v(" "),
+            _c("td", { staticClass: "text-center" }, [_vm._v("2")]),
+            _vm._v(" "),
+            _c("td", { staticClass: "text-center" }, [_vm._v("3")]),
+            _vm._v(" "),
+            _c("td", { staticClass: "text-center" }, [_vm._v("5")])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("th", { attrs: { scope: "row" } }, [
+              _vm._v("Mromatologia, Higene y manipulación de alimentos (BPM)")
+            ]),
+            _vm._v(" "),
+            _c("td", { staticClass: "text-center" }, [_vm._v("2")]),
+            _vm._v(" "),
+            _c("td", { staticClass: "text-center" }, [_vm._v("0")]),
+            _vm._v(" "),
+            _c("td", { staticClass: "text-center" }, [_vm._v("2")])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row container" }, [
+        _c("div", { staticClass: "col-md-5" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-md-12" }, [
+              _c("p", { staticClass: "b-01" }, [
+                _vm._v("Requisitos de Admisión")
+              ]),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [_vm._v("Certificado del 1ro al 5to de Secundaria.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Fotografias de tamaño pasaporte")]),
+                _vm._v(" "),
+                _c("li", [_vm._v(" Fotocopia de Documento de Identidad")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Recibo de Agua o Luz")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Carnet de sanidad")])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-12" }, [
+              _c("p", { staticClass: "b-01" }, [
+                _vm._v("Uniforme: S/130.00 Nuevos soles")
+              ]),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [_vm._v("1 Chaqueta")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("1 pantalón")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("1 mandión")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("1 gorro de chef")])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-7" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-md-12" }, [
+              _c("div", { staticClass: "border-noti " }, [
+                _c("div", { staticClass: "card-body m-1 white" }, [
+                  _c("p", { staticClass: "m-textplus-nav-0" }, [
+                    _vm._v(
+                      "Para contactarse con nosotros, favor complete el formulario y nos comunicaremos dentro de las próximas 24 hs."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "md-form" }, [
+                    _c("i", { staticClass: "fa fa-user prefix grey-text" }),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: { type: "text", id: "form-name" }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { attrs: { for: "form-name" } }, [
+                      _vm._v("Nombres y Apellidos")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "md-form" }, [
+                    _c("i", { staticClass: "fa fa-envelope prefix grey-text" }),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: { type: "text", id: "form-email" }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { attrs: { for: "form-email" } }, [
+                      _vm._v("Correo Electrónico")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "md-form" }, [
+                    _c("i", {
+                      staticClass: "fa fa-phone prefix grey-text",
+                      attrs: { "aria-hidden": "true" }
+                    }),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: { type: "text", id: "form-Subject" }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { attrs: { for: "form-Subject" } }, [
+                      _vm._v("Teléfono")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "md-form" }, [
+                    _c("i", { staticClass: "fa fa-tag prefix grey-text" }),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: { type: "text", id: "form-Subject" }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { attrs: { for: "form-Subject" } }, [
+                      _vm._v("Dirección")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "md-form" }, [
+                    _c("i", {
+                      staticClass: "far fa-list-alt prefix grey-text"
+                    }),
+                    _vm._v(" "),
+                    _c("textarea", {
+                      staticClass: "form-control md-textarea",
+                      attrs: { type: "text", id: "form-text", rows: "3" }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { attrs: { for: "form-text" } }, [
+                      _vm._v("Consulta o Solicitud de Presupuesto")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "text-center" }, [
+                    _c("button", { staticClass: "btn cook-bg" }, [
+                      _c("i", { staticClass: "fas fa-location-arrow mr-2" }),
+                      _vm._v("Enviar")
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
@@ -70280,15 +72913,15 @@ if (false) {
 }
 
 /***/ }),
-/* 238 */
+/* 239 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(8)
 /* script */
-var __vue_script__ = __webpack_require__(239)
+var __vue_script__ = __webpack_require__(240)
 /* template */
-var __vue_template__ = __webpack_require__(240)
+var __vue_template__ = __webpack_require__(241)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -70327,7 +72960,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 239 */
+/* 240 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -70539,131 +73172,72 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
+var items = [];
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
         return {
+            items: items,
             pageC: 1,
             slide: 0,
-            sliding: null
+            sliding: null,
+            indice: 1,
+            tasks: [{
+                id: 1,
+                name: 'New sidebar design',
+                estimate: '20:00:00',
+                billed: '00:00:00',
+                url: '../img/carrera/blog-01.jpg'
+            }, {
+                id: 2,
+                name: 'Destre',
+                estimate: '20:00:00',
+                billed: '00:00:00',
+                url: '../img/carrera/blog-02.jpg'
+            }, {
+                id: 3,
+                name: 'Destre',
+                estimate: '20:00:00',
+                billed: '00:00:00',
+                url: '../img/carrera/blog-03.jpg'
+            }, {
+                id: 4,
+                name: 'Destre',
+                estimate: '20:00:00',
+                billed: '00:00:00'
+            }, {
+                id: 5,
+                name: 'Destre',
+                estimate: '20:00:00',
+                billed: '00:00:00'
+            }, {
+                id: 6,
+                name: 'Destre',
+                estimate: '20:00:00',
+                billed: '00:00:00',
+                url: '../img/carrera/blog-03.jpg'
+            }],
+
+            currentPage: 1,
+            perPage: 5,
+            totalRows: items.length,
+            pageOptions: [5, 10, 15],
+            sortBy: null,
+            sortDesc: false,
+            sortDirection: 'asc',
+            filter: null,
+            modalInfo: { title: '', content: '' }
+
         };
     },
 
     methods: {
+        paginador: function paginador(val) {
+            var indiceInicio = (this.currentPage - 1) * this.perPage;
+            var indiceFinal = indiceInicio + this.perPage > val.length ? val.length : indiceInicio + this.perPage;
+            return val.slice(indiceInicio, indiceFinal);
+        },
         onSlideStart: function onSlideStart(slide) {
             this.sliding = true;
         },
@@ -70672,24 +73246,53 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         }
     },
     mounted: function mounted() {
-        $(document).ready(function () {
-            $("#menuN").hide();
-            $(function () {
-                $(window).scroll(function () {
 
-                    if ($(this).scrollTop() > 100) {
-                        $('#menuN').fadeIn();
-                    } else {
-                        $('#menuN').fadeOut();
-                    }
-                });
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        $(function () {
+            $(window).scroll(function () {
+
+                if ($(this).scrollTop() > 350 && $(this).scrollTop() < 1100) {
+                    header.classList.add("sticky");
+                } else if ($(this).scrollTop() < 349) {
+                    header.classList.remove("sticky");
+                } else if ($(this).scrollTop() > 700) {
+                    header.classList.remove("sticky");
+                }
+            });
+        });
+
+        $(document).ready(function () {
+            // efecto
+            $('.rIni').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 3);
+            });
+        });
+
+        $(document).ready(function () {
+
+            $('.ir-arriba').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 300);
+            });
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $('.ir-arriba').slideDown(300);
+                } else {
+                    $('.ir-arriba').slideUp(300);
+                }
             });
         });
     }
 });
 
 /***/ }),
-/* 240 */
+/* 241 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -70697,20 +73300,22 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("div", { staticClass: "view visible-cop" }, [
-      _c("img", {
-        staticClass: "blink-ima",
-        attrs: { src: "img/banner-02.png", alt: "smaple image" }
+    _c("div", { staticClass: "view" }, [
+      _c("div", {
+        staticClass: "rows-baner",
+        staticStyle: { "background-image": "url(../img/noticia.jpg)" }
       }),
+      _vm._v(" "),
+      _vm._m(0),
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "mask rgba-black-strong" },
+        { staticClass: "mask visible-cop" },
         [
           _c(
             "b-navbar",
             {
-              staticClass: "transpa ",
+              staticClass: "transpa",
               attrs: { toggleable: "md", type: "dark" }
             },
             [
@@ -70767,7 +73372,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                        INICIO\n                                    "
+                                    "\n                                            INICIO\n                                        "
                                   )
                                 ]
                               )
@@ -70790,7 +73395,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                     NOTICIA\n                                "
+                                    "\n                                        NOTICIA\n                                    "
                                   )
                                 ]
                               )
@@ -70799,85 +73404,101 @@ var render = function() {
                           ),
                           _vm._v(" "),
                           _c(
-                            "b-nav-item-dropdown",
-                            {
-                              staticClass: "cook-bg  b-01 pt-2",
-                              attrs: { text: "CARRERAS" }
-                            },
+                            "div",
+                            { staticClass: "cook-bg", attrs: { id: "rest" } },
                             [
                               _c(
-                                "b-dropdown-item-button",
-                                { staticClass: "btn-sm" },
+                                "b-nav-item-dropdown",
+                                {
+                                  staticClass: " white-text  b-01 pt-2",
+                                  attrs: { text: "CARRERAS" }
+                                },
                                 [
                                   _c(
-                                    "router-link",
-                                    {
-                                      staticClass: "white-text sm-0 sp-0",
-                                      attrs: { to: "/gastronomia" }
-                                    },
+                                    "b-dropdown-item-button",
+                                    { staticClass: "btn-sm" },
                                     [
                                       _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/gastronomia" }
+                                        },
                                         [
-                                          _vm._v(
-                                            "\n                                                GASTRONOMIA\n                                            "
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                        GASTRONOMIA\n                                                    "
+                                              )
+                                            ]
                                           )
                                         ]
                                       )
-                                    ]
-                                  )
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "b-dropdown-item-button",
-                                { staticClass: "btn-sm" },
-                                [
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
                                   _c(
-                                    "router-link",
-                                    {
-                                      staticClass: "white-text sm-0 sp-0",
-                                      attrs: { to: "/panaderia" }
-                                    },
+                                    "b-dropdown-item-button",
+                                    { staticClass: "btn-sm" },
                                     [
                                       _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/panaderia" }
+                                        },
                                         [
-                                          _vm._v(
-                                            "\n                                                PANADERIA\n                                            "
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                        PANADERIA\n                                                    "
+                                              )
+                                            ]
                                           )
                                         ]
                                       )
-                                    ]
-                                  )
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "b-dropdown-item-button",
-                                { staticClass: "btn-sm" },
-                                [
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
                                   _c(
-                                    "router-link",
-                                    {
-                                      staticClass: "white-text sm-0 sp-0",
-                                      attrs: { to: "/bar" }
-                                    },
+                                    "b-dropdown-item-button",
+                                    { staticClass: "btn-sm" },
                                     [
                                       _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/bar" }
+                                        },
                                         [
-                                          _vm._v(
-                                            "\n                                                BAR\n                                            "
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                        BAR\n                                                    "
+                                              )
+                                            ]
                                           )
                                         ]
                                       )
-                                    ]
+                                    ],
+                                    1
                                   )
                                 ],
                                 1
@@ -70897,11 +73518,11 @@ var render = function() {
                                 "router-link",
                                 {
                                   staticClass: "white-text",
-                                  attrs: { to: "/" }
+                                  attrs: { to: "/nosotros" }
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                        NOSOTROS\n                                    "
+                                    "\n                                            NOSOTROS\n                                        "
                                   )
                                 ]
                               )
@@ -70920,11 +73541,11 @@ var render = function() {
                                 "router-link",
                                 {
                                   staticClass: "white-text",
-                                  attrs: { to: "/" }
+                                  attrs: { to: "/contacto" }
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                        CONTACTARSE\n                                    "
+                                    "\n                                            CONTACTARSE\n                                        "
                                   )
                                 ]
                               )
@@ -70957,268 +73578,75 @@ var render = function() {
             1
           ),
           _vm._v(" "),
-          _vm._m(0)
+          _vm._m(1)
         ],
         1
       )
     ]),
     _vm._v(" "),
-    _vm._m(1),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "diov", attrs: { id: "menuN" } },
-      [
-        _c(
-          "b-navbar",
-          {
-            staticClass: "fixed-top white ",
-            attrs: { toggleable: "md", type: "dark" }
-          },
-          [
-            _c("b-navbar-toggle", {
-              staticClass: "cook-bg",
-              attrs: { target: "nav_collapse" }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "logo-fixed visiblew  txtNew " }, [
-              _c("img", {
-                staticClass: "m-4 logo-flui",
-                attrs: { src: "img/logo-cook.jpeg" }
-              })
-            ]),
-            _vm._v(" "),
-            _c(
-              "b-collapse",
-              { attrs: { "is-nav": "", id: "nav_collapse" } },
-              [
-                _c(
-                  "b-navbar-nav",
-                  { staticClass: "ml-auto" },
-                  [
-                    _c(
-                      "b-navbar-nav",
-                      {
-                        staticClass: "p-2",
-                        attrs: { text: "Lang", right: "" }
-                      },
-                      [
-                        _c(
-                          "b-nav-item",
-                          { attrs: { href: "#" } },
-                          [
-                            _c(
-                              "router-link",
-                              { staticClass: "white-text", attrs: { to: "/" } },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "black-text b-01 pl-2 pr-2" },
-                                  [
-                                    _vm._v(
-                                      "\n                                INICIO\n                            "
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          { attrs: { href: "#" } },
-                          [
-                            _c(
-                              "router-link",
-                              {
-                                staticClass: "white-text",
-                                attrs: { to: "/noticia" }
-                              },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "black-text b-01 pl-2 pr-2" },
-                                  [
-                                    _vm._v(
-                                      "\n                                NOTICIA\n                            "
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item-dropdown",
-                          {
-                            staticClass: "cook-bg redondear b-01 redondea-05",
-                            attrs: { text: "CARRERAS" }
-                          },
-                          [
-                            _c(
-                              "b-dropdown-item-button",
-                              { staticClass: "btn-sm" },
-                              [
-                                _c(
-                                  "router-link",
-                                  {
-                                    staticClass: "white-text sm-0 sp-0",
-                                    attrs: { to: "/gastronomia" }
-                                  },
-                                  [
-                                    _c(
-                                      "span",
-                                      { staticClass: "black-text b-01 " },
-                                      [
-                                        _vm._v(
-                                          "\n                                        GASTRONOMIA\n                                    "
-                                        )
-                                      ]
-                                    )
-                                  ]
-                                )
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "b-dropdown-item-button",
-                              { staticClass: "btn-sm" },
-                              [
-                                _c(
-                                  "router-link",
-                                  {
-                                    staticClass: "white-text sm-0 sp-0",
-                                    attrs: { to: "/panaderia" }
-                                  },
-                                  [
-                                    _c(
-                                      "span",
-                                      { staticClass: "black-text b-01 " },
-                                      [
-                                        _vm._v(
-                                          "\n                                        PANADERIA\n                                    "
-                                        )
-                                      ]
-                                    )
-                                  ]
-                                )
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "b-dropdown-item-button",
-                              { staticClass: "btn-sm" },
-                              [
-                                _c(
-                                  "router-link",
-                                  {
-                                    staticClass: "white-text sm-0 sp-0",
-                                    attrs: { to: "/bar" }
-                                  },
-                                  [
-                                    _c(
-                                      "span",
-                                      { staticClass: "black-text b-01 " },
-                                      [
-                                        _vm._v(
-                                          "\n                                        BAR\n                                    "
-                                        )
-                                      ]
-                                    )
-                                  ]
-                                )
-                              ],
-                              1
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          { attrs: { href: "#" } },
-                          [
-                            _c(
-                              "router-link",
-                              { staticClass: "white-text", attrs: { to: "/" } },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "black-text b-01 pl-2 pr-2" },
-                                  [
-                                    _vm._v(
-                                      "\n                                NOSOTROS\n                            "
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          { attrs: { href: "#" } },
-                          [
-                            _c(
-                              "router-link",
-                              { staticClass: "white-text", attrs: { to: "/" } },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "black-text b-01 pl-2 pr-2" },
-                                  [
-                                    _vm._v(
-                                      "\n                                CONTACTARSE\n                            "
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          {
-                            staticClass: "visible-cop",
-                            attrs: {
-                              href: "#",
-                              "data-toggle": "modal",
-                              "data-target": "#Modal-01"
-                            }
-                          },
-                          [
-                            _c(
-                              "span",
-                              { staticClass: "cook-text pl-2 pr-2 b-01" },
-                              [_c("i", { staticClass: "fas fa-bars" })]
-                            )
-                          ]
+    _c("div", {}, [
+      _c("div", { staticClass: " row" }, [
+        _vm._m(2),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-9 " }, [
+          _c("div", { staticClass: "my-5" }, [
+            _c("div", { staticClass: "container border p-4" }, [
+              _c(
+                "div",
+                { staticClass: "row" },
+                _vm._l(_vm.paginador(_vm.tasks), function(task) {
+                  return _c(
+                    "div",
+                    { key: task.indice, staticClass: "col-md-4 mb-4" },
+                    [
+                      _c("h4", [
+                        _vm._v(
+                          "\n                                    " +
+                            _vm._s(task.name) +
+                            "\n                                "
                         )
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                )
-              ],
-              1
-            )
-          ],
-          1
-        )
-      ],
-      1
-    )
+                      ]),
+                      _vm._v(" "),
+                      _vm._m(3, true),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "rows-03",
+                        attrs: { src: task.url }
+                      }),
+                      _vm._v(" "),
+                      _vm._m(4, true)
+                    ]
+                  )
+                })
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "my-3" },
+                [
+                  _c("b-pagination", {
+                    attrs: {
+                      size: "md",
+                      align: "right",
+                      "total-rows": this.tasks.length,
+                      "per-page": _vm.perPage
+                    },
+                    model: {
+                      value: _vm.currentPage,
+                      callback: function($$v) {
+                        _vm.currentPage = $$v
+                      },
+                      expression: "currentPage"
+                    }
+                  })
+                ],
+                1
+              )
+            ])
+          ])
+        ])
+      ])
+    ])
   ])
 }
 var staticRenderFns = [
@@ -71226,17 +73654,80 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "mesg-02" }, [
-      _c("div", { staticClass: " pr-4 white-text" }, [
-        _c("h2", { staticClass: "b-01" }, [
+    return _c("div", { staticClass: "visible-res" }, [
+      _c(
+        "div",
+        {
+          staticStyle: {
+            right: "10px",
+            position: "absolute",
+            top: "10px",
+            "z-index": "200"
+          }
+        },
+        [
+          _c("img", {
+            staticStyle: { width: "40px" },
+            attrs: { src: "img/logo-cook.jpeg" }
+          })
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "m-text-30",
+          staticStyle: {
+            left: "10px",
+            width: "auto",
+            position: "absolute",
+            top: "5px",
+            "z-index": "2"
+          }
+        },
+        [
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "",
+                "data-toggle": "modal",
+                "data-target": "#ModalHome"
+              }
+            },
+            [
+              _c("span", { staticClass: "cook-text  b-01" }, [
+                _c("i", { staticClass: "fas fa-bars" })
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "mesg-01-res" }, [
+        _c("h5", { staticClass: "b-01 white-text" }, [
           _vm._v(
-            "\n                            Noticias\n\n                        "
+            "\n                        ¡inscripciones abiertas!\n                "
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mesg-01" }, [
+      _c("div", { staticClass: "div pl-2 white-text text-left" }, [
+        _c("h1", { staticClass: "b-01" }, [
+          _vm._v(
+            "\n                        ¡inscripciones abiertas!\n                    "
           )
         ]),
         _vm._v(" "),
-        _c("h2", [
+        _c("h6", [
           _vm._v(
-            "\n                           Y ARTÍCULOS\n                        "
+            "\n                        CONTAMOS CON 4 ESPECIALIDADES DISPONIBLES EN TURNO MATUTINO, VESPERTINO, NOCTURNO Y SABATINO\n                    "
           )
         ])
       ]),
@@ -71248,271 +73739,108 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "my-5" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-md-4 mb-4" }, [
-            _c("h4", [
-              _vm._v(
-                "\n                        Conversión de medidas\n                    "
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "text-blog" }, [
-              _vm._v("JUNIO 1, 2018 EN\tARTICULOS |"),
-              _c("span", { staticClass: "ml-2 cook-text" }, [
-                _vm._v("LEER MÁS")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", {
-              staticClass: "rows-03",
-              staticStyle: {
-                "background-image": "url(../img/carrera/blog-01.jpg)"
-              }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "content mt-2" }, [
-              _c("p", [
-                _c("span", [
-                  _vm._v(
-                    "\n                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta \n                                nobis excepturi sapiente dolores dolorem cupiditate sint, perferendis \n                                enim! Vero accusantium perspiciatis cumque reiciendis veritatis deserunt \n                                soluta, expedita a aliquam mollitia?\n                            "
-                  )
-                ])
-              ])
+    return _c("div", { staticClass: "col-md-3" }, [
+      _c("div", { staticClass: "my-5" }, [
+        _c("div", { staticClass: "div p-2 cook-bg ml-2  d-flex" }, [
+          _c("h4", { staticClass: "b-01 white-text mr-4" }, [
+            _vm._v(
+              "\n                            Seguir\n                        "
+            )
+          ]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "" } }, [
+            _c("div", { staticClass: "icon-redondear mr-2" }, [
+              _c("i", { staticClass: "fab fa-facebook-f" })
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-4 mb-4" }, [
-            _c("h4", [
-              _vm._v(
-                "\n                        10 deliciosas recetas de cocina tradicional\n                    "
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "text-blog" }, [
-              _vm._v("JUNIO 1, 2018 EN\tARTICULOS |"),
-              _c("span", { staticClass: "ml-2 cook-text" }, [
-                _vm._v("LEER MÁS")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", {
-              staticClass: "rows-03",
-              staticStyle: {
-                "background-image": "url(../img/carrera/blog-02.jpg)"
-              }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "content mt-2" }, [
-              _c("p", [
-                _c("span", [
-                  _vm._v(
-                    "\n                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta \n                                nobis excepturi sapiente dolores dolorem cupiditate sint, perferendis \n                                enim! Vero accusantium perspiciatis cumque reiciendis veritatis deserunt \n                                soluta, expedita a aliquam mollitia?\n                            "
-                  )
-                ])
-              ])
+          _c("a", { attrs: { href: "" } }, [
+            _c("div", { staticClass: "icon-redondear mr-2" }, [
+              _c("i", { staticClass: "fab fa-youtube" })
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-4 mb-4" }, [
-            _c("h4", [
-              _vm._v(
-                "\n                        120 Tips de cocina\n                    "
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "text-blog" }, [
-              _vm._v("JUNIO 1, 2018 EN\tARTICULOS |"),
-              _c("span", { staticClass: "ml-2 cook-text" }, [
-                _vm._v("LEER MÁS")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", {
-              staticClass: "rows-03",
-              staticStyle: {
-                "background-image": "url(../img/carrera/blog-03.jpg)"
-              }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "content mt-2" }, [
-              _c("p", [
-                _c("span", [
-                  _vm._v(
-                    "\n                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta \n                                nobis excepturi sapiente dolores dolorem cupiditate sint, perferendis \n                                enim! Vero accusantium perspiciatis cumque reiciendis veritatis deserunt \n                                soluta, expedita a aliquam mollitia?\n                            "
-                  )
-                ])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-md-4 mb-4" }, [
-            _c("h4", [
-              _vm._v(
-                "\n                        Conversión de medidas\n                    "
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "text-blog" }, [
-              _vm._v("JUNIO 1, 2018 EN\tARTICULOS |"),
-              _c("span", { staticClass: "ml-2 cook-text" }, [
-                _vm._v("LEER MÁS")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", {
-              staticClass: "rows-03",
-              staticStyle: {
-                "background-image": "url(../img/carrera/blog-01.jpg)"
-              }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "content mt-2" }, [
-              _c("p", [
-                _c("span", [
-                  _vm._v(
-                    "\n                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta \n                                nobis excepturi sapiente dolores dolorem cupiditate sint, perferendis \n                                enim! Vero accusantium perspiciatis cumque reiciendis veritatis deserunt \n                                soluta, expedita a aliquam mollitia?\n                            "
-                  )
-                ])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-md-4 mb-4" }, [
-            _c("h4", [
-              _vm._v(
-                "\n                        10 deliciosas recetas de cocina tradicional\n                    "
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "text-blog" }, [
-              _vm._v("JUNIO 1, 2018 EN\tARTICULOS |"),
-              _c("span", { staticClass: "ml-2 cook-text" }, [
-                _vm._v("LEER MÁS")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", {
-              staticClass: "rows-03",
-              staticStyle: {
-                "background-image": "url(../img/carrera/blog-02.jpg)"
-              }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "content mt-2" }, [
-              _c("p", [
-                _c("span", [
-                  _vm._v(
-                    "\n                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta \n                                nobis excepturi sapiente dolores dolorem cupiditate sint, perferendis \n                                enim! Vero accusantium perspiciatis cumque reiciendis veritatis deserunt \n                                soluta, expedita a aliquam mollitia?\n                            "
-                  )
-                ])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-md-4 mb-4" }, [
-            _c("h4", [
-              _vm._v(
-                "\n                        120 Tips de cocina\n                    "
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "text-blog" }, [
-              _vm._v("JUNIO 1, 2018 EN\tARTICULOS |"),
-              _c("span", { staticClass: "ml-2 cook-text" }, [
-                _vm._v("LEER MÁS")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", {
-              staticClass: "rows-03",
-              staticStyle: {
-                "background-image": "url(../img/carrera/blog-03.jpg)"
-              }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "content mt-2" }, [
-              _c("p", [
-                _c("span", [
-                  _vm._v(
-                    "\n                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta \n                                nobis excepturi sapiente dolores dolorem cupiditate sint, perferendis \n                                enim! Vero accusantium perspiciatis cumque reiciendis veritatis deserunt \n                                soluta, expedita a aliquam mollitia?\n                            "
-                  )
-                ])
-              ])
+          _c("a", { attrs: { href: "" } }, [
+            _c("div", { staticClass: "icon-redondear mr-2" }, [
+              _c("i", { staticClass: "fab fa-instagram" })
             ])
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "my-5" }, [
-          _c("nav", { attrs: { "aria-label": "pagination example" } }, [
-            _c("ul", { staticClass: "pagination pg-blue" }, [
-              _c("li", { staticClass: "page-item disabled" }, [
-                _c(
-                  "a",
-                  {
-                    staticClass: "page-link",
-                    attrs: { href: "#", "aria-label": "Previous" }
-                  },
-                  [
-                    _c("span", { attrs: { "aria-hidden": "true" } }, [
-                      _vm._v("«")
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "sr-only" }, [_vm._v("Previous")])
-                  ]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", { staticClass: "page-item active" }, [
-                _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
-                  _vm._v("1 "),
-                  _c("span", { staticClass: "sr-only" }, [_vm._v("(current)")])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", { staticClass: "page-item" }, [
-                _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
-                  _vm._v("2")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", { staticClass: "page-item" }, [
-                _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
-                  _vm._v("3")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", { staticClass: "page-item" }, [
-                _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
-                  _vm._v("4")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", { staticClass: "page-item" }, [
-                _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
-                  _vm._v("5")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", { staticClass: "page-item" }, [
-                _c(
-                  "a",
-                  {
-                    staticClass: "page-link",
-                    attrs: { href: "#", "aria-label": "Next" }
-                  },
-                  [
-                    _c("span", { attrs: { "aria-hidden": "true" } }, [
-                      _vm._v("»")
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "sr-only" }, [_vm._v("Next")])
-                  ]
-                )
-              ])
+        _c("div", { staticClass: "div p-2 border ml-2 " }, [
+          _c("h4", { staticClass: "b-01 text-center" }, [
+            _vm._v("@Cooking.Gourmet")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("ul", { staticClass: "list-group ml-2 mt-4" }, [
+          _c("a", { staticClass: "s-deco black-text", attrs: { href: "" } }, [
+            _c("li", { staticClass: "list-group-item " }, [
+              _vm._v(
+                "\n                                Inicio\n                                "
+              ),
+              _c("i", { staticClass: "fab fa-youtube float-right m-text-23" })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("a", { staticClass: "s-deco black-text", attrs: { href: "" } }, [
+            _c("li", { staticClass: "list-group-item " }, [
+              _vm._v(
+                "\n                                Fotos\n                                "
+              ),
+              _c("i", { staticClass: "fab fa-youtube float-right m-text-23" })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("a", { staticClass: "s-deco black-text", attrs: { href: "" } }, [
+            _c("li", { staticClass: "list-group-item " }, [
+              _vm._v(
+                "\n                                Eventos\n                                "
+              ),
+              _c("i", { staticClass: "fab fa-youtube float-right m-text-23" })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("a", { staticClass: "s-deco black-text", attrs: { href: "" } }, [
+            _c("li", { staticClass: "list-group-item " }, [
+              _vm._v(
+                "\n                                Youtube\n                                "
+              ),
+              _c("i", { staticClass: "fab fa-youtube float-right m-text-23" })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("a", { staticClass: "s-deco black-text", attrs: { href: "" } }, [
+            _c("li", { staticClass: "list-group-item " }, [
+              _vm._v(
+                "\n                                Publicaciones\n                                "
+              ),
+              _c("i", { staticClass: "fab fa-youtube float-right m-text-23" })
             ])
           ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", { staticClass: "text-blog" }, [
+      _vm._v("JUNIO 1, 2018 EN\tARTICULOS |"),
+      _c("span", { staticClass: "ml-2 cook-text" }, [_vm._v("LEER MÁS")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "content mt-2" }, [
+      _c("p", [
+        _c("span", [
+          _vm._v(
+            "\n                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta \n                                            nobis excepturi sapiente dolores dolorem cupiditate sint, perferendis \n                                            enim! Vero accusantium perspiciatis cumque reiciendis veritatis deserunt \n                                            soluta, expedita a aliquam mollitia?\n                                        "
+          )
         ])
       ])
     ])
@@ -71528,15 +73856,15 @@ if (false) {
 }
 
 /***/ }),
-/* 241 */
+/* 242 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(8)
 /* script */
-var __vue_script__ = __webpack_require__(242)
+var __vue_script__ = __webpack_require__(243)
 /* template */
-var __vue_template__ = __webpack_require__(243)
+var __vue_template__ = __webpack_require__(244)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -71575,11 +73903,24 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 242 */
+/* 243 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -72231,23 +74572,35 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     },
     mounted: function mounted() {
         $(document).ready(function () {
-            $("#menuG").hide();
-            $(function () {
-                $(window).scroll(function () {
+            // efecto
+            $('.rIni').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 3);
+            });
+        });
 
-                    if ($(this).scrollTop() > 400) {
-                        $('#menuG').fadeIn();
-                    } else {
-                        $('#menuG').fadeOut();
-                    }
-                });
+        $(document).ready(function () {
+
+            $('.ir-arriba').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 300);
+            });
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $('.ir-arriba').slideDown(300);
+                } else {
+                    $('.ir-arriba').slideUp(300);
+                }
             });
         });
     }
 });
 
 /***/ }),
-/* 243 */
+/* 244 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -72255,150 +74608,17 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c(
-      "div",
-      { staticClass: "diov", attrs: { id: "menuG" } },
-      [
-        _c(
-          "b-navbar",
-          {
-            staticClass: "fixed-top white ",
-            attrs: { toggleable: "md", type: "dark" }
-          },
-          [
-            _c("b-navbar-toggle", {
-              staticClass: "cook-bg",
-              attrs: { target: "nav_collapse" }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "logo-fixed visiblew  txtNew " }, [
-              _c("img", {
-                staticClass: "m-4 logo-flui",
-                attrs: { src: "img/logo-cook.jpeg" }
-              })
-            ]),
-            _vm._v(" "),
-            _c(
-              "b-collapse",
-              { attrs: { "is-nav": "", id: "nav_collapse" } },
-              [
-                _c(
-                  "b-navbar-nav",
-                  { staticClass: "ml-auto" },
-                  [
-                    _c(
-                      "b-navbar-nav",
-                      { staticClass: "p-2" },
-                      [
-                        _c(
-                          "b-nav-item",
-                          {
-                            attrs: { href: "#" },
-                            on: {
-                              click: function($event) {
-                                $event.preventDefault()
-                                _vm.pageC = 1
-                              }
-                            }
-                          },
-                          [
-                            _c(
-                              "span",
-                              {
-                                staticClass: "black-text b-01 ",
-                                class: { selecMe: this.pageC == 1 }
-                              },
-                              [
-                                _vm._v(
-                                  "\n                            Perfil de la carrera\n                        "
-                                )
-                              ]
-                            )
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          {
-                            attrs: { href: "#" },
-                            on: {
-                              click: function($event) {
-                                $event.preventDefault()
-                                _vm.pageC = 2
-                              }
-                            }
-                          },
-                          [
-                            _c(
-                              "span",
-                              {
-                                staticClass: "black-text b-01",
-                                class: { selecMe: this.pageC == 2 }
-                              },
-                              [
-                                _vm._v(
-                                  "\n                            Malla curricular\n                        "
-                                )
-                              ]
-                            )
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          {
-                            attrs: { href: "#" },
-                            on: {
-                              click: function($event) {
-                                $event.preventDefault()
-                                _vm.pageC = 3
-                              }
-                            }
-                          },
-                          [
-                            _c(
-                              "span",
-                              {
-                                staticClass: "black-text b-01",
-                                class: { selecMe: this.pageC == 3 }
-                              },
-                              [
-                                _vm._v(
-                                  "\n                            Requisitos\n                        "
-                                )
-                              ]
-                            )
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c("div", { attrs: { id: "ast" } }, [
-                          _vm._v("asdasdasd")
-                        ])
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                )
-              ],
-              1
-            )
-          ],
-          1
-        )
-      ],
-      1
-    ),
-    _vm._v(" "),
-    _c("div", { staticClass: "view visible-cop" }, [
+    _c("div", { staticClass: "view " }, [
       _c("div", {
         staticClass: "rows-baner",
         staticStyle: { "background-image": "url(../img/banner-02.png" }
       }),
       _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
       _c(
         "div",
-        { staticClass: "mask strong-mid" },
+        { staticClass: "mask strong-mid visible-cop" },
         [
           _c(
             "b-navbar",
@@ -72460,7 +74680,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                        INICIO\n                                    "
+                                    "\n                                            INICIO\n                                        "
                                   )
                                 ]
                               )
@@ -72483,7 +74703,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                     NOTICIA\n                                "
+                                    "\n                                        NOTICIA\n                                    "
                                   )
                                 ]
                               )
@@ -72492,85 +74712,101 @@ var render = function() {
                           ),
                           _vm._v(" "),
                           _c(
-                            "b-nav-item-dropdown",
-                            {
-                              staticClass: "cook-bg  b-01 pt-2",
-                              attrs: { text: "CARRERAS" }
-                            },
+                            "div",
+                            { staticClass: "cook-bg", attrs: { id: "rest" } },
                             [
                               _c(
-                                "b-dropdown-item-button",
-                                { staticClass: "btn-sm" },
+                                "b-nav-item-dropdown",
+                                {
+                                  staticClass: " white-text  b-01 pt-2",
+                                  attrs: { text: "CARRERAS" }
+                                },
                                 [
                                   _c(
-                                    "router-link",
-                                    {
-                                      staticClass: "white-text sm-0 sp-0",
-                                      attrs: { to: "/gastronomia" }
-                                    },
+                                    "b-dropdown-item-button",
+                                    { staticClass: "btn-sm" },
                                     [
                                       _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/gastronomia" }
+                                        },
                                         [
-                                          _vm._v(
-                                            "\n                                                GASTRONOMIA\n                                            "
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                        GASTRONOMIA\n                                                    "
+                                              )
+                                            ]
                                           )
                                         ]
                                       )
-                                    ]
-                                  )
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "b-dropdown-item-button",
-                                { staticClass: "btn-sm" },
-                                [
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
                                   _c(
-                                    "router-link",
-                                    {
-                                      staticClass: "white-text sm-0 sp-0",
-                                      attrs: { to: "/panaderia" }
-                                    },
+                                    "b-dropdown-item-button",
+                                    { staticClass: "btn-sm" },
                                     [
                                       _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/panaderia" }
+                                        },
                                         [
-                                          _vm._v(
-                                            "\n                                                PANADERIA\n                                            "
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                        PANADERIA\n                                                    "
+                                              )
+                                            ]
                                           )
                                         ]
                                       )
-                                    ]
-                                  )
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "b-dropdown-item-button",
-                                { staticClass: "btn-sm" },
-                                [
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
                                   _c(
-                                    "router-link",
-                                    {
-                                      staticClass: "white-text sm-0 sp-0",
-                                      attrs: { to: "/bar" }
-                                    },
+                                    "b-dropdown-item-button",
+                                    { staticClass: "btn-sm" },
                                     [
                                       _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/bar" }
+                                        },
                                         [
-                                          _vm._v(
-                                            "\n                                                BAR\n                                            "
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                        BAR\n                                                    "
+                                              )
+                                            ]
                                           )
                                         ]
                                       )
-                                    ]
+                                    ],
+                                    1
                                   )
                                 ],
                                 1
@@ -72594,7 +74830,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                        NOSOTROS\n                                    "
+                                    "\n                                            NOSOTROS\n                                        "
                                   )
                                 ]
                               )
@@ -72617,7 +74853,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                        CONTACTARSE\n                                    "
+                                    "\n                                            CONTACTARSE\n                                        "
                                   )
                                 ]
                               )
@@ -72650,7 +74886,7 @@ var render = function() {
             1
           ),
           _vm._v(" "),
-          _vm._m(0)
+          _vm._m(1)
         ],
         1
       )
@@ -72658,8 +74894,90 @@ var render = function() {
     _vm._v(" "),
     _c("div", { staticClass: "my-3 container" }, [
       _c("div", { staticClass: "my-3 " }, [
-        _c("ul", { staticClass: "nav justify-content-end grey-t  py-4" }, [
-          _c("li", { staticClass: "nav-item" }, [
+        _c("div", { staticClass: "visible-cop" }, [
+          _c("ul", { staticClass: "nav justify-content-end grey-t py-4 " }, [
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link ",
+                  attrs: { href: "#!" },
+                  on: {
+                    click: function($event) {
+                      $event.preventDefault()
+                      _vm.pageC = 1
+                    }
+                  }
+                },
+                [
+                  _c(
+                    "span",
+                    {
+                      staticClass: "black-text b-01",
+                      class: { selecMe: this.pageC == 1 }
+                    },
+                    [_vm._v("Perfil de la carrera")]
+                  )
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: { href: "#!" },
+                  on: {
+                    click: function($event) {
+                      $event.preventDefault()
+                      _vm.pageC = 2
+                    }
+                  }
+                },
+                [
+                  _c(
+                    "span",
+                    {
+                      staticClass: "black-text b-01",
+                      class: { selecMe: this.pageC == 2 }
+                    },
+                    [_vm._v("Malla curricular")]
+                  )
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: { href: "#!" },
+                  on: {
+                    click: function($event) {
+                      $event.preventDefault()
+                      _vm.pageC = 3
+                    }
+                  }
+                },
+                [
+                  _c(
+                    "span",
+                    {
+                      staticClass: "black-text b-01",
+                      class: { selecMe: this.pageC == 3 }
+                    },
+                    [_vm._v("Requisitos")]
+                  )
+                ]
+              )
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("ul", { staticClass: "visible-res list-unstyled grey-t" }, [
+          _c("li", [
             _c(
               "a",
               {
@@ -72685,7 +75003,7 @@ var render = function() {
             )
           ]),
           _vm._v(" "),
-          _c("li", { staticClass: "nav-item" }, [
+          _c("li", [
             _c(
               "a",
               {
@@ -72711,7 +75029,7 @@ var render = function() {
             )
           ]),
           _vm._v(" "),
-          _c("li", { staticClass: "nav-item" }, [
+          _c("li", [
             _c(
               "a",
               {
@@ -72741,21 +75059,19 @@ var render = function() {
       _vm._v(" "),
       _vm.pageC == 1
         ? _c("div", { staticClass: "row" }, [
-            _vm._m(1),
-            _vm._v(" "),
             _vm._m(2),
             _vm._v(" "),
             _vm._m(3),
             _vm._v(" "),
-            _vm._m(4)
+            _vm._m(4),
+            _vm._v(" "),
+            _vm._m(5)
           ])
         : _vm._e(),
       _vm._v(" "),
       _vm.pageC == 2
         ? _c("div", { staticClass: "row" }, [
             _c("br"),
-            _vm._v(" "),
-            _vm._m(5),
             _vm._v(" "),
             _vm._m(6),
             _vm._v(" "),
@@ -72765,16 +75081,18 @@ var render = function() {
             _vm._v(" "),
             _vm._m(9),
             _vm._v(" "),
-            _vm._m(10)
+            _vm._m(10),
+            _vm._v(" "),
+            _vm._m(11)
           ])
         : _vm._e(),
       _vm._v(" "),
       _vm.pageC == 3
-        ? _c("div", { staticClass: "row" }, [_vm._m(11)])
+        ? _c("div", { staticClass: "row" }, [_vm._m(12)])
         : _vm._e()
     ]),
     _vm._v(" "),
-    _vm._m(12)
+    _vm._m(13)
   ])
 }
 var staticRenderFns = [
@@ -72782,17 +75100,86 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mask strong-mid visible-res" }, [
+      _c("div", { staticClass: "precio" }, [
+        _c("div", { staticClass: "gastro-c white-text redondea-01" }, [
+          _c("div", { staticClass: "text-center" }, [
+            _c("div", {}, [
+              _c("span", { staticClass: "b-01 m-text-20 signs" }, [
+                _vm._v("S/")
+              ]),
+              _vm._v(" "),
+              _c("span", { staticClass: "m-text-40 b-01" }, [_vm._v(".450")]),
+              _vm._v(" "),
+              _c("span", { staticClass: "mens" }, [_vm._v("/m")])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "white-tras m-text-30 redondea-01",
+          staticStyle: {
+            right: "10px",
+            width: "auto",
+            position: "absolute",
+            top: "10px",
+            "z-index": "2"
+          }
+        },
+        [
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "",
+                "data-toggle": "modal",
+                "data-target": "#ModalHome"
+              }
+            },
+            [
+              _c("span", { staticClass: "cook-text pl-2 pr-2 b-01" }, [
+                _c("i", { staticClass: "fas fa-bars" })
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "mesg-01-carrera" }, [
+        _c("h5", { staticClass: "b-01 white-text" }, [
+          _c("div", { staticClass: "white-text" }, [
+            _c("h5", { staticClass: "b-01" }, [
+              _vm._v(
+                "\n                            Gastronomía \n                        "
+              )
+            ]),
+            _vm._v(" "),
+            _c("h5", [
+              _vm._v(
+                "\n                           & Alta Cocina Peruana\n                        "
+              )
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "mesg-02" }, [
       _c("div", { staticClass: " pr-4 white-text" }, [
         _c("h2", { staticClass: "b-01" }, [
-          _vm._v(
-            "\n                            Gastronomía \n                        "
-          )
+          _vm._v("\n                        Gastronomía \n                    ")
         ]),
         _vm._v(" "),
         _c("h2", [
           _vm._v(
-            "\n                            y Alta Cocina Peruana\n                        "
+            "\n                        y Alta Cocina Peruana\n                    "
           )
         ])
       ]),
@@ -72814,7 +75201,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-md-6  border-mesg" }, [
           _c("div", { staticClass: "p-2 white-text" }, [
             _vm._v(
-              "\n                                        PROMOCIÓN: 50% de descuento en Matrícula Anual y Uniforme Gratis\n                                    "
+              "\n                                PROMOCIÓN: 50% de descuento en Matrícula Anual y Uniforme Gratis\n                            "
             )
           ])
         ])
@@ -73650,15 +76037,15 @@ if (false) {
 }
 
 /***/ }),
-/* 244 */
+/* 245 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(8)
 /* script */
-var __vue_script__ = __webpack_require__(245)
+var __vue_script__ = __webpack_require__(246)
 /* template */
-var __vue_template__ = __webpack_require__(246)
+var __vue_template__ = __webpack_require__(247)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -73697,11 +76084,93 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 245 */
+/* 246 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -74361,14 +76830,40 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     },
     mounted: function mounted() {
         $(document).ready(function () {
-            $("#menuG").hide();
+            // efecto
+            $('.rIni').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 3);
+            });
+        });
+
+        $(document).ready(function () {
+
+            $('.ir-arriba').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 300);
+            });
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $('.ir-arriba').slideDown(300);
+                } else {
+                    $('.ir-arriba').slideUp(300);
+                }
+            });
+        });
+
+        $(document).ready(function () {
+            $("#menuP").hide();
             $(function () {
                 $(window).scroll(function () {
 
-                    if ($(this).scrollTop() > 400) {
-                        $('#menuG').fadeIn();
+                    if ($(this).scrollTop() > 100) {
+                        $('#menuP').fadeIn();
                     } else {
-                        $('#menuG').fadeOut();
+                        $('#menuP').fadeOut();
                     }
                 });
             });
@@ -74377,400 +76872,253 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 246 */
+/* 247 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c(
-      "div",
-      { staticClass: "diov", attrs: { id: "menuG" } },
-      [
-        _c(
-          "b-navbar",
-          {
-            staticClass: "fixed-top white ",
-            attrs: { toggleable: "md", type: "dark" }
-          },
-          [
-            _c("b-navbar-toggle", {
-              staticClass: "cook-bg",
-              attrs: { target: "nav_collapse" }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "logo-fixed visiblew  txtNew " }, [
-              _c("img", {
-                staticClass: "m-4 logo-flui",
-                attrs: { src: "img/logo-cook.jpeg" }
-              })
-            ]),
-            _vm._v(" "),
-            _c(
-              "b-collapse",
-              { attrs: { "is-nav": "", id: "nav_collapse" } },
-              [
-                _c(
-                  "b-navbar-nav",
-                  { staticClass: "ml-auto" },
-                  [
-                    _c(
-                      "b-navbar-nav",
-                      { staticClass: "p-2" },
-                      [
-                        _c(
-                          "b-nav-item",
-                          {
-                            attrs: { href: "#" },
-                            on: {
-                              click: function($event) {
-                                $event.preventDefault()
-                                _vm.pageC = 1
-                              }
-                            }
-                          },
-                          [
-                            _c(
-                              "span",
-                              {
-                                staticClass: "black-text b-01 ",
-                                class: { selecMe: this.pageC == 1 }
-                              },
-                              [
-                                _vm._v(
-                                  "\n                            Perfil de la carrera\n                        "
-                                )
-                              ]
-                            )
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          {
-                            attrs: { href: "#" },
-                            on: {
-                              click: function($event) {
-                                $event.preventDefault()
-                                _vm.pageC = 2
-                              }
-                            }
-                          },
-                          [
-                            _c(
-                              "span",
-                              {
-                                staticClass: "black-text b-01",
-                                class: { selecMe: this.pageC == 2 }
-                              },
-                              [
-                                _vm._v(
-                                  "\n                            Malla curricular\n                        "
-                                )
-                              ]
-                            )
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          {
-                            attrs: { href: "#" },
-                            on: {
-                              click: function($event) {
-                                $event.preventDefault()
-                                _vm.pageC = 3
-                              }
-                            }
-                          },
-                          [
-                            _c(
-                              "span",
-                              {
-                                staticClass: "black-text b-01",
-                                class: { selecMe: this.pageC == 3 }
-                              },
-                              [
-                                _vm._v(
-                                  "\n                            Requisitos\n                        "
-                                )
-                              ]
-                            )
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c("div", { attrs: { id: "ast" } }, [
-                          _vm._v("asdasdasd")
-                        ])
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                )
-              ],
-              1
-            )
-          ],
-          1
-        )
-      ],
-      1
-    ),
-    _vm._v(" "),
-    _c("div", { staticClass: "view visible-cop" }, [
-      _c("div", {
-        staticClass: "rows-baner",
-        staticStyle: {
-          "background-image": "url(../img/carrera/panaderia-01.jpg)"
-        }
-      }),
-      _vm._v(" "),
+  return _c(
+    "div",
+    [
       _c(
-        "div",
-        { staticClass: "mask strong-mid" },
+        "b-navbar",
+        {
+          staticClass: "fixed-top white ",
+          attrs: { toggleable: "md", type: "dark", id: "menuP" }
+        },
         [
+          _c("b-navbar-toggle", {
+            staticClass: "cook-bg",
+            attrs: { target: "nav_collapse" }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "logo-fixed visiblew  txtNew " }, [
+            _c("img", {
+              staticClass: "m-4 logo-flui",
+              attrs: { src: "img/logo-cook.jpeg" }
+            })
+          ]),
+          _vm._v(" "),
           _c(
-            "b-navbar",
-            {
-              staticClass: "transpa ",
-              attrs: { toggleable: "md", type: "dark" }
-            },
+            "b-collapse",
+            { attrs: { "is-nav": "", id: "nav_collapse" } },
             [
-              _c("b-navbar-toggle", { attrs: { target: "nav_collapse" } }),
-              _vm._v(" "),
               _c(
-                "div",
-                {
-                  staticClass: " visiblew animated fadeInDown txtNew ",
-                  staticStyle: {
-                    left: "20px",
-                    width: "139px",
-                    position: "absolute",
-                    top: "0px",
-                    "z-index": "1200"
-                  }
-                },
-                [
-                  _c("img", {
-                    staticClass: "m-4 ",
-                    staticStyle: { width: "70px" },
-                    attrs: { src: "img/logo-cook.jpeg" }
-                  })
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "b-collapse",
-                { attrs: { "is-nav": "", id: "nav_collapse" } },
+                "b-navbar-nav",
+                { staticClass: "ml-auto" },
                 [
                   _c(
                     "b-navbar-nav",
-                    { staticClass: "ml-auto animated fadeInRight" },
+                    { staticClass: "p-2", attrs: { text: "Lang", right: "" } },
                     [
                       _c(
-                        "b-navbar-nav",
-                        {
-                          staticClass: "p-4 ",
-                          attrs: { text: "Lang", right: "" }
-                        },
+                        "b-nav-item",
+                        { attrs: { href: "#" } },
                         [
                           _c(
-                            "b-nav-item",
-                            {
-                              staticClass: "cook-bg p-2 b-01",
-                              attrs: { href: "#" }
-                            },
+                            "router-link",
+                            { staticClass: "white-text", attrs: { to: "/" } },
                             [
                               _c(
-                                "router-link",
-                                {
-                                  staticClass: "white-text",
-                                  attrs: { to: "/" }
-                                },
+                                "span",
+                                { staticClass: "black-text b-01 pl-2 pr-2" },
                                 [
                                   _vm._v(
-                                    "\n                                        INICIO\n                                    "
+                                    "\n                            INICIO\n                        "
                                   )
                                 ]
                               )
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-nav-item",
-                            {
-                              staticClass: "white  border-cook p-2",
-                              attrs: { href: "#" }
-                            },
-                            [
-                              _c(
-                                "router-link",
-                                {
-                                  staticClass: "cook-text b-01",
-                                  attrs: { to: "/noticia" }
-                                },
-                                [
-                                  _vm._v(
-                                    "\n                                     NOTICIA\n                                "
-                                  )
-                                ]
-                              )
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-nav-item-dropdown",
-                            {
-                              staticClass: "cook-bg  b-01 pt-2",
-                              attrs: { text: "CARRERAS" }
-                            },
-                            [
-                              _c(
-                                "b-dropdown-item-button",
-                                { staticClass: "btn-sm" },
-                                [
-                                  _c(
-                                    "router-link",
-                                    {
-                                      staticClass: "white-text sm-0 sp-0",
-                                      attrs: { to: "/gastronomia" }
-                                    },
-                                    [
-                                      _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
-                                        [
-                                          _vm._v(
-                                            "\n                                                GASTRONOMIA\n                                            "
-                                          )
-                                        ]
-                                      )
-                                    ]
-                                  )
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "b-dropdown-item-button",
-                                { staticClass: "btn-sm" },
-                                [
-                                  _c(
-                                    "router-link",
-                                    {
-                                      staticClass: "white-text sm-0 sp-0",
-                                      attrs: { to: "/panaderia" }
-                                    },
-                                    [
-                                      _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
-                                        [
-                                          _vm._v(
-                                            "\n                                                PANADERIA\n                                            "
-                                          )
-                                        ]
-                                      )
-                                    ]
-                                  )
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "b-dropdown-item-button",
-                                { staticClass: "btn-sm" },
-                                [
-                                  _c(
-                                    "router-link",
-                                    {
-                                      staticClass: "white-text sm-0 sp-0",
-                                      attrs: { to: "/bar" }
-                                    },
-                                    [
-                                      _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
-                                        [
-                                          _vm._v(
-                                            "\n                                                BAR\n                                            "
-                                          )
-                                        ]
-                                      )
-                                    ]
-                                  )
-                                ],
-                                1
-                              )
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-nav-item",
-                            {
-                              staticClass: "cook-bg p-2 b-01",
-                              attrs: { href: "#" }
-                            },
-                            [
-                              _c(
-                                "router-link",
-                                {
-                                  staticClass: "white-text",
-                                  attrs: { to: "/nosotros" }
-                                },
-                                [
-                                  _vm._v(
-                                    "\n                                        NOSOTROS\n                                    "
-                                  )
-                                ]
-                              )
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-nav-item",
-                            {
-                              staticClass: "cook-bg p-2 b-01",
-                              attrs: { href: "#" }
-                            },
-                            [
-                              _c(
-                                "router-link",
-                                {
-                                  staticClass: "white-text",
-                                  attrs: { to: "/contacto" }
-                                },
-                                [
-                                  _vm._v(
-                                    "\n                                        CONTACTARSE\n                                    "
-                                  )
-                                ]
-                              )
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-nav-item",
-                            {
-                              staticClass: " p-2",
-                              attrs: {
-                                href: "#",
-                                "data-toggle": "modal",
-                                "data-target": "#Modal-01"
-                              }
-                            },
-                            [_c("i", { staticClass: "fas fa-bars cook-text" })]
+                            ]
                           )
                         ],
                         1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-nav-item",
+                        { attrs: { href: "#" } },
+                        [
+                          _c(
+                            "router-link",
+                            {
+                              staticClass: "rIni white-text",
+                              attrs: { to: "/noticia" }
+                            },
+                            [
+                              _c(
+                                "span",
+                                { staticClass: "black-text b-01 pl-2 pr-2" },
+                                [
+                                  _vm._v(
+                                    "\n                            NOTICIA\n                        "
+                                  )
+                                ]
+                              )
+                            ]
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-nav-item-dropdown",
+                        {
+                          staticClass: " redondear b-01 redondea-05",
+                          attrs: { text: "CARRERAS" }
+                        },
+                        [
+                          _c(
+                            "b-dropdown-item-button",
+                            { staticClass: "btn-sm" },
+                            [
+                              _c(
+                                "router-link",
+                                {
+                                  staticClass: "rIni white-text sm-0 sp-0",
+                                  attrs: { to: "/gastronomia" }
+                                },
+                                [
+                                  _c(
+                                    "span",
+                                    { staticClass: "black-text b-01 " },
+                                    [
+                                      _vm._v(
+                                        "\n                                    GASTRONOMIA\n                                "
+                                      )
+                                    ]
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-dropdown-item-button",
+                            { staticClass: "btn-sm" },
+                            [
+                              _c(
+                                "router-link",
+                                {
+                                  staticClass: "rIni white-text sm-0 sp-0",
+                                  attrs: { to: "/panaderia" }
+                                },
+                                [
+                                  _c(
+                                    "span",
+                                    { staticClass: "black-text b-01 " },
+                                    [
+                                      _vm._v(
+                                        "\n                                    PANADERIA\n                                "
+                                      )
+                                    ]
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-dropdown-item-button",
+                            { staticClass: "btn-sm" },
+                            [
+                              _c(
+                                "router-link",
+                                {
+                                  staticClass: "rIni white-text sm-0 sp-0",
+                                  attrs: { to: "/bar" }
+                                },
+                                [
+                                  _c(
+                                    "span",
+                                    { staticClass: "black-text b-01 " },
+                                    [
+                                      _vm._v(
+                                        "\n                                    BAR\n                                "
+                                      )
+                                    ]
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-nav-item",
+                        { attrs: { href: "#" } },
+                        [
+                          _c(
+                            "router-link",
+                            {
+                              staticClass: "rIni white-text",
+                              attrs: { to: "/nosotros" }
+                            },
+                            [
+                              _c(
+                                "span",
+                                { staticClass: "black-text b-01 pl-2 pr-2" },
+                                [
+                                  _vm._v(
+                                    "\n                            NOSOTROS\n                        "
+                                  )
+                                ]
+                              )
+                            ]
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-nav-item",
+                        { attrs: { href: "#" } },
+                        [
+                          _c(
+                            "router-link",
+                            {
+                              staticClass: "rIni white-text",
+                              attrs: { to: "/contacto" }
+                            },
+                            [
+                              _c(
+                                "span",
+                                { staticClass: "black-text b-01 pl-2 pr-2" },
+                                [
+                                  _vm._v(
+                                    "\n                            CONTACTARSE\n                        "
+                                  )
+                                ]
+                              )
+                            ]
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-nav-item",
+                        {
+                          staticClass: "visible-cop",
+                          attrs: {
+                            href: "#",
+                            "data-toggle": "modal",
+                            "data-target": "#Modal-01"
+                          }
+                        },
+                        [
+                          _c(
+                            "span",
+                            { staticClass: "cook-text pl-2 pr-2 b-01" },
+                            [_c("i", { staticClass: "fas fa-bars" })]
+                          )
+                        ]
                       )
                     ],
                     1
@@ -74780,136 +77128,575 @@ var render = function() {
               )
             ],
             1
-          ),
-          _vm._v(" "),
-          _vm._m(0)
+          )
         ],
         1
-      )
-    ]),
-    _vm._v(" "),
-    _c("div", { staticClass: "my-3 container" }, [
-      _c("div", { staticClass: "my-3 " }, [
-        _c("ul", { staticClass: "nav justify-content-end grey-t  py-4" }, [
-          _c("li", { staticClass: "nav-item" }, [
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "view " }, [
+        _c("div", {
+          staticClass: "rows-baner",
+          staticStyle: {
+            "background-image": "url(../img/carrera/panaderia-01.jpg)"
+          }
+        }),
+        _vm._v(" "),
+        _vm._m(0),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "mask strong-mid visible-cop" },
+          [
             _c(
-              "a",
+              "b-navbar",
               {
-                staticClass: "nav-link ",
-                attrs: { href: "#!" },
-                on: {
-                  click: function($event) {
-                    $event.preventDefault()
-                    _vm.pageC = 1
-                  }
-                }
+                staticClass: "transpa ",
+                attrs: { toggleable: "md", type: "dark" }
               },
               [
+                _c("b-navbar-toggle", { attrs: { target: "nav_collapse" } }),
+                _vm._v(" "),
                 _c(
-                  "span",
+                  "div",
                   {
-                    staticClass: "black-text b-01",
-                    class: { selecMe: this.pageC == 1 }
+                    staticClass: " visiblew animated fadeInDown txtNew ",
+                    staticStyle: {
+                      left: "20px",
+                      width: "139px",
+                      position: "absolute",
+                      top: "0px",
+                      "z-index": "1200"
+                    }
                   },
-                  [_vm._v("Perfil de la carrera")]
+                  [
+                    _c("img", {
+                      staticClass: "m-4 ",
+                      staticStyle: { width: "70px" },
+                      attrs: { src: "img/logo-cook.jpeg" }
+                    })
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-collapse",
+                  { attrs: { "is-nav": "", id: "nav_collapse" } },
+                  [
+                    _c(
+                      "b-navbar-nav",
+                      { staticClass: "ml-auto animated fadeInRight" },
+                      [
+                        _c(
+                          "b-navbar-nav",
+                          {
+                            staticClass: "p-4 ",
+                            attrs: { text: "Lang", right: "" }
+                          },
+                          [
+                            _c(
+                              "b-nav-item",
+                              {
+                                staticClass: "cook-bg p-2 b-01",
+                                attrs: { href: "#" }
+                              },
+                              [
+                                _c(
+                                  "router-link",
+                                  {
+                                    staticClass: "white-text",
+                                    attrs: { to: "/" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "\n                                                INICIO\n                                            "
+                                    )
+                                  ]
+                                )
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "b-nav-item",
+                              {
+                                staticClass: "white  border-cook p-2",
+                                attrs: { href: "#" }
+                              },
+                              [
+                                _c(
+                                  "router-link",
+                                  {
+                                    staticClass: "cook-text b-01",
+                                    attrs: { to: "/noticia" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "\n                                            NOTICIA\n                                        "
+                                    )
+                                  ]
+                                )
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              { staticClass: "cook-bg", attrs: { id: "rest" } },
+                              [
+                                _c(
+                                  "b-nav-item-dropdown",
+                                  {
+                                    staticClass: " white-text  b-01 pt-2",
+                                    attrs: { text: "CARRERAS" }
+                                  },
+                                  [
+                                    _c(
+                                      "b-dropdown-item-button",
+                                      { staticClass: "btn-sm" },
+                                      [
+                                        _c(
+                                          "router-link",
+                                          {
+                                            staticClass: "white-text sm-0 sp-0",
+                                            attrs: { to: "/gastronomia" }
+                                          },
+                                          [
+                                            _c(
+                                              "p",
+                                              {
+                                                staticClass:
+                                                  "b-text b-01 sm-0 sp-0"
+                                              },
+                                              [
+                                                _vm._v(
+                                                  "\n                                                            GASTRONOMIA\n                                                        "
+                                                )
+                                              ]
+                                            )
+                                          ]
+                                        )
+                                      ],
+                                      1
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "b-dropdown-item-button",
+                                      { staticClass: "btn-sm" },
+                                      [
+                                        _c(
+                                          "router-link",
+                                          {
+                                            staticClass: "white-text sm-0 sp-0",
+                                            attrs: { to: "/panaderia" }
+                                          },
+                                          [
+                                            _c(
+                                              "p",
+                                              {
+                                                staticClass:
+                                                  "b-text b-01 sm-0 sp-0"
+                                              },
+                                              [
+                                                _vm._v(
+                                                  "\n                                                            PANADERIA\n                                                        "
+                                                )
+                                              ]
+                                            )
+                                          ]
+                                        )
+                                      ],
+                                      1
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "b-dropdown-item-button",
+                                      { staticClass: "btn-sm" },
+                                      [
+                                        _c(
+                                          "router-link",
+                                          {
+                                            staticClass: "white-text sm-0 sp-0",
+                                            attrs: { to: "/bar" }
+                                          },
+                                          [
+                                            _c(
+                                              "p",
+                                              {
+                                                staticClass:
+                                                  "b-text b-01 sm-0 sp-0"
+                                              },
+                                              [
+                                                _vm._v(
+                                                  "\n                                                            BAR\n                                                        "
+                                                )
+                                              ]
+                                            )
+                                          ]
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ],
+                                  1
+                                )
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "b-nav-item",
+                              {
+                                staticClass: "cook-bg p-2 b-01",
+                                attrs: { href: "#" }
+                              },
+                              [
+                                _c(
+                                  "router-link",
+                                  {
+                                    staticClass: "white-text",
+                                    attrs: { to: "/nosotros" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "\n                                                NOSOTROS\n                                            "
+                                    )
+                                  ]
+                                )
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "b-nav-item",
+                              {
+                                staticClass: "cook-bg p-2 b-01",
+                                attrs: { href: "#" }
+                              },
+                              [
+                                _c(
+                                  "router-link",
+                                  {
+                                    staticClass: "white-text",
+                                    attrs: { to: "/contacto" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "\n                                                CONTACTARSE\n                                            "
+                                    )
+                                  ]
+                                )
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "b-nav-item",
+                              {
+                                staticClass: " p-2",
+                                attrs: {
+                                  href: "#",
+                                  "data-toggle": "modal",
+                                  "data-target": "#Modal-01"
+                                }
+                              },
+                              [
+                                _c("i", {
+                                  staticClass: "fas fa-bars cook-text"
+                                })
+                              ]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
                 )
-              ]
-            )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _vm._m(1)
+          ],
+          1
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "my-3 container" }, [
+        _c("div", { staticClass: "my-3 " }, [
+          _c("div", { staticClass: "visible-cop" }, [
+            _c("ul", { staticClass: "nav justify-content-end grey-t py-4 " }, [
+              _c("li", { staticClass: "nav-item" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link ",
+                    attrs: { href: "#!" },
+                    on: {
+                      click: function($event) {
+                        $event.preventDefault()
+                        _vm.pageC = 1
+                      }
+                    }
+                  },
+                  [
+                    _c(
+                      "span",
+                      {
+                        staticClass: "black-text b-01",
+                        class: { selecMe: this.pageC == 1 }
+                      },
+                      [_vm._v("Perfil de la carrera")]
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "nav-item" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link",
+                    attrs: { href: "#!" },
+                    on: {
+                      click: function($event) {
+                        $event.preventDefault()
+                        _vm.pageC = 2
+                      }
+                    }
+                  },
+                  [
+                    _c(
+                      "span",
+                      {
+                        staticClass: "black-text b-01",
+                        class: { selecMe: this.pageC == 2 }
+                      },
+                      [_vm._v("Malla curricular")]
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "nav-item" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link",
+                    attrs: { href: "#!" },
+                    on: {
+                      click: function($event) {
+                        $event.preventDefault()
+                        _vm.pageC = 3
+                      }
+                    }
+                  },
+                  [
+                    _c(
+                      "span",
+                      {
+                        staticClass: "black-text b-01",
+                        class: { selecMe: this.pageC == 3 }
+                      },
+                      [_vm._v("Requisitos")]
+                    )
+                  ]
+                )
+              ])
+            ])
           ]),
           _vm._v(" "),
-          _c("li", { staticClass: "nav-item" }, [
-            _c(
-              "a",
-              {
-                staticClass: "nav-link",
-                attrs: { href: "#!" },
-                on: {
-                  click: function($event) {
-                    $event.preventDefault()
-                    _vm.pageC = 2
+          _c("ul", { staticClass: "visible-res list-unstyled grey-t" }, [
+            _c("li", [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link ",
+                  attrs: { href: "#!" },
+                  on: {
+                    click: function($event) {
+                      $event.preventDefault()
+                      _vm.pageC = 1
+                    }
                   }
-                }
-              },
-              [
-                _c(
-                  "span",
-                  {
-                    staticClass: "black-text b-01",
-                    class: { selecMe: this.pageC == 2 }
-                  },
-                  [_vm._v("Malla curricular")]
-                )
-              ]
-            )
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "nav-item" }, [
-            _c(
-              "a",
-              {
-                staticClass: "nav-link",
-                attrs: { href: "#!" },
-                on: {
-                  click: function($event) {
-                    $event.preventDefault()
-                    _vm.pageC = 3
+                },
+                [
+                  _c(
+                    "span",
+                    {
+                      staticClass: "black-text b-01",
+                      class: { selecMe: this.pageC == 1 }
+                    },
+                    [_vm._v("Perfil de la carrera")]
+                  )
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: { href: "#!" },
+                  on: {
+                    click: function($event) {
+                      $event.preventDefault()
+                      _vm.pageC = 2
+                    }
                   }
-                }
-              },
-              [
-                _c(
-                  "span",
-                  {
-                    staticClass: "black-text b-01",
-                    class: { selecMe: this.pageC == 3 }
-                  },
-                  [_vm._v("Requisitos")]
-                )
-              ]
-            )
+                },
+                [
+                  _c(
+                    "span",
+                    {
+                      staticClass: "black-text b-01",
+                      class: { selecMe: this.pageC == 2 }
+                    },
+                    [_vm._v("Malla curricular")]
+                  )
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: { href: "#!" },
+                  on: {
+                    click: function($event) {
+                      $event.preventDefault()
+                      _vm.pageC = 3
+                    }
+                  }
+                },
+                [
+                  _c(
+                    "span",
+                    {
+                      staticClass: "black-text b-01",
+                      class: { selecMe: this.pageC == 3 }
+                    },
+                    [_vm._v("Requisitos")]
+                  )
+                ]
+              )
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _vm.pageC == 1
+          ? _c("div", { staticClass: "row" }, [
+              _vm._m(2),
+              _vm._v(" "),
+              _vm._m(3),
+              _vm._v(" "),
+              _vm._m(4),
+              _vm._v(" "),
+              _vm._m(5)
+            ])
+          : _vm._e(),
+        _vm._v(" "),
+        _vm.pageC == 2
+          ? _c("div", { staticClass: "row" }, [
+              _c("br"),
+              _vm._v(" "),
+              _vm._m(6),
+              _vm._v(" "),
+              _vm._m(7),
+              _vm._v(" "),
+              _vm._m(8),
+              _vm._v(" "),
+              _vm._m(9),
+              _vm._v(" "),
+              _vm._m(10),
+              _vm._v(" "),
+              _vm._m(11)
+            ])
+          : _vm._e(),
+        _vm._v(" "),
+        _vm.pageC == 3
+          ? _c("div", { staticClass: "row" }, [_vm._m(12)])
+          : _vm._e()
+      ]),
+      _vm._v(" "),
+      _vm._m(13)
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mask strong-mid visible-res" }, [
+      _c("div", { staticClass: "precio" }, [
+        _c("div", { staticClass: "pana-c white-text " }, [
+          _c("div", { staticClass: "text-center" }, [
+            _c("h2", { staticClass: "b-01 mt-2" }, [
+              _c("span", { staticClass: "m-text-25" }, [_vm._v("S/")]),
+              _vm._v(" .450")
+            ]),
+            _vm._v(" "),
+            _c("p", [_vm._v("en mensualidad")])
           ])
         ])
       ]),
       _vm._v(" "),
-      _vm.pageC == 1
-        ? _c("div", { staticClass: "row" }, [
-            _vm._m(1),
-            _vm._v(" "),
-            _vm._m(2),
-            _vm._v(" "),
-            _vm._m(3),
-            _vm._v(" "),
-            _vm._m(4)
-          ])
-        : _vm._e(),
+      _c(
+        "div",
+        {
+          staticClass: "white m-text-30",
+          staticStyle: {
+            right: "10px",
+            width: "auto",
+            position: "absolute",
+            top: "10px",
+            "z-index": "2"
+          }
+        },
+        [
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "",
+                "data-toggle": "modal",
+                "data-target": "#ModalCarrera"
+              }
+            },
+            [
+              _c("span", { staticClass: "cook-text pl-2 pr-2 b-01" }, [
+                _c("i", { staticClass: "fas fa-bars" })
+              ])
+            ]
+          )
+        ]
+      ),
       _vm._v(" "),
-      _vm.pageC == 2
-        ? _c("div", { staticClass: "row" }, [
-            _c("br"),
+      _c("div", { staticClass: "mesg-01-carrera" }, [
+        _c("h5", { staticClass: "b-01 white-text" }, [
+          _c("div", { staticClass: "white-text" }, [
+            _c("h5", { staticClass: "b-01" }, [
+              _vm._v(
+                "\n                            Panaderia \n                        "
+              )
+            ]),
             _vm._v(" "),
-            _vm._m(5),
-            _vm._v(" "),
-            _vm._m(6),
-            _vm._v(" "),
-            _vm._m(7),
-            _vm._v(" "),
-            _vm._m(8),
-            _vm._v(" "),
-            _vm._m(9),
-            _vm._v(" "),
-            _vm._m(10)
+            _c("h5", [
+              _vm._v(
+                "\n                            & Pasteleria\n                        "
+              )
+            ])
           ])
-        : _vm._e(),
-      _vm._v(" "),
-      _vm.pageC == 3
-        ? _c("div", { staticClass: "row" }, [_vm._m(11)])
-        : _vm._e()
-    ]),
-    _vm._v(" "),
-    _vm._m(12)
-  ])
-}
-var staticRenderFns = [
+        ])
+      ])
+    ])
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -74918,13 +77705,13 @@ var staticRenderFns = [
       _c("div", { staticClass: " pr-4 white-text" }, [
         _c("h2", { staticClass: "b-01" }, [
           _vm._v(
-            "\n                            Panaderia \n                        "
+            "\n                            Panaderia  \n                        "
           )
         ]),
         _vm._v(" "),
         _c("h2", [
           _vm._v(
-            "\n                           & Pasteleria\n                        "
+            "\n                            & Pasteleria\n                        "
           )
         ])
       ]),
@@ -74933,31 +77720,20 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-6 pana-c white-text " }, [
-          _c("div", { staticClass: "d-flex justify-content-center" }, [
-            _c("div", { staticClass: "soles" }, [
-              _vm._v(
-                "\n                                            S/\n                                        "
-              )
+          _c("div", { staticClass: "text-center" }, [
+            _c("h1", { staticClass: "b-01 mt-2" }, [
+              _c("span", { staticClass: "m-text-25" }, [_vm._v("S/")]),
+              _vm._v(" .450")
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "number mt-4" }, [
-              _vm._v(
-                "\n                                            .400\n                                        "
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "descrip" }, [
-              _vm._v(
-                "\n                                            /mensual\n                                        "
-              )
-            ])
+            _c("p", [_vm._v("en mensualidad")])
           ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-6  border-mesg-pana" }, [
           _c("div", { staticClass: "p-2 white-text" }, [
             _vm._v(
-              "\n                                        PROMOCIÓN: 50% de descuento en Matrícula Anual y Uniforme Gratis\n                                    "
+              "\n                                    PROMOCIÓN: 50% de descuento en Matrícula Anual y Uniforme Gratis\n                                "
             )
           ])
         ])
@@ -75797,15 +78573,15 @@ if (false) {
 }
 
 /***/ }),
-/* 247 */
+/* 248 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(8)
 /* script */
-var __vue_script__ = __webpack_require__(248)
+var __vue_script__ = __webpack_require__(249)
 /* template */
-var __vue_template__ = __webpack_require__(249)
+var __vue_template__ = __webpack_require__(250)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -75844,25 +78620,11 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 248 */
+/* 249 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -76502,23 +79264,35 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     },
     mounted: function mounted() {
         $(document).ready(function () {
-            $("#menuG").hide();
-            $(function () {
-                $(window).scroll(function () {
+            // efecto
+            $('.rIni').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 3);
+            });
+        });
 
-                    if ($(this).scrollTop() > 400) {
-                        $('#menuG').fadeIn();
-                    } else {
-                        $('#menuG').fadeOut();
-                    }
-                });
+        $(document).ready(function () {
+
+            $('.ir-arriba').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 300);
+            });
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $('.ir-arriba').slideDown(300);
+                } else {
+                    $('.ir-arriba').slideUp(300);
+                }
             });
         });
     }
 });
 
 /***/ }),
-/* 249 */
+/* 250 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -76526,142 +79300,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c(
-      "div",
-      { staticClass: "diov", attrs: { id: "menuG" } },
-      [
-        _c(
-          "b-navbar",
-          {
-            staticClass: "fixed-top white ",
-            attrs: { toggleable: "md", type: "dark" }
-          },
-          [
-            _c("b-navbar-toggle", {
-              staticClass: "cook-bg",
-              attrs: { target: "nav_collapse" }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "logo-fixed visiblew  txtNew " }, [
-              _c("img", {
-                staticClass: "m-4 logo-flui",
-                attrs: { src: "img/logo-cook.jpeg" }
-              })
-            ]),
-            _vm._v(" "),
-            _c(
-              "b-collapse",
-              { attrs: { "is-nav": "", id: "nav_collapse" } },
-              [
-                _c(
-                  "b-navbar-nav",
-                  { staticClass: "ml-auto" },
-                  [
-                    _c(
-                      "b-navbar-nav",
-                      { staticClass: "p-2" },
-                      [
-                        _c(
-                          "b-nav-item",
-                          {
-                            attrs: { href: "#" },
-                            on: {
-                              click: function($event) {
-                                $event.preventDefault()
-                                _vm.pageC = 1
-                              }
-                            }
-                          },
-                          [
-                            _c(
-                              "span",
-                              {
-                                staticClass: "black-text b-01 ",
-                                class: { selecMe: this.pageC == 1 }
-                              },
-                              [
-                                _vm._v(
-                                  "\n                            Perfil de la carrera\n                        "
-                                )
-                              ]
-                            )
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          {
-                            attrs: { href: "#" },
-                            on: {
-                              click: function($event) {
-                                $event.preventDefault()
-                                _vm.pageC = 2
-                              }
-                            }
-                          },
-                          [
-                            _c(
-                              "span",
-                              {
-                                staticClass: "black-text b-01",
-                                class: { selecMe: this.pageC == 2 }
-                              },
-                              [
-                                _vm._v(
-                                  "\n                            Malla curricular\n                        "
-                                )
-                              ]
-                            )
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          {
-                            attrs: { href: "#" },
-                            on: {
-                              click: function($event) {
-                                $event.preventDefault()
-                                _vm.pageC = 3
-                              }
-                            }
-                          },
-                          [
-                            _c(
-                              "span",
-                              {
-                                staticClass: "black-text b-01",
-                                class: { selecMe: this.pageC == 3 }
-                              },
-                              [
-                                _vm._v(
-                                  "\n                            Requisitos\n                        "
-                                )
-                              ]
-                            )
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c("div", { attrs: { id: "ast" } }, [
-                          _vm._v("asdasdasd")
-                        ])
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                )
-              ],
-              1
-            )
-          ],
-          1
-        )
-      ],
-      1
-    ),
-    _vm._v(" "),
-    _c("div", { staticClass: "view visible-cop" }, [
+    _c("div", { staticClass: "view " }, [
       _c("div", {
         staticClass: "rows-baner",
         staticStyle: {
@@ -76669,9 +79308,11 @@ var render = function() {
         }
       }),
       _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
       _c(
         "div",
-        { staticClass: "mask strong-mid" },
+        { staticClass: "mask strong-mid visible-cop" },
         [
           _c(
             "b-navbar",
@@ -76733,7 +79374,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                        INICIO\n                                    "
+                                    "\n                                                INICIO\n                                            "
                                   )
                                 ]
                               )
@@ -76756,7 +79397,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                     NOTICIA\n                                "
+                                    "\n                                            NOTICIA\n                                        "
                                   )
                                 ]
                               )
@@ -76765,17 +79406,14 @@ var render = function() {
                           ),
                           _vm._v(" "),
                           _c(
-                            "b-nav-item-dropdown",
-                            {
-                              staticClass: "cook-bg  b-01 pt-2",
-                              attrs: { text: "CARRERAS" }
-                            },
+                            "div",
+                            { staticClass: "cook-bg", attrs: { id: "rest" } },
                             [
                               _c(
-                                "router-link",
+                                "b-nav-item-dropdown",
                                 {
-                                  staticClass: "white-text sm-0 sp-0",
-                                  attrs: { to: "/gastronomia" }
+                                  staticClass: " white-text  b-01 pt-2",
+                                  attrs: { text: "CARRERAS" }
                                 },
                                 [
                                   _c(
@@ -76783,67 +79421,86 @@ var render = function() {
                                     { staticClass: "btn-sm" },
                                     [
                                       _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/gastronomia" }
+                                        },
                                         [
-                                          _vm._v(
-                                            "\n                                                    GASTRONOMIA\n                                                "
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                            GASTRONOMIA\n                                                        "
+                                              )
+                                            ]
                                           )
                                         ]
                                       )
-                                    ]
-                                  )
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "router-link",
-                                {
-                                  staticClass: "white-text sm-0 sp-0",
-                                  attrs: { to: "/panaderia" }
-                                },
-                                [
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
                                   _c(
                                     "b-dropdown-item-button",
                                     { staticClass: "btn-sm" },
                                     [
                                       _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/panaderia" }
+                                        },
                                         [
-                                          _vm._v(
-                                            "\n                                                    PANADERIA\n                                                "
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                            PANADERIA\n                                                        "
+                                              )
+                                            ]
                                           )
                                         ]
                                       )
-                                    ]
-                                  )
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "router-link",
-                                {
-                                  staticClass: "white-text sm-0 sp-0",
-                                  attrs: { to: "/bar" }
-                                },
-                                [
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
                                   _c(
                                     "b-dropdown-item-button",
                                     { staticClass: "btn-sm" },
                                     [
                                       _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/bar" }
+                                        },
                                         [
-                                          _vm._v(
-                                            "\n                                                    BAR\n                                                "
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                            BAR\n                                                        "
+                                              )
+                                            ]
                                           )
                                         ]
                                       )
-                                    ]
+                                    ],
+                                    1
                                   )
                                 ],
                                 1
@@ -76867,7 +79524,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                        NOSOTROS\n                                    "
+                                    "\n                                                NOSOTROS\n                                            "
                                   )
                                 ]
                               )
@@ -76890,7 +79547,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                        CONTACTARSE\n                                    "
+                                    "\n                                                CONTACTARSE\n                                            "
                                   )
                                 ]
                               )
@@ -76923,7 +79580,7 @@ var render = function() {
             1
           ),
           _vm._v(" "),
-          _vm._m(0)
+          _vm._m(1)
         ],
         1
       )
@@ -77014,21 +79671,19 @@ var render = function() {
       _vm._v(" "),
       _vm.pageC == 1
         ? _c("div", { staticClass: "row" }, [
-            _vm._m(1),
-            _vm._v(" "),
             _vm._m(2),
             _vm._v(" "),
             _vm._m(3),
             _vm._v(" "),
-            _vm._m(4)
+            _vm._m(4),
+            _vm._v(" "),
+            _vm._m(5)
           ])
         : _vm._e(),
       _vm._v(" "),
       _vm.pageC == 2
         ? _c("div", { staticClass: "row" }, [
             _c("br"),
-            _vm._v(" "),
-            _vm._m(5),
             _vm._v(" "),
             _vm._m(6),
             _vm._v(" "),
@@ -77038,19 +79693,89 @@ var render = function() {
             _vm._v(" "),
             _vm._m(9),
             _vm._v(" "),
-            _vm._m(10)
+            _vm._m(10),
+            _vm._v(" "),
+            _vm._m(11)
           ])
         : _vm._e(),
       _vm._v(" "),
       _vm.pageC == 3
-        ? _c("div", { staticClass: "row" }, [_vm._m(11)])
+        ? _c("div", { staticClass: "row" }, [_vm._m(12)])
         : _vm._e()
     ]),
     _vm._v(" "),
-    _vm._m(12)
+    _vm._m(13)
   ])
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mask strong-mid visible-res" }, [
+      _c("div", { staticClass: "precio" }, [
+        _c("div", { staticClass: "bar-c white-text " }, [
+          _c("div", { staticClass: "text-center" }, [
+            _c("h2", { staticClass: "b-01 mt-2" }, [
+              _c("span", { staticClass: "m-text-25" }, [_vm._v("S/")]),
+              _vm._v(" .450")
+            ]),
+            _vm._v(" "),
+            _c("p", [_vm._v("en mensualidad")])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "white m-text-30",
+          staticStyle: {
+            right: "10px",
+            width: "auto",
+            position: "absolute",
+            top: "10px",
+            "z-index": "2"
+          }
+        },
+        [
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "",
+                "data-toggle": "modal",
+                "data-target": "#ModalCarrera"
+              }
+            },
+            [
+              _c("span", { staticClass: "cook-text pl-2 pr-2 b-01" }, [
+                _c("i", { staticClass: "fas fa-bars" })
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "mesg-01-carrera" }, [
+        _c("h5", { staticClass: "b-01 white-text" }, [
+          _c("div", { staticClass: "white-text" }, [
+            _c("h5", { staticClass: "b-01" }, [
+              _vm._v(
+                "\n                            Bar Profesional  \n                        "
+              )
+            ]),
+            _vm._v(" "),
+            _c("h5", [
+              _vm._v(
+                "\n                            & working flair\n                        "
+              )
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -77059,7 +79784,7 @@ var staticRenderFns = [
       _c("div", { staticClass: " pr-4 white-text" }, [
         _c("h2", { staticClass: "b-01" }, [
           _vm._v(
-            "\n                            Bar Profesional \n                        "
+            "\n                            Bar Profesional  \n                        "
           )
         ]),
         _vm._v(" "),
@@ -77084,10 +79809,10 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md-6  border-mesg-bar" }, [
+        _c("div", { staticClass: "col-md-6  border-mesg-nar" }, [
           _c("div", { staticClass: "p-2 white-text" }, [
             _vm._v(
-              "\n                                        PROMOCIÓN: 50% de descuento en Matrícula Anual y Uniforme Gratis\n                                    "
+              "\n                                    PROMOCIÓN: 50% de descuento en Matrícula Anual y Uniforme Gratis\n                                "
             )
           ])
         ])
@@ -77927,15 +80652,15 @@ if (false) {
 }
 
 /***/ }),
-/* 250 */
+/* 251 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(8)
 /* script */
-var __vue_script__ = __webpack_require__(251)
+var __vue_script__ = __webpack_require__(252)
 /* template */
-var __vue_template__ = __webpack_require__(252)
+var __vue_template__ = __webpack_require__(253)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -77974,53 +80699,11 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 251 */
+/* 252 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -78214,23 +80897,35 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     },
     mounted: function mounted() {
         $(document).ready(function () {
-            $("#menuNo").hide();
-            $(function () {
-                $(window).scroll(function () {
+            // efecto
+            $('.rIni').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 3);
+            });
+        });
 
-                    if ($(this).scrollTop() > 100) {
-                        $('#menuNo').fadeIn();
-                    } else {
-                        $('#menuNo').fadeOut();
-                    }
-                });
+        $(document).ready(function () {
+
+            $('.ir-arriba').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 300);
+            });
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $('.ir-arriba').slideDown(300);
+                } else {
+                    $('.ir-arriba').slideUp(300);
+                }
             });
         });
     }
 });
 
 /***/ }),
-/* 252 */
+/* 253 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -78238,20 +80933,22 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("div", { staticClass: "view visible-cop" }, [
-      _c("img", {
-        staticClass: "blink-ima",
-        attrs: { src: "img/banner-02.png", alt: "smaple image" }
+    _c("div", { staticClass: "view" }, [
+      _c("div", {
+        staticClass: "rows-baner",
+        staticStyle: { "background-image": "url(../img/nosotros.jpg)" }
       }),
+      _vm._v(" "),
+      _vm._m(0),
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "mask rgba-black-strong" },
+        { staticClass: "mask strong-mid" },
         [
           _c(
             "b-navbar",
             {
-              staticClass: "transpa ",
+              staticClass: "transpa",
               attrs: { toggleable: "md", type: "dark" }
             },
             [
@@ -78308,7 +81005,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                        INICIO\n                                    "
+                                    "\n                                            INICIO\n                                        "
                                   )
                                 ]
                               )
@@ -78331,7 +81028,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                     NOTICIA\n                                "
+                                    "\n                                        NOTICIA\n                                    "
                                   )
                                 ]
                               )
@@ -78340,85 +81037,101 @@ var render = function() {
                           ),
                           _vm._v(" "),
                           _c(
-                            "b-nav-item-dropdown",
-                            {
-                              staticClass: "cook-bg  b-01 pt-2",
-                              attrs: { text: "CARRERAS" }
-                            },
+                            "div",
+                            { staticClass: "cook-bg", attrs: { id: "rest" } },
                             [
                               _c(
-                                "b-dropdown-item-button",
-                                { staticClass: "btn-sm" },
+                                "b-nav-item-dropdown",
+                                {
+                                  staticClass: " white-text  b-01 pt-2",
+                                  attrs: { text: "CARRERAS" }
+                                },
                                 [
                                   _c(
-                                    "router-link",
-                                    {
-                                      staticClass: "white-text sm-0 sp-0",
-                                      attrs: { to: "/gastronomia" }
-                                    },
+                                    "b-dropdown-item-button",
+                                    { staticClass: "btn-sm" },
                                     [
                                       _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/gastronomia" }
+                                        },
                                         [
-                                          _vm._v(
-                                            "\n                                                GASTRONOMIA\n                                            "
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                        GASTRONOMIA\n                                                    "
+                                              )
+                                            ]
                                           )
                                         ]
                                       )
-                                    ]
-                                  )
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "b-dropdown-item-button",
-                                { staticClass: "btn-sm" },
-                                [
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
                                   _c(
-                                    "router-link",
-                                    {
-                                      staticClass: "white-text sm-0 sp-0",
-                                      attrs: { to: "/panaderia" }
-                                    },
+                                    "b-dropdown-item-button",
+                                    { staticClass: "btn-sm" },
                                     [
                                       _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/panaderia" }
+                                        },
                                         [
-                                          _vm._v(
-                                            "\n                                                PANADERIA\n                                            "
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                        PANADERIA\n                                                    "
+                                              )
+                                            ]
                                           )
                                         ]
                                       )
-                                    ]
-                                  )
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "b-dropdown-item-button",
-                                { staticClass: "btn-sm" },
-                                [
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
                                   _c(
-                                    "router-link",
-                                    {
-                                      staticClass: "white-text sm-0 sp-0",
-                                      attrs: { to: "/bar" }
-                                    },
+                                    "b-dropdown-item-button",
+                                    { staticClass: "btn-sm" },
                                     [
                                       _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/bar" }
+                                        },
                                         [
-                                          _vm._v(
-                                            "\n                                                BAR\n                                            "
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                        BAR\n                                                    "
+                                              )
+                                            ]
                                           )
                                         ]
                                       )
-                                    ]
+                                    ],
+                                    1
                                   )
                                 ],
                                 1
@@ -78438,11 +81151,11 @@ var render = function() {
                                 "router-link",
                                 {
                                   staticClass: "white-text",
-                                  attrs: { to: "/" }
+                                  attrs: { to: "/nosotros" }
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                        NOSOTROS\n                                    "
+                                    "\n                                            NOSOTROS\n                                        "
                                   )
                                 ]
                               )
@@ -78461,11 +81174,11 @@ var render = function() {
                                 "router-link",
                                 {
                                   staticClass: "white-text",
-                                  attrs: { to: "/" }
+                                  attrs: { to: "/contacto" }
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                        CONTACTARSE\n                                    "
+                                    "\n                                            CONTACTARSE\n                                        "
                                   )
                                 ]
                               )
@@ -78498,268 +81211,13 @@ var render = function() {
             1
           ),
           _vm._v(" "),
-          _vm._m(0)
+          _vm._m(1)
         ],
         1
       )
     ]),
     _vm._v(" "),
-    _vm._m(1),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "diov", attrs: { id: "menuNo" } },
-      [
-        _c(
-          "b-navbar",
-          {
-            staticClass: "fixed-top white ",
-            attrs: { toggleable: "md", type: "dark" }
-          },
-          [
-            _c("b-navbar-toggle", {
-              staticClass: "cook-bg",
-              attrs: { target: "nav_collapse" }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "logo-fixed visiblew  txtNew " }, [
-              _c("img", {
-                staticClass: "m-4 logo-flui",
-                attrs: { src: "img/logo-cook.jpeg" }
-              })
-            ]),
-            _vm._v(" "),
-            _c(
-              "b-collapse",
-              { attrs: { "is-nav": "", id: "nav_collapse" } },
-              [
-                _c(
-                  "b-navbar-nav",
-                  { staticClass: "ml-auto" },
-                  [
-                    _c(
-                      "b-navbar-nav",
-                      {
-                        staticClass: "p-2",
-                        attrs: { text: "Lang", right: "" }
-                      },
-                      [
-                        _c(
-                          "b-nav-item",
-                          { attrs: { href: "#" } },
-                          [
-                            _c(
-                              "router-link",
-                              { staticClass: "white-text", attrs: { to: "/" } },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "black-text b-01 pl-2 pr-2" },
-                                  [
-                                    _vm._v(
-                                      "\n                                INICIO\n                            "
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          { attrs: { href: "#" } },
-                          [
-                            _c(
-                              "router-link",
-                              {
-                                staticClass: "white-text",
-                                attrs: { to: "/noticia" }
-                              },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "black-text b-01 pl-2 pr-2" },
-                                  [
-                                    _vm._v(
-                                      "\n                                NOTICIA\n                            "
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item-dropdown",
-                          {
-                            staticClass: "cook-bg redondear b-01 redondea-05",
-                            attrs: { text: "CARRERAS" }
-                          },
-                          [
-                            _c(
-                              "b-dropdown-item-button",
-                              { staticClass: "btn-sm" },
-                              [
-                                _c(
-                                  "router-link",
-                                  {
-                                    staticClass: "white-text sm-0 sp-0",
-                                    attrs: { to: "/gastronomia" }
-                                  },
-                                  [
-                                    _c(
-                                      "span",
-                                      { staticClass: "black-text b-01 " },
-                                      [
-                                        _vm._v(
-                                          "\n                                        GASTRONOMIA\n                                    "
-                                        )
-                                      ]
-                                    )
-                                  ]
-                                )
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "b-dropdown-item-button",
-                              { staticClass: "btn-sm" },
-                              [
-                                _c(
-                                  "router-link",
-                                  {
-                                    staticClass: "white-text sm-0 sp-0",
-                                    attrs: { to: "/panaderia" }
-                                  },
-                                  [
-                                    _c(
-                                      "span",
-                                      { staticClass: "black-text b-01 " },
-                                      [
-                                        _vm._v(
-                                          "\n                                        PANADERIA\n                                    "
-                                        )
-                                      ]
-                                    )
-                                  ]
-                                )
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "b-dropdown-item-button",
-                              { staticClass: "btn-sm" },
-                              [
-                                _c(
-                                  "router-link",
-                                  {
-                                    staticClass: "white-text sm-0 sp-0",
-                                    attrs: { to: "/bar" }
-                                  },
-                                  [
-                                    _c(
-                                      "span",
-                                      { staticClass: "black-text b-01 " },
-                                      [
-                                        _vm._v(
-                                          "\n                                        BAR\n                                    "
-                                        )
-                                      ]
-                                    )
-                                  ]
-                                )
-                              ],
-                              1
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          { attrs: { href: "#" } },
-                          [
-                            _c(
-                              "router-link",
-                              { staticClass: "white-text", attrs: { to: "/" } },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "black-text b-01 pl-2 pr-2" },
-                                  [
-                                    _vm._v(
-                                      "\n                                NOSOTROS\n                            "
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          { attrs: { href: "#" } },
-                          [
-                            _c(
-                              "router-link",
-                              { staticClass: "white-text", attrs: { to: "/" } },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "black-text b-01 pl-2 pr-2" },
-                                  [
-                                    _vm._v(
-                                      "\n                                CONTACTARSE\n                            "
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          {
-                            staticClass: "visible-cop",
-                            attrs: {
-                              href: "#",
-                              "data-toggle": "modal",
-                              "data-target": "#Modal-01"
-                            }
-                          },
-                          [
-                            _c(
-                              "span",
-                              { staticClass: "cook-text pl-2 pr-2 b-01" },
-                              [_c("i", { staticClass: "fas fa-bars" })]
-                            )
-                          ]
-                        )
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                )
-              ],
-              1
-            )
-          ],
-          1
-        )
-      ],
-      1
-    )
+    _vm._m(2)
   ])
 }
 var staticRenderFns = [
@@ -78767,11 +81225,80 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "mesg-02" }, [
-      _c("div", { staticClass: " pr-4 white-text" }, [
-        _c("h2", { staticClass: "b-01" }, [
+    return _c("div", { staticClass: "visible-res" }, [
+      _c(
+        "div",
+        {
+          staticStyle: {
+            right: "10px",
+            position: "absolute",
+            top: "10px",
+            "z-index": "200"
+          }
+        },
+        [
+          _c("img", {
+            staticStyle: { width: "40px" },
+            attrs: { src: "img/logo-cook.jpeg" }
+          })
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "m-text-30",
+          staticStyle: {
+            left: "10px",
+            width: "auto",
+            position: "absolute",
+            top: "5px",
+            "z-index": "2"
+          }
+        },
+        [
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "",
+                "data-toggle": "modal",
+                "data-target": "#ModalHome"
+              }
+            },
+            [
+              _c("span", { staticClass: "cook-text  b-01" }, [
+                _c("i", { staticClass: "fas fa-bars" })
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "mesg-01-res" }, [
+        _c("h5", { staticClass: "b-01 white-text" }, [
           _vm._v(
-            "\n                            NOSOTROS\n                        "
+            "\n                        ¡inscripciones abiertas!\n                "
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mesg-01" }, [
+      _c("div", { staticClass: "div pl-2 white-text text-left" }, [
+        _c("h1", { staticClass: "b-01" }, [
+          _vm._v(
+            "\n                        ¡inscripciones abiertas!\n                    "
+          )
+        ]),
+        _vm._v(" "),
+        _c("h6", [
+          _vm._v(
+            "\n                        CONTAMOS CON 4 ESPECIALIDADES DISPONIBLES EN TURNO MATUTINO, VESPERTINO, NOCTURNO Y SABATINO\n                    "
           )
         ])
       ]),
@@ -78783,37 +81310,49 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "my-5 container" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-6" }, [
-          _c("div", { staticClass: "my-2" }, [
-            _c("h2", [_vm._v("¿Quiénes Somos?")]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "\n                            ASPIC Instituto Gastronómico es una Escuela Estilo Europeo incorporada \n                            a la S.E.P que pone a su servicio un equipo de profesores y chefs \n                            profesionales mexicanos y extranjeros reconocidos a nivel internacional \n                            en las áreas generales de la industria gastronómica. Siendo el Director \n                            General Maître Cuisinier de France, y varios de ellos, miembros de L`Academie \n                            Culinaire de France. Contamos con cuatro especialidades en gastronomía \n                            disponibles en los turnos matutinos, vespertinos, nocturnos y sabatinos. \n                            Chef Universal en dos años la cual está fusionada con el programa de los \n                            idiomas francés e inglés a través de la gastronomía. Chef Internacional en \n                            dos años, Chef en un año y Chef Pâtissier & Chocolatier en un año y medio. \n                            También disponibles todo el año más de 25 cursos exprés en todas las variedades \n                            de la gastronomía.\n                        "
-              )
-            ])
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "bg-75p" }, [
+        _c("div", { staticClass: "cook-bg float-right conte-Nos p-4" }, [
+          _c("h2", { staticClass: "b-01 white-text" }, [
+            _vm._v("¿Quiénes Somos?")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "nos-bg  p-4 white-text my-5" }, [
+          _c("p", [
+            _vm._v(
+              "\n                            ASPIC Instituto Gastronómico es una Escuela Estilo Europeo incorporada \n                            a la S.E.P que pone a su servicio un equipo de profesores y chefs \n                            profesionales mexicanos y extranjeros reconocidos a nivel internacional \n                            en las áreas generales de la industria gastronómica. Siendo el Director \n                            General Maître Cuisinier de France, y varios de ellos, miembros de L`Academie \n                            Culinaire de France. Contamos con cuatro especialidades en gastronomía \n                            disponibles en los turnos matutinos, vespertinos, nocturnos y sabatinos. \n                            Chef Universal en dos años la cual está fusionada con el programa de los \n                            idiomas francés e inglés a través de la gastronomía. Chef Internacional en \n                            dos años, Chef en un año y Chef Pâtissier & Chocolatier en un año y medio. \n                            También disponibles todo el año más de 25 cursos exprés en todas las variedades \n                            de la gastronomía.\n                        "
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "d-flex justify-content-end" }, [
+        _c("div", { staticClass: "bg-75p" }, [
+          _c("div", { staticClass: "cook-bg float-left conte-vis p-4 m-2" }, [
+            _c("h2", { staticClass: "b-01 white-text" }, [_vm._v("Misión")])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "my-2" }, [
-            _c("h2", [_vm._v("Misión")]),
-            _vm._v(" "),
+          _c("div", { staticClass: "nos-bg  p-4 white-text my-5" }, [
             _c("p", [
               _vm._v(
-                "\n                            Somos una Institución poseedora de una auténtica cultura educacional \n                            con los valores centrados en el alumno. Tenemos la plena convicción \n                            que nuestro alumno es el elemento más importante, es el centro de todas \n                            nuestras decisiones, y el brindarle una educación de calidad, el objetivo\n                            primordial de nuestra organización.\n                        "
+                "\n                                Somos una Institución poseedora de una auténtica cultura educacional \n                                con los valores centrados en el alumno. Tenemos la plena convicción \n                                que nuestro alumno es el elemento más importante, es el centro de todas \n                                nuestras decisiones, y el brindarle una educación de calidad, el objetivo\n                                primordial de nuestra organización.\n                            "
               )
             ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "my-2" }, [
-            _c("h2", [_vm._v("Visión")]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "\n                            Liderar el servicio educativo que garantice la realización de un capital \n                            humano calificado y competitivo, para cubrir exitosamente los puestos de \n                            trabajo que el Perú de hoy necesita, en el creciente y exigente sector de \n                            la Hotelería, Turismo y Gastronomía.Lo que redundará en el desarrollo \n                            económico y social de nuestro país, teniendo como principales protagonistas \n                            a nuestra emprendedora juventud peruana.\n                        "
-              )
-            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "bg-75p" }, [
+        _c("div", { staticClass: "cook-bg float-right conte-Nos p-4" }, [
+          _c("h2", { staticClass: "b-01 white-text" }, [_vm._v("Visión")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "nos-bg  p-4 white-text my-5" }, [
+          _c("p", [
+            _vm._v(
+              "\n                            Liderar el servicio educativo que garantice la realización de un capital \n                            humano calificado y competitivo, para cubrir exitosamente los puestos de \n                            trabajo que el Perú de hoy necesita, en el creciente y exigente sector de \n                            la Hotelería, Turismo y Gastronomía.Lo que redundará en el desarrollo \n                            económico y social de nuestro país, teniendo como principales protagonistas \n                            a nuestra emprendedora juventud peruana.\n                        "
+            )
           ])
         ])
       ])
@@ -78830,15 +81369,15 @@ if (false) {
 }
 
 /***/ }),
-/* 253 */
+/* 254 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(8)
 /* script */
-var __vue_script__ = __webpack_require__(254)
+var __vue_script__ = __webpack_require__(255)
 /* template */
-var __vue_template__ = __webpack_require__(255)
+var __vue_template__ = __webpack_require__(256)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -78877,75 +81416,11 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 254 */
+/* 255 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -79133,6 +81608,32 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     },
     mounted: function mounted() {
         $(document).ready(function () {
+            // efecto
+            $('.rIni').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 3);
+            });
+        });
+
+        $(document).ready(function () {
+
+            $('.ir-arriba').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 300);
+            });
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $('.ir-arriba').slideDown(300);
+                } else {
+                    $('.ir-arriba').slideUp(300);
+                }
+            });
+        });
+
+        $(document).ready(function () {
             $("#menuNo").hide();
             $(function () {
                 $(window).scroll(function () {
@@ -79149,7 +81650,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 255 */
+/* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -79157,20 +81658,22 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("div", { staticClass: "view visible-cop" }, [
-      _c("img", {
-        staticClass: "blink-ima",
-        attrs: { src: "img/banner-02.png", alt: "smaple image" }
+    _c("div", { staticClass: "view" }, [
+      _c("div", {
+        staticClass: "rows-baner",
+        staticStyle: { "background-image": "url(../img/contactto.jpg)" }
       }),
+      _vm._v(" "),
+      _vm._m(0),
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "mask rgba-black-strong" },
+        { staticClass: "mask strong-mid" },
         [
           _c(
             "b-navbar",
             {
-              staticClass: "transpa ",
+              staticClass: "transpa",
               attrs: { toggleable: "md", type: "dark" }
             },
             [
@@ -79227,7 +81730,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                        INICIO\n                                    "
+                                    "\n                                            INICIO\n                                        "
                                   )
                                 ]
                               )
@@ -79250,7 +81753,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                     NOTICIA\n                                "
+                                    "\n                                        NOTICIA\n                                    "
                                   )
                                 ]
                               )
@@ -79259,85 +81762,101 @@ var render = function() {
                           ),
                           _vm._v(" "),
                           _c(
-                            "b-nav-item-dropdown",
-                            {
-                              staticClass: "cook-bg  b-01 pt-2",
-                              attrs: { text: "CARRERAS" }
-                            },
+                            "div",
+                            { staticClass: "cook-bg", attrs: { id: "rest" } },
                             [
                               _c(
-                                "b-dropdown-item-button",
-                                { staticClass: "btn-sm" },
+                                "b-nav-item-dropdown",
+                                {
+                                  staticClass: " white-text  b-01 pt-2",
+                                  attrs: { text: "CARRERAS" }
+                                },
                                 [
                                   _c(
-                                    "router-link",
-                                    {
-                                      staticClass: "white-text sm-0 sp-0",
-                                      attrs: { to: "/gastronomia" }
-                                    },
+                                    "b-dropdown-item-button",
+                                    { staticClass: "btn-sm" },
                                     [
                                       _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/gastronomia" }
+                                        },
                                         [
-                                          _vm._v(
-                                            "\n                                                GASTRONOMIA\n                                            "
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                        GASTRONOMIA\n                                                    "
+                                              )
+                                            ]
                                           )
                                         ]
                                       )
-                                    ]
-                                  )
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "b-dropdown-item-button",
-                                { staticClass: "btn-sm" },
-                                [
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
                                   _c(
-                                    "router-link",
-                                    {
-                                      staticClass: "white-text sm-0 sp-0",
-                                      attrs: { to: "/panaderia" }
-                                    },
+                                    "b-dropdown-item-button",
+                                    { staticClass: "btn-sm" },
                                     [
                                       _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/panaderia" }
+                                        },
                                         [
-                                          _vm._v(
-                                            "\n                                                PANADERIA\n                                            "
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                        PANADERIA\n                                                    "
+                                              )
+                                            ]
                                           )
                                         ]
                                       )
-                                    ]
-                                  )
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "b-dropdown-item-button",
-                                { staticClass: "btn-sm" },
-                                [
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
                                   _c(
-                                    "router-link",
-                                    {
-                                      staticClass: "white-text sm-0 sp-0",
-                                      attrs: { to: "/bar" }
-                                    },
+                                    "b-dropdown-item-button",
+                                    { staticClass: "btn-sm" },
                                     [
                                       _c(
-                                        "span",
-                                        { staticClass: "black-text b-01 " },
+                                        "router-link",
+                                        {
+                                          staticClass: "white-text sm-0 sp-0",
+                                          attrs: { to: "/bar" }
+                                        },
                                         [
-                                          _vm._v(
-                                            "\n                                                BAR\n                                            "
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "b-text b-01 sm-0 sp-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                                                        BAR\n                                                    "
+                                              )
+                                            ]
                                           )
                                         ]
                                       )
-                                    ]
+                                    ],
+                                    1
                                   )
                                 ],
                                 1
@@ -79357,11 +81876,11 @@ var render = function() {
                                 "router-link",
                                 {
                                   staticClass: "white-text",
-                                  attrs: { to: "/" }
+                                  attrs: { to: "/nosotros" }
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                        NOSOTROS\n                                    "
+                                    "\n                                            NOSOTROS\n                                        "
                                   )
                                 ]
                               )
@@ -79380,11 +81899,11 @@ var render = function() {
                                 "router-link",
                                 {
                                   staticClass: "white-text",
-                                  attrs: { to: "/" }
+                                  attrs: { to: "/contacto" }
                                 },
                                 [
                                   _vm._v(
-                                    "\n                                        CONTACTARSE\n                                    "
+                                    "\n                                            CONTACTARSE\n                                        "
                                   )
                                 ]
                               )
@@ -79417,268 +81936,13 @@ var render = function() {
             1
           ),
           _vm._v(" "),
-          _vm._m(0)
+          _vm._m(1)
         ],
         1
       )
     ]),
     _vm._v(" "),
-    _vm._m(1),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "diov", attrs: { id: "menuNo" } },
-      [
-        _c(
-          "b-navbar",
-          {
-            staticClass: "fixed-top white ",
-            attrs: { toggleable: "md", type: "dark" }
-          },
-          [
-            _c("b-navbar-toggle", {
-              staticClass: "cook-bg",
-              attrs: { target: "nav_collapse" }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "logo-fixed visiblew  txtNew " }, [
-              _c("img", {
-                staticClass: "m-4 logo-flui",
-                attrs: { src: "img/logo-cook.jpeg" }
-              })
-            ]),
-            _vm._v(" "),
-            _c(
-              "b-collapse",
-              { attrs: { "is-nav": "", id: "nav_collapse" } },
-              [
-                _c(
-                  "b-navbar-nav",
-                  { staticClass: "ml-auto" },
-                  [
-                    _c(
-                      "b-navbar-nav",
-                      {
-                        staticClass: "p-2",
-                        attrs: { text: "Lang", right: "" }
-                      },
-                      [
-                        _c(
-                          "b-nav-item",
-                          { attrs: { href: "#" } },
-                          [
-                            _c(
-                              "router-link",
-                              { staticClass: "white-text", attrs: { to: "/" } },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "black-text b-01 pl-2 pr-2" },
-                                  [
-                                    _vm._v(
-                                      "\n                                INICIO\n                            "
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          { attrs: { href: "#" } },
-                          [
-                            _c(
-                              "router-link",
-                              {
-                                staticClass: "white-text",
-                                attrs: { to: "/noticia" }
-                              },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "black-text b-01 pl-2 pr-2" },
-                                  [
-                                    _vm._v(
-                                      "\n                                NOTICIA\n                            "
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item-dropdown",
-                          {
-                            staticClass: "cook-bg redondear b-01 redondea-05",
-                            attrs: { text: "CARRERAS" }
-                          },
-                          [
-                            _c(
-                              "b-dropdown-item-button",
-                              { staticClass: "btn-sm" },
-                              [
-                                _c(
-                                  "router-link",
-                                  {
-                                    staticClass: "white-text sm-0 sp-0",
-                                    attrs: { to: "/gastronomia" }
-                                  },
-                                  [
-                                    _c(
-                                      "span",
-                                      { staticClass: "black-text b-01 " },
-                                      [
-                                        _vm._v(
-                                          "\n                                        GASTRONOMIA\n                                    "
-                                        )
-                                      ]
-                                    )
-                                  ]
-                                )
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "b-dropdown-item-button",
-                              { staticClass: "btn-sm" },
-                              [
-                                _c(
-                                  "router-link",
-                                  {
-                                    staticClass: "white-text sm-0 sp-0",
-                                    attrs: { to: "/panaderia" }
-                                  },
-                                  [
-                                    _c(
-                                      "span",
-                                      { staticClass: "black-text b-01 " },
-                                      [
-                                        _vm._v(
-                                          "\n                                        PANADERIA\n                                    "
-                                        )
-                                      ]
-                                    )
-                                  ]
-                                )
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "b-dropdown-item-button",
-                              { staticClass: "btn-sm" },
-                              [
-                                _c(
-                                  "router-link",
-                                  {
-                                    staticClass: "white-text sm-0 sp-0",
-                                    attrs: { to: "/bar" }
-                                  },
-                                  [
-                                    _c(
-                                      "span",
-                                      { staticClass: "black-text b-01 " },
-                                      [
-                                        _vm._v(
-                                          "\n                                        BAR\n                                    "
-                                        )
-                                      ]
-                                    )
-                                  ]
-                                )
-                              ],
-                              1
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          { attrs: { href: "#" } },
-                          [
-                            _c(
-                              "router-link",
-                              { staticClass: "white-text", attrs: { to: "/" } },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "black-text b-01 pl-2 pr-2" },
-                                  [
-                                    _vm._v(
-                                      "\n                                NOSOTROS\n                            "
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          { attrs: { href: "#" } },
-                          [
-                            _c(
-                              "router-link",
-                              { staticClass: "white-text", attrs: { to: "/" } },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "black-text b-01 pl-2 pr-2" },
-                                  [
-                                    _vm._v(
-                                      "\n                                CONTACTARSE\n                            "
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-nav-item",
-                          {
-                            staticClass: "visible-cop",
-                            attrs: {
-                              href: "#",
-                              "data-toggle": "modal",
-                              "data-target": "#Modal-01"
-                            }
-                          },
-                          [
-                            _c(
-                              "span",
-                              { staticClass: "cook-text pl-2 pr-2 b-01" },
-                              [_c("i", { staticClass: "fas fa-bars" })]
-                            )
-                          ]
-                        )
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                )
-              ],
-              1
-            )
-          ],
-          1
-        )
-      ],
-      1
-    )
+    _vm._m(2)
   ])
 }
 var staticRenderFns = [
@@ -79686,17 +81950,80 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "mesg-02" }, [
-      _c("div", { staticClass: " pr-4 white-text" }, [
-        _c("h2", { staticClass: "b-01" }, [
+    return _c("div", { staticClass: "visible-res" }, [
+      _c(
+        "div",
+        {
+          staticStyle: {
+            right: "10px",
+            position: "absolute",
+            top: "10px",
+            "z-index": "200"
+          }
+        },
+        [
+          _c("img", {
+            staticStyle: { width: "40px" },
+            attrs: { src: "img/logo-cook.jpeg" }
+          })
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "m-text-30",
+          staticStyle: {
+            left: "10px",
+            width: "auto",
+            position: "absolute",
+            top: "5px",
+            "z-index": "2"
+          }
+        },
+        [
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "",
+                "data-toggle": "modal",
+                "data-target": "#ModalHome"
+              }
+            },
+            [
+              _c("span", { staticClass: "cook-text  b-01" }, [
+                _c("i", { staticClass: "fas fa-bars" })
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "mesg-01-res" }, [
+        _c("h5", { staticClass: "b-01 white-text" }, [
           _vm._v(
-            "\n                            Contacto\n\n                        "
+            "\n                        ¡inscripciones abiertas!\n                "
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mesg-01" }, [
+      _c("div", { staticClass: "div pl-2 white-text text-left" }, [
+        _c("h1", { staticClass: "b-01" }, [
+          _vm._v(
+            "\n                        ¡inscripciones abiertas!\n                    "
           )
         ]),
         _vm._v(" "),
-        _c("h2", [
+        _c("h6", [
           _vm._v(
-            "\n                          Y UBICACIÓN\n                        "
+            "\n                        CONTAMOS CON 4 ESPECIALIDADES DISPONIBLES EN TURNO MATUTINO, VESPERTINO, NOCTURNO Y SABATINO\n                    "
           )
         ])
       ]),
@@ -79866,7 +82193,7 @@ if (false) {
 }
 
 /***/ }),
-/* 256 */
+/* 257 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

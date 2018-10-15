@@ -8,9 +8,13 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/mdb.css">
     <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/gora.css">
+    <link rel="stylesheet" href="css/trans.css">
+    <link rel="stylesheet" href="css/component.css">
+    
+
+    
     {{-- <link rel="stylesheet" href="css/style.css"> --}}
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -18,7 +22,7 @@
 </head>
 
 <div id="app">
-
+    <div class="ir-arriba"><i class="fa fa-angle-up"></i></div>
     <header>
         <MyHeader></MyHeader>
     </header>
@@ -37,6 +41,11 @@
     <script src="{{asset('js/bootstrap.js')}}"></script>
     <script src="{{asset('js/mdb.js')}}"></script>
     <script src="{{asset('js/popper.min.js')}}"></script>
+    <script src="{{asset('js/modernizr.custom.js')}}"></script>
+    
+    <script>
+        
+    </script>
 
 {{--  --}}
 

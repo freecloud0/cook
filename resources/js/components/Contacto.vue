@@ -1,87 +1,105 @@
 <template>
     <div>
         
-        <!-- menu normal -->
-        <div class="view visible-cop" >
-            <img src="img/banner-02.png" class="blink-ima" alt="smaple image">
-                <div class="mask rgba-black-strong">
-                    <b-navbar toggleable="md" type="dark" class="transpa ">
-                        <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-                        <!-- <b-navbar-brand href="#">NavBar</b-navbar-brand> -->
-                            <div  style="left: 20px; width: 139px; position: absolute; top: 0px; z-index: 1200;" class=" visiblew animated fadeInDown txtNew " >
-                                <img class="m-4 " style="width: 70px" src="img/logo-cook.jpeg">     
-                            </div>  
-                        <b-collapse is-nav id="nav_collapse">
-                            <!-- Right aligned nav items -->
-                            <b-navbar-nav class="ml-auto animated fadeInRight">
-                                <b-navbar-nav text="Lang" right class="p-4 ">
-                                
-                                <b-nav-item href="#" class="cook-bg p-2 b-01" >
-                                        <router-link to="/" class="white-text" >
-                                            INICIO
-                                        </router-link>
-                                </b-nav-item>
-                                
-                                <b-nav-item href="#" class="white  border-cook p-2">
-                                    <router-link to="/noticia" class="cook-text b-01" >
-                                         NOTICIA
-                                    </router-link>
-                                </b-nav-item>
-
-                                <b-nav-item-dropdown  text="CARRERAS" class="cook-bg  b-01 pt-2">
-                                        <b-dropdown-item-button class="btn-sm">
-                                            <router-link to="/gastronomia" class="white-text sm-0 sp-0">
-                                                <span class="black-text b-01 ">
-                                                    GASTRONOMIA
-                                                </span> 
-                                            </router-link> 
-                                        </b-dropdown-item-button>
-                                        <b-dropdown-item-button class="btn-sm">
-                                            <router-link to="/panaderia" class="white-text sm-0 sp-0">
-                                                <span class="black-text b-01 ">
-                                                    PANADERIA
-                                                </span> 
-                                            </router-link> 
-                                        </b-dropdown-item-button>
-                                        <b-dropdown-item-button class="btn-sm">
-                                            <router-link to="/bar" class="white-text sm-0 sp-0">
-                                                <span class="black-text b-01 ">
-                                                    BAR
-                                                </span> 
-                                            </router-link> 
-                                        </b-dropdown-item-button>
-                                </b-nav-item-dropdown>
-                                <b-nav-item href="#" class="cook-bg p-2 b-01" >
-                                        <router-link to="/" class="white-text" >
-                                            NOSOTROS
-                                        </router-link>
-                                </b-nav-item>
-                                <b-nav-item href="#" class="cook-bg p-2 b-01" >
-                                        <router-link to="/" class="white-text" >
-                                            CONTACTARSE
-                                        </router-link>
-                                </b-nav-item>
-
-                                <b-nav-item href="#" class=" p-2" data-toggle="modal" data-target="#Modal-01" ><i class="fas fa-bars cook-text"></i></b-nav-item>
-                                </b-navbar-nav>
-                            </b-navbar-nav>
-                        </b-collapse>
-                    </b-navbar>
-                    <div class="mesg-02">
-                        <div class=" pr-4 white-text">
-                            <h2 class="b-01">
-                                Contacto
-
-                            </h2> 
-                            <h2>
-                              Y UBICACIÓN
-                            </h2>
-                        </div>
-                        <br>
-                         
-
-                    </div>
+        <!-- menu static -->
+        <div class="view">
+            <!-- <img src="img/banner-02.png" class="blink-ima" alt="smaple image"> -->
+            <div class="rows-baner" style="background-image: url(../img/contactto.jpg);"></div>
+            <div class="visible-res">
+                <div  style="right: 10px; position: absolute; top: 10px; z-index: 200;" >
+                    <img class="" style="width: 40px" src="img/logo-cook.jpeg">     
                 </div>
+                <div  style="left: 10px; width: auto; position: absolute; top: 5px; z-index: 2;" class="m-text-30" >
+                    <a href="" data-toggle="modal" data-target="#ModalHome">
+                        <span class="cook-text  b-01"><i class="fas fa-bars"></i></span>
+                    </a>     
+                </div>
+                        
+                <div class="mesg-01-res">
+                    <h5 class="b-01 white-text">
+                            ¡inscripciones abiertas!
+                    </h5> 
+                </div>
+            </div>
+            
+            <div class="mask strong-mid">
+                <b-navbar toggleable="md" type="dark" class="transpa">
+                    <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+                    <!-- <b-navbar-brand href="#">NavBar</b-navbar-brand> -->
+                        <div  style="left: 20px; width: 139px; position: absolute; top: 0px; z-index: 1200;" class=" visiblew animated fadeInDown txtNew " >
+                            <img class="m-4 " style="width: 70px" src="img/logo-cook.jpeg">     
+                        </div>  
+                    <b-collapse is-nav id="nav_collapse">
+                        <!-- Right aligned nav items -->
+                        <b-navbar-nav class="ml-auto animated fadeInRight">
+                                    <b-navbar-nav text="Lang" right class="p-4 ">
+                                    
+                                    <b-nav-item href="#" class="cook-bg p-2 b-01" >
+                                            <router-link to="/" class="white-text" >
+                                                INICIO
+                                            </router-link>
+                                    </b-nav-item>
+                                    
+                                    <b-nav-item href="#" class="white  border-cook p-2">
+                                        <router-link to="/noticia" class="cook-text b-01" >
+                                            NOTICIA
+                                        </router-link>
+                                    </b-nav-item>
+                                    <div class="cook-bg" id="rest" >
+                                        <b-nav-item-dropdown  text="CARRERAS" class=" white-text  b-01 pt-2">
+                                                <b-dropdown-item-button class="btn-sm">
+                                                    <router-link to="/gastronomia" class="white-text sm-0 sp-0">
+                                                        <p class="b-text b-01 sm-0 sp-0">
+                                                            GASTRONOMIA
+                                                        </p> 
+                                                    </router-link> 
+                                                </b-dropdown-item-button>
+                                                <b-dropdown-item-button class="btn-sm">
+                                                    <router-link to="/panaderia" class="white-text sm-0 sp-0">
+                                                        <p class="b-text b-01 sm-0 sp-0">
+                                                            PANADERIA
+                                                        </p> 
+                                                    </router-link> 
+                                                </b-dropdown-item-button>
+                                                <b-dropdown-item-button class="btn-sm">
+                                                    <router-link to="/bar" class="white-text sm-0 sp-0">
+                                                        <p class="b-text b-01 sm-0 sp-0">
+                                                            BAR
+                                                        </p> 
+                                                    </router-link> 
+                                                </b-dropdown-item-button>
+                                        </b-nav-item-dropdown>
+                                    </div>
+                                    <b-nav-item href="#" class="cook-bg p-2 b-01" >
+                                            <router-link to="/nosotros" class="white-text" >
+                                                NOSOTROS
+                                            </router-link>
+                                    </b-nav-item>
+                                    <b-nav-item href="#" class="cook-bg p-2 b-01" >
+                                            <router-link to="/contacto" class="white-text" >
+                                                CONTACTARSE
+                                            </router-link>
+                                    </b-nav-item>
+
+                                    <b-nav-item href="#" class=" p-2" data-toggle="modal" data-target="#Modal-01" ><i class="fas fa-bars cook-text"></i></b-nav-item>
+                                    </b-navbar-nav>
+                                </b-navbar-nav>
+                    </b-collapse>
+                </b-navbar>
+                <div class="mesg-01">
+                    <div class="div pl-2 white-text text-left">
+                        <h1 class="b-01">
+                            ¡inscripciones abiertas!
+                        </h1> 
+                        <h6>
+                            CONTAMOS CON 4 ESPECIALIDADES DISPONIBLES EN TURNO MATUTINO, VESPERTINO, NOCTURNO Y SABATINO
+                        </h6>
+                        
+                    </div>
+                    <br>
+                </div>
+
+            </div>
         </div>
         
         <!-- contenido  -->
@@ -141,88 +159,6 @@
             </div>
         </div>
 
-
-        <!-- menu fixed -->
-        <div class="diov" id="menuNo"> 
-            <b-navbar  toggleable="md" type="dark"  class="fixed-top white " >
-
-                <b-navbar-toggle class="cook-bg"  target="nav_collapse" ></b-navbar-toggle>
-
-                <!-- <b-navbar-brand class="black-text" href="#">NavBar</b-navbar-brand> -->
-                        <div  class="logo-fixed visiblew  txtNew " >
-                            <img class="m-4 logo-flui" src="img/logo-cook.jpeg">     
-                        </div> 
-
-                <b-collapse is-nav id="nav_collapse" >
-
-                    <!-- Right aligned nav items -->
-                    <b-navbar-nav class="ml-auto">
-
-                    <b-navbar-nav text="Lang" right class="p-2" >
-                        <b-nav-item href="#">
-                            <router-link to="/" class="white-text">
-                                <span class="black-text b-01 pl-2 pr-2">
-                                    INICIO
-                                </span> 
-                            </router-link>
-                        </b-nav-item>
-                        <b-nav-item href="#">
-                            <router-link to="/noticia" class="white-text">
-                                <span class="black-text b-01 pl-2 pr-2">
-                                    NOTICIA
-                                </span> 
-                            </router-link> 
-                        </b-nav-item>
-                        
-                            <b-nav-item-dropdown  text="CARRERAS" class="cook-bg redondear b-01 redondea-05">
-                                <b-dropdown-item-button class="btn-sm">
-                                    <router-link to="/gastronomia" class="white-text sm-0 sp-0">
-                                        <span class="black-text b-01 ">
-                                            GASTRONOMIA
-                                        </span> 
-                                    </router-link> 
-                                </b-dropdown-item-button>
-                                <b-dropdown-item-button class="btn-sm">
-                                    <router-link to="/panaderia" class="white-text sm-0 sp-0">
-                                        <span class="black-text b-01 ">
-                                            PANADERIA
-                                        </span> 
-                                    </router-link> 
-                                </b-dropdown-item-button>
-                                <b-dropdown-item-button class="btn-sm">
-                                    <router-link to="/bar" class="white-text sm-0 sp-0">
-                                        <span class="black-text b-01 ">
-                                            BAR
-                                        </span> 
-                                    </router-link> 
-                                </b-dropdown-item-button>
-                            </b-nav-item-dropdown>
-                            <b-nav-item href="#">
-                            <router-link to="/" class="white-text">
-                                <span class="black-text b-01 pl-2 pr-2">
-                                    NOSOTROS
-                                </span> 
-                            </router-link>     
-                        </b-nav-item>
-
-                        <b-nav-item href="#">
-                            <router-link to="/" class="white-text">
-                                <span class="black-text b-01 pl-2 pr-2">
-                                    CONTACTARSE
-                                </span> 
-                            </router-link>     
-                        </b-nav-item>
-                        <b-nav-item href="#" data-toggle="modal" data-target="#Modal-01" class="visible-cop">
-                            <span class="cook-text pl-2 pr-2 b-01"><i class="fas fa-bars"></i></span>
-                        </b-nav-item>
-                    </b-navbar-nav>
-                
-                    </b-navbar-nav>
-
-                </b-collapse>
-            </b-navbar>
-        </div> 
-
         <!-- <div v-if="pageC==1" class="animated fadeInRight "></div> -->
     </div>
 </template>
@@ -247,6 +183,35 @@ export default {
         }
     },
      mounted(){
+         $(document).ready(function(){
+               // efecto
+                $('.rIni').click(function(){
+                    $('body, html').animate({
+                        scrollTop: '0px'
+                    }, 3);
+                });
+                
+            });
+
+            $(document).ready(function(){
+ 
+                $('.ir-arriba').click(function(){
+                    $('body, html').animate({
+                        scrollTop: '0px'
+                    }, 300);
+                });
+
+                $(window).scroll(function(){
+                    if( $(this).scrollTop() > 0 ){
+                        $('.ir-arriba').slideDown(300);
+                    } else {
+                        $('.ir-arriba').slideUp(300);
+                    }
+                });
+
+            });
+
+
             $(document).ready(function(){  
                 $("#menuNo").hide();
                 $(function(){
